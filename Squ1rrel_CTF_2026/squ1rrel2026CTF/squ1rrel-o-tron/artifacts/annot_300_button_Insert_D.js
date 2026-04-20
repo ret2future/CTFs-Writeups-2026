@@ -1,0 +1,1 @@
+try {button_down('Insert')} catch (e) {app.alert(e.stack || e)}

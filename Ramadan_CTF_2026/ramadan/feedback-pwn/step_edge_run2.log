@@ -1,0 +1,2208 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2J/bin/feedback_step_edge
+exit
+Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_step_edge
+[+] sequential create + edge mapping
+.. step=0
+EDGE step=2 ov=0x02 -> victim_step=1 id=19922945 old0=0x21 new0=0x02 b0chg=1 tail_same=1
+EDGE step=3 ov=0x03 -> victim_step=2 id=19922946 old0=0x22 new0=0x03 b0chg=1 tail_same=1
+EDGE step=5 ov=0x05 -> victim_step=4 id=19922948 old0=0x24 new0=0x05 b0chg=1 tail_same=1
+EDGE step=6 ov=0x06 -> victim_step=5 id=19922949 old0=0x25 new0=0x06 b0chg=1 tail_same=1
+EDGE step=8 ov=0x08 -> victim_step=7 id=19922951 old0=0x27 new0=0x08 b0chg=1 tail_same=1
+EDGE step=9 ov=0x09 -> victim_step=8 id=19922952 old0=0x28 new0=0x09 b0chg=1 tail_same=1
+EDGE step=13 ov=0x0d -> victim_step=12 id=19922956 old0=0x2c new0=0x0d b0chg=1 tail_same=1
+EDGE step=14 ov=0x0e -> victim_step=13 id=19922957 old0=0x2d new0=0x0e b0chg=1 tail_same=1
+EDGE step=16 ov=0x10 -> victim_step=15 id=19922959 old0=0x2f new0=0x10 b0chg=1 tail_same=1
+EDGE step=17 ov=0x11 -> victim_step=16 id=19922960 old0=0x30 new0=0x11 b0chg=1 tail_same=1
+EDGE step=19 ov=0x13 -> victim_step=18 id=19922962 old0=0x32 new0=0x13 b0chg=1 tail_same=1
+.. step=32
+.. step=64
+.. step=96
+.. step=128
+.. step=160
+.. step=192
+.. step=224
+[+] summary edge_count=11
+[+] cleanup
+[+] done
+[    3.618337] unrecognized swap entry 0x0
+[    3.622399] unrecognized swap entry 0x0
+[    3.622540] unrecognized swap entry 0x0
+[    3.622641] unrecognized swap entry 0x0
+[    3.622768] unrecognized swap entry 0x0
+[    3.623075] unrecognized swap entry 0x0
+[    3.624082] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c5100
+[    3.624158] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.625347] addr:00007fdc54250055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:5a
+[    3.626291] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.628909] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c5300
+[    3.628925] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.629737] addr:00007fdc54290055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:9a
+[    3.630507] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.632345] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c5500
+[    3.632357] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.633412] addr:00007fdc542d0055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:da
+[    3.634045] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.635740] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c5700
+[    3.635751] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.636778] addr:00007fdc54310055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:11a
+[    3.637851] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.639821] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c5900
+[    3.639833] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.640718] addr:00007fdc54350055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:15a
+[    3.640989] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.643025] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c5b00
+[    3.643037] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.644265] addr:00007fdc54390055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:19a
+[    3.644805] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.645927] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c5d00
+[    3.645932] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.646751] addr:00007fdc543d0055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:1da
+[    3.647501] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.648685] unrecognized swap entry 0x7c000037387e59d0
+[    3.649346] unrecognized swap entry 0x0
+[    3.649564] unrecognized swap entry 0x7c000013c1dffb30
+[    3.649820] BUG: Bad page map in process feedback_step_e  pte:ffffd87c400c6740
+[    3.649837] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.650807] addr:00007fdc54403055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:20d
+[    3.651380] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.652424] BUG: Bad page map in process feedback_step_e  pte:ffffd87c4022d380
+[    3.652442] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.653227] addr:00007fdc54404055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:20e
+[    3.654269] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.655376] BUG: Bad page map in process feedback_step_e  pte:ffffd87c40ffdf40
+[    3.655421] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.656002] addr:00007fdc54405055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:20f
+[    3.656672] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.657687] unrecognized swap entry 0x0
+[    3.658591] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c6100
+[    3.658602] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.659202] addr:00007fdc54450055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:25a
+[    3.659763] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.661320] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c6300
+[    3.661330] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.662151] addr:00007fdc54490055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:29a
+[    3.662930] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.664770] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c6500
+[    3.664781] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.665352] addr:00007fdc544d0055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:2da
+[    3.665966] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.666797] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c6700
+[    3.666802] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.667105] addr:00007fdc54510055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:31a
+[    3.667393] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.668909] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c6900
+[    3.668919] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.669535] addr:00007fdc54550055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:35a
+[    3.670245] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.671806] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c6b00
+[    3.671817] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.672808] addr:00007fdc54590055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:39a
+[    3.673454] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.674976] BUG: Bad page map in process feedback_step_e  pte:ffff918f034c6d00
+[    3.674987] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.675841] addr:00007fdc545d0055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:3da
+[    3.676315] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.677535] unrecognized swap entry 0x7c000037387e59c8
+[    3.677962] BUG: Bad page map in process feedback_step_e  pte:f89a596f6350359d
+[    3.677973] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.678979] addr:00007fdc54600055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:40a
+[    3.679650] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.680817] BUG: Bad page map in process feedback_step_e  pte:c933c92e391427cd
+[    3.680828] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.681583] addr:00007fdc54602055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:40c
+[    3.682041] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.682798] BUG: Bad page map in process feedback_step_e  pte:511512d62603fb7c
+[    3.682839] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.683900] addr:00007fdc54603055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:40d
+[    3.684697] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.685747] BUG: Bad page map in process feedback_step_e  pte:62e10586c136e77
+[    3.685796] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.686467] addr:00007fdc54604055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:40e
+[    3.687240] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.688270] BUG: Bad page map in process feedback_step_e  pte:8fe71931df4e4b2a
+[    3.688317] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.689226] addr:00007fdc54605055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:40f
+[    3.689666] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.690672] BUG: Bad page map in process feedback_step_e  pte:8df20fe4d03a0ae9
+[    3.690690] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.691323] addr:00007fdc54606055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:410
+[    3.691822] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.692789] BUG: Bad page map in process feedback_step_e  pte:b877e107dcd9731b
+[    3.692833] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.693614] addr:00007fdc54607055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:411
+[    3.694171] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.694829] BUG: Bad page map in process feedback_step_e  pte:b3d59dc3faa07782
+[    3.694853] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.695520] addr:00007fdc54608055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:412
+[    3.695965] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.697013] BUG: Bad page map in process feedback_step_e  pte:dfc5293cf780990f
+[    3.697030] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.697693] addr:00007fdc54609055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:413
+[    3.698429] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.699448] BUG: Bad page map in process feedback_step_e  pte:1760c0e131d0f447
+[    3.699459] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.700147] addr:00007fdc5460c055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:416
+[    3.700306] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.701099] BUG: Bad page map in process feedback_step_e  pte:dd74e2f523893477
+[    3.701309] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.702291] addr:00007fdc5460d055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:417
+[    3.702972] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.703817] BUG: Bad page map in process feedback_step_e  pte:5ebc034000b893d4
+[    3.703860] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.704485] addr:00007fdc5460e055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:418
+[    3.705060] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.705924] BUG: Bad page map in process feedback_step_e  pte:a0eb1cb726320e5b
+[    3.705967] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.706915] addr:00007fdc5460f055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:419
+[    3.707386] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.708300] BUG: Bad page map in process feedback_step_e  pte:64543e9eb20a049b
+[    3.708317] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.710364] addr:00007fdc54610055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:41a
+[    3.711201] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.712440] BUG: Bad page map in process feedback_step_e  pte:829fbb996982ebca
+[    3.712452] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.713133] addr:00007fdc54613055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:41d
+[    3.713923] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.714872] BUG: Bad page map in process feedback_step_e  pte:696497b097b8e0a5
+[    3.714913] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.715878] addr:00007fdc54614055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:41e
+[    3.716526] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.717490] BUG: Bad page map in process feedback_step_e  pte:eea6a1c8dce7a722
+[    3.717533] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.718696] addr:00007fdc54615055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:41f
+[    3.719399] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.720531] BUG: Bad page map in process feedback_step_e  pte:69f4b0af80948d18
+[    3.720543] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.721179] addr:00007fdc54617055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:421
+[    3.721622] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.722627] BUG: Bad page map in process feedback_step_e  pte:7e43d01643e2c334
+[    3.722671] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.723299] addr:00007fdc54618055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:422
+[    3.723936] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.724930] BUG: Bad page map in process feedback_step_e  pte:5e7dec6f666be929
+[    3.724976] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.725829] addr:00007fdc54619055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:423
+[    3.726276] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.727276] BUG: Bad page map in process feedback_step_e  pte:387a6dd0909e6379
+[    3.727294] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.727984] addr:00007fdc5461a055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:424
+[    3.728630] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.729517] BUG: Bad page map in process feedback_step_e  pte:29a7a91dd3441ee7
+[    3.729562] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.730511] addr:00007fdc5461b055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:425
+[    3.731204] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.732014] BUG: Bad page map in process feedback_step_e  pte:2477162df8a5d92f
+[    3.732057] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.732929] addr:00007fdc5461c055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:426
+[    3.733521] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.734489] BUG: Bad page map in process feedback_step_e  pte:6df3109c1eea799e
+[    3.734507] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.735413] addr:00007fdc5461e055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:428
+[    3.736026] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.736885] BUG: Bad page map in process feedback_step_e  pte:8aacf24feefd3d98
+[    3.736929] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.737730] addr:00007fdc5461f055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:429
+[    3.738272] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.739181] BUG: Bad page map in process feedback_step_e  pte:cb7acf2e139a89c3
+[    3.739200] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.739976] addr:00007fdc54620055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:42a
+[    3.740400] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.741505] BUG: Bad page map in process feedback_step_e  pte:942abfc08518bd94
+[    3.741550] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.742228] addr:00007fdc54621055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:42b
+[    3.742982] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.743970] BUG: Bad page map in process feedback_step_e  pte:fa5e87ed8010a367
+[    3.744016] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.744922] addr:00007fdc54622055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:42c
+[    3.745709] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.746775] BUG: Bad page map in process feedback_step_e  pte:a24ea66a63c882b9
+[    3.746821] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.747610] addr:00007fdc54623055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:42d
+[    3.748093] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.749106] BUG: Bad page map in process feedback_step_e  pte:cc1f2eed7a8943aa
+[    3.749124] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.749937] addr:00007fdc54624055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:42e
+[    3.750574] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.751682] BUG: Bad page map in process feedback_step_e  pte:6ffbb2590ae4f9a9
+[    3.751696] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.752252] addr:00007fdc54625055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:42f
+[    3.752750] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.753762] BUG: Bad page map in process feedback_step_e  pte:dec78ffeee910b2d
+[    3.753778] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.754447] addr:00007fdc54626055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:430
+[    3.755234] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.756160] BUG: Bad page map in process feedback_step_e  pte:52cebe481eea634c
+[    3.756203] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.757156] addr:00007fdc54627055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:431
+[    3.757632] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.758865] BUG: Bad page map in process feedback_step_e  pte:a81a54b6b360a32d
+[    3.758887] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.759676] addr:00007fdc54628055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:432
+[    3.760132] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.761177] BUG: Bad page map in process feedback_step_e  pte:3151188902ab83be
+[    3.761222] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.761991] addr:00007fdc54629055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:433
+[    3.762454] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.763460] BUG: Bad page map in process feedback_step_e  pte:2517c1f8a6a6ae0f
+[    3.763474] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.764318] addr:00007fdc5462a055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:434
+[    3.764970] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.765870] BUG: Bad page map in process feedback_step_e  pte:5e321214af71371c
+[    3.765912] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.766739] addr:00007fdc5462b055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:435
+[    3.767357] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.768462] BUG: Bad page map in process feedback_step_e  pte:b5d79c9a158537c9
+[    3.768480] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.769401] addr:00007fdc5462c055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:436
+[    3.769995] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.770942] BUG: Bad page map in process feedback_step_e  pte:1182a8317aa8790f
+[    3.770955] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.771896] addr:00007fdc5462e055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:438
+[    3.772374] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.773711] BUG: Bad page map in process feedback_step_e  pte:eac44e7ad1a5ba8d
+[    3.773757] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.774330] addr:00007fdc5462f055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:439
+[    3.776641] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.778437] BUG: Bad page map in process feedback_step_e  pte:738cb8b39d253b87
+[    3.778449] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.780627] addr:00007fdc54631055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:43b
+[    3.781065] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.782109] BUG: Bad page map in process feedback_step_e  pte:1de759c0975f858d
+[    3.782129] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    3.783517] addr:00007fdc54632055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:43c
+[    3.783979] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    3.785362] unrecognized swap entry 0x0
+[    3.785679] unrecognized swap entry 0x0
+[    3.785885] unrecognized swap entry 0x0
+[    3.786072] unrecognized swap entry 0x0
+[    3.786478] unrecognized swap entry 0x0
+[    3.786884] unrecognized swap entry 0x0
+[    3.787109] unrecognized swap entry 0x0
+[    3.787322] unrecognized swap entry 0x0
+[    3.787535] unrecognized swap entry 0x0
+[    3.787957] unrecognized swap entry 0x0
+[    3.788205] unrecognized swap entry 0x0
+[    3.788500] unrecognized swap entry 0x0
+[    3.788698] unrecognized swap entry 0x0
+[    3.788928] unrecognized swap entry 0x0
+[    3.789256] unrecognized swap entry 0x0
+[    3.789582] unrecognized swap entry 0x0
+[    3.789822] unrecognized swap entry 0x0
+[    3.790021] unrecognized swap entry 0x0
+[    3.790213] unrecognized swap entry 0x0
+[    3.790400] unrecognized swap entry 0x0
+[    3.790589] unrecognized swap entry 0x0
+[    3.790777] unrecognized swap entry 0x0
+[    3.791119] unrecognized swap entry 0x0
+[    3.791380] unrecognized swap entry 0x0
+[    3.791592] unrecognized swap entry 0x0
+[    3.791828] unrecognized swap entry 0x0
+[    3.792023] unrecognized swap entry 0x0
+[    3.792212] unrecognized swap entry 0x0
+[    3.792477] unrecognized swap entry 0x0
+[    3.792738] unrecognized swap entry 0x0
+[    3.792984] unrecognized swap entry 0x0
+[    3.793177] unrecognized swap entry 0x0
+[    3.793366] unrecognized swap entry 0x0
+[    3.793552] unrecognized swap entry 0x0
+[    3.793739] unrecognized swap entry 0x0
+[    3.793924] unrecognized swap entry 0x0
+[    3.794219] unrecognized swap entry 0x0
+[    3.794508] unrecognized swap entry 0x0
+[    3.794709] unrecognized swap entry 0x0
+[    3.794906] unrecognized swap entry 0x0
+[    3.795095] unrecognized swap entry 0x0
+[    3.795284] unrecognized swap entry 0x0
+[    3.795474] unrecognized swap entry 0x0
+[    3.795667] unrecognized swap entry 0x0
+[    3.796010] unrecognized swap entry 0x0
+[    3.796333] unrecognized swap entry 0x0
+[    3.796568] unrecognized swap entry 0x0
+[    3.796824] unrecognized swap entry 0x0
+[    3.797018] unrecognized swap entry 0x0
+[    3.797206] unrecognized swap entry 0x0
+[    3.797570] unrecognized swap entry 0x0
+[    3.797860] unrecognized swap entry 0x0
+[    3.798100] unrecognized swap entry 0x0
+[    3.798385] unrecognized swap entry 0x0
+[    3.798594] unrecognized swap entry 0x0
+[    3.798788] unrecognized swap entry 0x0
+[    3.798978] unrecognized swap entry 0x0
+[    3.799167] unrecognized swap entry 0x0
+[    3.799516] unrecognized swap entry 0x0
+[    3.799794] unrecognized swap entry 0x0
+[    3.800073] unrecognized swap entry 0x0
+[    3.800286] unrecognized swap entry 0x0
+[    3.800487] unrecognized swap entry 0x0
+[    3.800686] unrecognized swap entry 0x0
+[    3.800881] unrecognized swap entry 0x0
+[    3.801174] unrecognized swap entry 0x0
+[    3.801410] unrecognized swap entry 0x0
+[    3.801627] unrecognized swap entry 0x0
+[    3.801908] unrecognized swap entry 0x0
+[    3.802101] unrecognized swap entry 0x0
+[    3.802289] unrecognized swap entry 0x0
+[    3.802475] unrecognized swap entry 0x0
+[    3.802658] unrecognized swap entry 0x0
+[    3.802980] unrecognized swap entry 0x0
+[    3.803266] unrecognized swap entry 0x0
+[    3.803560] unrecognized swap entry 0x0
+[    3.803826] unrecognized swap entry 0x0
+[    3.804030] unrecognized swap entry 0x0
+[    3.804225] unrecognized swap entry 0x0
+[    3.804554] unrecognized swap entry 0x0
+[    3.804786] unrecognized swap entry 0x0
+[    3.805132] unrecognized swap entry 0x0
+[    3.805334] unrecognized swap entry 0x0
+[    3.805516] unrecognized swap entry 0x0
+[    3.805700] unrecognized swap entry 0x0
+[    3.805884] unrecognized swap entry 0x0
+[    3.806063] unrecognized swap entry 0x0
+[    3.806424] unrecognized swap entry 0x0
+[    3.806641] unrecognized swap entry 0x0
+[    3.806867] unrecognized swap entry 0x0
+[    3.807158] unrecognized swap entry 0x0
+[    3.807351] unrecognized swap entry 0x0
+[    3.807540] unrecognized swap entry 0x0
+[    3.807727] unrecognized swap entry 0x0
+[    3.808058] unrecognized swap entry 0x0
+[    3.808320] unrecognized swap entry 0x0
+[    3.808522] unrecognized swap entry 0x0
+[    3.808759] unrecognized swap entry 0x0
+[    3.808950] unrecognized swap entry 0x0
+[    3.809146] unrecognized swap entry 0x0
+[    3.809553] unrecognized swap entry 0x0
+[    3.809837] unrecognized swap entry 0x0
+[    3.810157] unrecognized swap entry 0x0
+[    3.810364] unrecognized swap entry 0x0
+[    3.810660] unrecognized swap entry 0x0
+[    3.811005] unrecognized swap entry 0x0
+[    3.811297] unrecognized swap entry 0x0
+[    3.811560] unrecognized swap entry 0x0
+[    3.811760] unrecognized swap entry 0x0
+[    3.811968] unrecognized swap entry 0x0
+[    3.812267] unrecognized swap entry 0x0
+[    3.812553] unrecognized swap entry 0x0
+[    3.812837] unrecognized swap entry 0x0
+[    3.813050] unrecognized swap entry 0x0
+[    3.813251] unrecognized swap entry 0x0
+[    3.813455] unrecognized swap entry 0x0
+[    3.813655] unrecognized swap entry 0x0
+[    3.813846] unrecognized swap entry 0x0
+[    3.814301] unrecognized swap entry 0x0
+[    3.814527] unrecognized swap entry 0x0
+[    3.814748] unrecognized swap entry 0x0
+[    3.814960] unrecognized swap entry 0x0
+[    3.815158] unrecognized swap entry 0x0
+[    3.815494] unrecognized swap entry 0x0
+[    3.815764] unrecognized swap entry 0x0
+[    3.816005] unrecognized swap entry 0x0
+[    3.816202] unrecognized swap entry 0x0
+[    3.816388] unrecognized swap entry 0x0
+[    3.816588] unrecognized swap entry 0x0
+[    3.816831] unrecognized swap entry 0x0
+[    3.817167] unrecognized swap entry 0x0
+[    3.817460] unrecognized swap entry 0x0
+[    3.817737] unrecognized swap entry 0x0
+[    3.818159] unrecognized swap entry 0x0
+[    3.818375] unrecognized swap entry 0x0
+[    3.818580] unrecognized swap entry 0x0
+[    3.818780] unrecognized swap entry 0x0
+[    3.818978] unrecognized swap entry 0x0
+[    3.819315] unrecognized swap entry 0x0
+[    3.819631] unrecognized swap entry 0x0
+[    3.819875] unrecognized swap entry 0x0
+[    3.820150] unrecognized swap entry 0x0
+[    3.820345] unrecognized swap entry 0x0
+[    3.820531] unrecognized swap entry 0x0
+[    3.820719] unrecognized swap entry 0x0
+[    3.820903] unrecognized swap entry 0x0
+[    3.821254] unrecognized swap entry 0x0
+[    3.821568] unrecognized swap entry 0x0
+[    3.821830] unrecognized swap entry 0x0
+[    3.822118] unrecognized swap entry 0x0
+[    3.822312] unrecognized swap entry 0x0
+[    3.822506] unrecognized swap entry 0x0
+[    3.822689] unrecognized swap entry 0x0
+[    3.822967] unrecognized swap entry 0x0
+[    3.823245] unrecognized swap entry 0x0
+[    3.823477] unrecognized swap entry 0x0
+[    3.823689] unrecognized swap entry 0x0
+[    3.823892] unrecognized swap entry 0x0
+[    3.824093] unrecognized swap entry 0x0
+[    3.824411] unrecognized swap entry 0x0
+[    3.824732] unrecognized swap entry 0x0
+[    3.825027] unrecognized swap entry 0x0
+[    3.825227] unrecognized swap entry 0x0
+[    3.825410] unrecognized swap entry 0x0
+[    3.825593] unrecognized swap entry 0x0
+[    3.825805] unrecognized swap entry 0x0
+[    3.825995] unrecognized swap entry 0x0
+[    3.826308] unrecognized swap entry 0x0
+[    3.826553] unrecognized swap entry 0x0
+[    3.826761] unrecognized swap entry 0x0
+[    3.827007] unrecognized swap entry 0x0
+[    3.827219] unrecognized swap entry 0x0
+[    3.827428] unrecognized swap entry 0x0
+[    3.827633] unrecognized swap entry 0x0
+[    3.827970] unrecognized swap entry 0x0
+[    3.828289] unrecognized swap entry 0x0
+[    3.828537] unrecognized swap entry 0x0
+[    3.828757] unrecognized swap entry 0x0
+[    3.828973] unrecognized swap entry 0x0
+[    3.829308] unrecognized swap entry 0x0
+[    3.829653] unrecognized swap entry 0x0
+[    3.829907] unrecognized swap entry 0x0
+[    3.830123] unrecognized swap entry 0x0
+[    3.830336] unrecognized swap entry 0x0
+[    3.830548] unrecognized swap entry 0x0
+[    3.830954] unrecognized swap entry 0x0
+[    3.831328] unrecognized swap entry 0x0
+[    3.831614] unrecognized swap entry 0x0
+[    3.831984] unrecognized swap entry 0x0
+[    3.832380] unrecognized swap entry 0x0
+[    3.832710] unrecognized swap entry 0x0
+[    3.833147] unrecognized swap entry 0x0
+[    3.833423] unrecognized swap entry 0x0
+[    3.833709] unrecognized swap entry 0x0
+[    3.833969] unrecognized swap entry 0x0
+[    3.834423] unrecognized swap entry 0x0
+[    3.835039] unrecognized swap entry 0x0
+[    3.835346] unrecognized swap entry 0x0
+[    3.835565] unrecognized swap entry 0x0
+[    3.835777] unrecognized swap entry 0x0
+[    3.835981] unrecognized swap entry 0x0
+[    3.836177] unrecognized swap entry 0x0
+[    3.836519] unrecognized swap entry 0x0
+[    3.836619] unrecognized swap entry 0x0
+[    3.836756] unrecognized swap entry 0x0
+[    3.837036] unrecognized swap entry 0x0
+[    3.837272] unrecognized swap entry 0x0
+[    3.837548] unrecognized swap entry 0x0
+[    3.837797] unrecognized swap entry 0x0
+[    3.838018] unrecognized swap entry 0x0
+[    3.838237] unrecognized swap entry 0x0
+[    3.838677] unrecognized swap entry 0x0
+[    3.838956] unrecognized swap entry 0x0
+[    3.839335] unrecognized swap entry 0x0
+[    3.839623] unrecognized swap entry 0x0
+[    3.839833] unrecognized swap entry 0x0
+[    3.840030] unrecognized swap entry 0x0
+[    3.840230] unrecognized swap entry 0x0
+[    3.840421] unrecognized swap entry 0x0
+[    3.840757] unrecognized swap entry 0x0
+[    3.841039] unrecognized swap entry 0x0
+[    3.841260] unrecognized swap entry 0x0
+[    3.841452] unrecognized swap entry 0x0
+[    3.841673] unrecognized swap entry 0x0
+[    3.841757] unrecognized swap entry 0x0
+[    3.841828] unrecognized swap entry 0x0
+[    3.841899] unrecognized swap entry 0x0
+[    3.841968] unrecognized swap entry 0x0
+[    3.842037] unrecognized swap entry 0x0
+[    3.842104] unrecognized swap entry 0x0
+[    3.842194] unrecognized swap entry 0x0
+[    3.842270] unrecognized swap entry 0x0
+[    3.842352] unrecognized swap entry 0x0
+[    3.842876] unrecognized swap entry 0x0
+[    3.843132] unrecognized swap entry 0x0
+[    3.843395] unrecognized swap entry 0x0
+[    3.843654] unrecognized swap entry 0x0
+[    3.843907] unrecognized swap entry 0x0
+[    3.844134] unrecognized swap entry 0x0
+[    3.844622] unrecognized swap entry 0x0
+[    3.844932] unrecognized swap entry 0x0
+[    3.845391] unrecognized swap entry 0x0
+[    3.845605] unrecognized swap entry 0x0
+[    3.845901] unrecognized swap entry 0x0
+[    3.846184] unrecognized swap entry 0x0
+[    3.846475] unrecognized swap entry 0x0
+[    3.846693] unrecognized swap entry 0x0
+[    3.846903] unrecognized swap entry 0x0
+[    3.847099] unrecognized swap entry 0x0
+[    3.847425] unrecognized swap entry 0x0
+[    3.847705] unrecognized swap entry 0x0
+[    3.848062] unrecognized swap entry 0x0
+[    3.848270] unrecognized swap entry 0x0
+[    3.848481] unrecognized swap entry 0x0
+[    3.848683] unrecognized swap entry 0x0
+[    3.848904] unrecognized swap entry 0x0
+[    3.849113] unrecognized swap entry 0x0
+[    3.849479] unrecognized swap entry 0x0
+[    3.849730] unrecognized swap entry 0x0
+[    3.850000] unrecognized swap entry 0x0
+[    3.850260] unrecognized swap entry 0x0
+[    3.850477] unrecognized swap entry 0x0
+[    3.850705] unrecognized swap entry 0x0
+[    3.850923] unrecognized swap entry 0x0
+[    3.853300] unrecognized swap entry 0x0
+[    3.853615] unrecognized swap entry 0x0
+[    3.853868] unrecognized swap entry 0x0
+[    3.854095] unrecognized swap entry 0x0
+[    3.854305] unrecognized swap entry 0x0
+[    3.854501] unrecognized swap entry 0x0
+[    3.854696] unrecognized swap entry 0x0
+[    3.854892] unrecognized swap entry 0x0
+[    3.855292] unrecognized swap entry 0x0
+[    3.855532] unrecognized swap entry 0x0
+[    3.855869] unrecognized swap entry 0x0
+[    3.856094] unrecognized swap entry 0x0
+[    3.856293] unrecognized swap entry 0x0
+[    3.856488] unrecognized swap entry 0x0
+[    3.856685] unrecognized swap entry 0x0
+[    3.856883] unrecognized swap entry 0x0
+[    3.857080] unrecognized swap entry 0x0
+[    3.857393] unrecognized swap entry 0x0
+[    3.857634] unrecognized swap entry 0x0
+[    3.857890] unrecognized swap entry 0x0
+[    3.858086] unrecognized swap entry 0x0
+[    3.860856] unrecognized swap entry 0x0
+[    3.861116] unrecognized swap entry 0x0
+[    3.861371] unrecognized swap entry 0x0
+[    3.861587] unrecognized swap entry 0x0
+[    3.861788] unrecognized swap entry 0x0
+[    3.861987] unrecognized swap entry 0x0
+[    3.862313] unrecognized swap entry 0x0
+[    3.862574] unrecognized swap entry 0x0
+[    3.862888] unrecognized swap entry 0x0
+[    3.863097] unrecognized swap entry 0x0
+[    3.863317] unrecognized swap entry 0x0
+[    3.863687] unrecognized swap entry 0x0
+[    3.863886] unrecognized swap entry 0x0
+[    3.864078] unrecognized swap entry 0x0
+[    3.864401] unrecognized swap entry 0x0
+[    3.864652] unrecognized swap entry 0x0
+[    3.864882] unrecognized swap entry 0x0
+[    3.865141] unrecognized swap entry 0x0
+[    3.865333] unrecognized swap entry 0x0
+[    3.865545] unrecognized swap entry 0x0
+[    3.865732] unrecognized swap entry 0x0
+[    3.865912] unrecognized swap entry 0x0
+[    3.866197] unrecognized swap entry 0x0
+[    3.866413] unrecognized swap entry 0x0
+[    3.866649] unrecognized swap entry 0x0
+[    3.866883] unrecognized swap entry 0x0
+[    3.867069] unrecognized swap entry 0x0
+[    3.867253] unrecognized swap entry 0x0
+[    3.867434] unrecognized swap entry 0x0
+[    3.867613] unrecognized swap entry 0x0
+[    3.867913] unrecognized swap entry 0x0
+[    3.868193] unrecognized swap entry 0x0
+[    3.868408] unrecognized swap entry 0x0
+[    3.868667] unrecognized swap entry 0x0
+[    3.868878] unrecognized swap entry 0x0
+[    3.869076] unrecognized swap entry 0x0
+[    3.869370] unrecognized swap entry 0x0
+[    3.869613] unrecognized swap entry 0x0
+[    3.869870] unrecognized swap entry 0x0
+[    3.870069] unrecognized swap entry 0x0
+[    3.870256] unrecognized swap entry 0x0
+[    3.870443] unrecognized swap entry 0x0
+[    3.870631] unrecognized swap entry 0x0
+[    3.870818] unrecognized swap entry 0x0
+[    3.871121] unrecognized swap entry 0x0
+[    3.871367] unrecognized swap entry 0x0
+[    3.871584] unrecognized swap entry 0x0
+[    3.871809] unrecognized swap entry 0x0
+[    3.871994] unrecognized swap entry 0x0
+[    3.872176] unrecognized swap entry 0x0
+[    3.872358] unrecognized swap entry 0x0
+[    3.872703] unrecognized swap entry 0x0
+[    3.872986] unrecognized swap entry 0x0
+[    3.873216] unrecognized swap entry 0x0
+[    3.873467] unrecognized swap entry 0x0
+[    3.873668] unrecognized swap entry 0x0
+[    3.873856] unrecognized swap entry 0x0
+[    3.874042] unrecognized swap entry 0x0
+[    3.874228] unrecognized swap entry 0x0
+[    3.874526] unrecognized swap entry 0x0
+[    3.874874] unrecognized swap entry 0x0
+[    3.875079] unrecognized swap entry 0x0
+[    3.875264] unrecognized swap entry 0x0
+[    3.875453] unrecognized swap entry 0x0
+[    3.875636] unrecognized swap entry 0x0
+[    3.875819] unrecognized swap entry 0x0
+[    3.875999] unrecognized swap entry 0x0
+[    3.876259] unrecognized swap entry 0x0
+[    3.876486] unrecognized swap entry 0x0
+[    3.876690] unrecognized swap entry 0x0
+[    3.876985] unrecognized swap entry 0x0
+[    3.877233] unrecognized swap entry 0x0
+[    3.877446] unrecognized swap entry 0x0
+[    3.877829] unrecognized swap entry 0x0
+[    3.878183] unrecognized swap entry 0x0
+[    3.878538] unrecognized swap entry 0x0
+[    3.878766] unrecognized swap entry 0x0
+[    3.878973] unrecognized swap entry 0x0
+[    3.879322] unrecognized swap entry 0x0
+[    3.879624] unrecognized swap entry 0x0
+[    3.879959] unrecognized swap entry 0x0
+[    3.880163] unrecognized swap entry 0x0
+[    3.880352] unrecognized swap entry 0x0
+[    3.880569] unrecognized swap entry 0x0
+[    3.880759] unrecognized swap entry 0x0
+[    3.881071] unrecognized swap entry 0x0
+[    3.881345] unrecognized swap entry 0x0
+[    3.881589] unrecognized swap entry 0x0
+[    3.881795] unrecognized swap entry 0x0
+[    3.881990] unrecognized swap entry 0x0
+[    3.882180] unrecognized swap entry 0x0
+[    3.882483] unrecognized swap entry 0x0
+[    3.882733] unrecognized swap entry 0x0
+[    3.882998] unrecognized swap entry 0x0
+[    3.883259] unrecognized swap entry 0x0
+[    3.883477] unrecognized swap entry 0x0
+[    3.883691] unrecognized swap entry 0x0
+[    3.884022] unrecognized swap entry 0x0
+[    3.884318] unrecognized swap entry 0x0
+[    3.884599] unrecognized swap entry 0x0
+[    3.884813] unrecognized swap entry 0x0
+[    3.885004] unrecognized swap entry 0x0
+[    3.885189] unrecognized swap entry 0x0
+[    3.885491] unrecognized swap entry 0x0
+[    3.885718] unrecognized swap entry 0x0
+[    3.886031] unrecognized swap entry 0x0
+[    3.886226] unrecognized swap entry 0x0
+[    3.886421] unrecognized swap entry 0x0
+[    3.886620] unrecognized swap entry 0x0
+[    3.886834] unrecognized swap entry 0x0
+[    3.887038] unrecognized swap entry 0x0
+[    3.887313] unrecognized swap entry 0x0
+[    3.887564] unrecognized swap entry 0x0
+[    3.887872] unrecognized swap entry 0x0
+[    3.888097] unrecognized swap entry 0x0
+[    3.888314] unrecognized swap entry 0x0
+[    3.888548] unrecognized swap entry 0x0
+[    3.888638] unrecognized swap entry 0x0
+[    3.888708] unrecognized swap entry 0x0
+[    3.888777] unrecognized swap entry 0x0
+[    3.888845] unrecognized swap entry 0x0
+[    3.888913] unrecognized swap entry 0x0
+[    3.888981] unrecognized swap entry 0x0
+[    3.889164] unrecognized swap entry 0x0
+[    3.889436] unrecognized swap entry 0x0
+[    3.889674] unrecognized swap entry 0x0
+[    3.889928] unrecognized swap entry 0x0
+[    3.890082] unrecognized swap entry 0x0
+[    3.890161] unrecognized swap entry 0x0
+[    3.890232] unrecognized swap entry 0x0
+[    3.890301] unrecognized swap entry 0x0
+[    3.890370] unrecognized swap entry 0x0
+[    3.890437] unrecognized swap entry 0x0
+[    3.890505] unrecognized swap entry 0x0
+[    3.890572] unrecognized swap entry 0x0
+[    3.890638] unrecognized swap entry 0x0
+[    3.890705] unrecognized swap entry 0x0
+[    3.891045] unrecognized swap entry 0x0
+[    3.891287] unrecognized swap entry 0x0
+[    3.891544] unrecognized swap entry 0x0
+[    3.891790] unrecognized swap entry 0x0
+[    3.892022] unrecognized swap entry 0x0
+[    3.892227] unrecognized swap entry 0x0
+[    3.892583] unrecognized swap entry 0x0
+[    3.892839] unrecognized swap entry 0x0
+[    3.893165] unrecognized swap entry 0x0
+[    3.893376] unrecognized swap entry 0x0
+[    3.893573] unrecognized swap entry 0x0
+[    3.893765] unrecognized swap entry 0x0
+[    3.893956] unrecognized swap entry 0x0
+[    3.894146] unrecognized swap entry 0x0
+[    3.894453] unrecognized swap entry 0x0
+[    3.894688] unrecognized swap entry 0x0
+[    3.894967] unrecognized swap entry 0x0
+[    3.895168] unrecognized swap entry 0x0
+[    3.895403] unrecognized swap entry 0x0
+[    3.895600] unrecognized swap entry 0x0
+[    3.895837] unrecognized swap entry 0x0
+[    3.896052] unrecognized swap entry 0x0
+[    3.896427] unrecognized swap entry 0x0
+[    3.896706] unrecognized swap entry 0x0
+[    3.896949] unrecognized swap entry 0x0
+[    3.897219] unrecognized swap entry 0x0
+[    3.897461] unrecognized swap entry 0x0
+[    3.897658] unrecognized swap entry 0x0
+[    3.897850] unrecognized swap entry 0x0
+[    3.898171] unrecognized swap entry 0x0
+[    3.898457] unrecognized swap entry 0x0
+[    3.898689] unrecognized swap entry 0x0
+[    3.898915] unrecognized swap entry 0x0
+[    3.899106] unrecognized swap entry 0x0
+[    3.899296] unrecognized swap entry 0x0
+[    3.899484] unrecognized swap entry 0x0
+[    3.899674] unrecognized swap entry 0x0
+[    3.900023] unrecognized swap entry 0x0
+[    3.900275] unrecognized swap entry 0x0
+[    3.900583] unrecognized swap entry 0x0
+[    3.900780] unrecognized swap entry 0x0
+[    3.901003] unrecognized swap entry 0x0
+[    3.901196] unrecognized swap entry 0x0
+[    3.901500] unrecognized swap entry 0x0
+[    3.901821] unrecognized swap entry 0x0
+[    3.902035] unrecognized swap entry 0x0
+[    3.902268] unrecognized swap entry 0x0
+[    3.902459] unrecognized swap entry 0x0
+[    3.902653] unrecognized swap entry 0x0
+[    3.902845] unrecognized swap entry 0x0
+[    3.903038] unrecognized swap entry 0x0
+[    3.903398] unrecognized swap entry 0x0
+[    3.903716] unrecognized swap entry 0x0
+[    3.903940] unrecognized swap entry 0x0
+[    3.904187] unrecognized swap entry 0x0
+[    3.904392] unrecognized swap entry 0x0
+[    3.904626] unrecognized swap entry 0x0
+[    3.905016] unrecognized swap entry 0x0
+[    3.905325] unrecognized swap entry 0x0
+[    3.905563] unrecognized swap entry 0x0
+[    3.905764] unrecognized swap entry 0x0
+[    3.905962] unrecognized swap entry 0x0
+[    3.906292] unrecognized swap entry 0x0
+[    3.906569] unrecognized swap entry 0x0
+[    3.906786] unrecognized swap entry 0x0
+[    3.907021] unrecognized swap entry 0x0
+[    3.907227] unrecognized swap entry 0x0
+[    3.907426] unrecognized swap entry 0x0
+[    3.907621] unrecognized swap entry 0x0
+[    3.907814] unrecognized swap entry 0x0
+[    3.908174] unrecognized swap entry 0x0
+[    3.908413] unrecognized swap entry 0x0
+[    3.908692] unrecognized swap entry 0x0
+[    3.908992] unrecognized swap entry 0x0
+[    3.909186] unrecognized swap entry 0x0
+[    3.909369] unrecognized swap entry 0x0
+[    3.909554] unrecognized swap entry 0x0
+[    3.909846] unrecognized swap entry 0x0
+[    3.910296] unrecognized swap entry 0x0
+[    3.910611] unrecognized swap entry 0x0
+[    3.910811] unrecognized swap entry 0x0
+[    3.911034] unrecognized swap entry 0x0
+[    3.911409] unrecognized swap entry 0x0
+[    3.911730] unrecognized swap entry 0x0
+[    3.911954] unrecognized swap entry 0x0
+[    3.912186] unrecognized swap entry 0x0
+[    3.912384] unrecognized swap entry 0x0
+[    3.912579] unrecognized swap entry 0x0
+[    3.912774] unrecognized swap entry 0x0
+[    3.912969] unrecognized swap entry 0x0
+[    3.913506] unrecognized swap entry 0x0
+[    3.913876] unrecognized swap entry 0x0
+[    3.914099] unrecognized swap entry 0x0
+[    3.914288] unrecognized swap entry 0x0
+[    3.914546] unrecognized swap entry 0x0
+[    3.914739] unrecognized swap entry 0x0
+[    3.914927] unrecognized swap entry 0x0
+[    3.915123] unrecognized swap entry 0x0
+[    3.915524] unrecognized swap entry 0x0
+[    3.915763] unrecognized swap entry 0x0
+[    3.915993] unrecognized swap entry 0x0
+[    3.916260] unrecognized swap entry 0x0
+[    3.916461] unrecognized swap entry 0x0
+[    3.916653] unrecognized swap entry 0x0
+[    3.916988] unrecognized swap entry 0x0
+[    3.917212] unrecognized swap entry 0x0
+[    3.917512] unrecognized swap entry 0x0
+[    3.917707] unrecognized swap entry 0x0
+[    3.918230] unrecognized swap entry 0x0
+[    3.918589] unrecognized swap entry 0x0
+[    3.918832] unrecognized swap entry 0x0
+[    3.919087] unrecognized swap entry 0x0
+[    3.919326] unrecognized swap entry 0x0
+[    3.919519] unrecognized swap entry 0x0
+[    3.919706] unrecognized swap entry 0x0
+[    3.920011] unrecognized swap entry 0x0
+[    3.920241] unrecognized swap entry 0x0
+[    3.920514] unrecognized swap entry 0x0
+[    3.920777] unrecognized swap entry 0x0
+[    3.920983] unrecognized swap entry 0x0
+[    3.921176] unrecognized swap entry 0x0
+[    3.921493] unrecognized swap entry 0x0
+[    3.921750] unrecognized swap entry 0x0
+[    3.921970] unrecognized swap entry 0x0
+[    3.922156] unrecognized swap entry 0x0
+[    3.922341] unrecognized swap entry 0x0
+[    3.922530] unrecognized swap entry 0x0
+[    3.922712] unrecognized swap entry 0x0
+[    3.923126] unrecognized swap entry 0x0
+[    3.923376] unrecognized swap entry 0x0
+[    3.923644] unrecognized swap entry 0x0
+[    3.923874] unrecognized swap entry 0x0
+[    3.924103] unrecognized swap entry 0x0
+[    3.924292] unrecognized swap entry 0x0
+[    3.924476] unrecognized swap entry 0x0
+[    3.924662] unrecognized swap entry 0x0
+[    3.924849] unrecognized swap entry 0x0
+[    3.925205] unrecognized swap entry 0x0
+[    3.925485] unrecognized swap entry 0x0
+[    3.925712] unrecognized swap entry 0x0
+[    3.925954] unrecognized swap entry 0x0
+[    3.926148] unrecognized swap entry 0x0
+[    3.926334] unrecognized swap entry 0x0
+[    3.926515] unrecognized swap entry 0x0
+[    3.926696] unrecognized swap entry 0x0
+[    3.926877] unrecognized swap entry 0x0
+[    3.927192] unrecognized swap entry 0x0
+[    3.927383] unrecognized swap entry 0x0
+[    3.927575] unrecognized swap entry 0x0
+[    3.927810] unrecognized swap entry 0x0
+[    3.927998] unrecognized swap entry 0x0
+[    3.928181] unrecognized swap entry 0x0
+[    3.928383] unrecognized swap entry 0x0
+[    3.928700] unrecognized swap entry 0x0
+[    3.928993] unrecognized swap entry 0x0
+[    3.929239] unrecognized swap entry 0x0
+[    3.929511] unrecognized swap entry 0x0
+[    3.929724] unrecognized swap entry 0x0
+[    3.929921] unrecognized swap entry 0x0
+[    3.930257] unrecognized swap entry 0x0
+[    3.930555] unrecognized swap entry 0x0
+[    3.930748] unrecognized swap entry 0x0
+[    3.930934] unrecognized swap entry 0x0
+[    3.931118] unrecognized swap entry 0x0
+[    3.931302] unrecognized swap entry 0x0
+[    3.931487] unrecognized swap entry 0x0
+[    3.931909] unrecognized swap entry 0x0
+[    3.932190] unrecognized swap entry 0x0
+[    3.932404] unrecognized swap entry 0x0
+[    3.932604] unrecognized swap entry 0x0
+[    3.932795] unrecognized swap entry 0x0
+[    3.932984] unrecognized swap entry 0x0
+[    3.933299] unrecognized swap entry 0x0
+[    3.933610] unrecognized swap entry 0x0
+[    3.933805] unrecognized swap entry 0x0
+[    3.933995] unrecognized swap entry 0x0
+[    3.934184] unrecognized swap entry 0x0
+[    3.934369] unrecognized swap entry 0x0
+[    3.934741] unrecognized swap entry 0x0
+[    3.934965] unrecognized swap entry 0x0
+[    3.935164] unrecognized swap entry 0x0
+[    3.935373] unrecognized swap entry 0x0
+[    3.935556] unrecognized swap entry 0x0
+[    3.935742] unrecognized swap entry 0x0
+[    3.935922] unrecognized swap entry 0x0
+[    3.936272] unrecognized swap entry 0x0
+[    3.936489] unrecognized swap entry 0x0
+[    3.936827] unrecognized swap entry 0x0
+[    3.937073] unrecognized swap entry 0x0
+[    3.937354] unrecognized swap entry 0x0
+[    3.937435] unrecognized swap entry 0x0
+[    3.937506] unrecognized swap entry 0x0
+[    3.937577] unrecognized swap entry 0x0
+[    3.937646] unrecognized swap entry 0x0
+[    3.937717] unrecognized swap entry 0x0
+[    3.937812] unrecognized swap entry 0x0
+[    3.938299] unrecognized swap entry 0x0
+[    3.938520] unrecognized swap entry 0x0
+[    3.938800] unrecognized swap entry 0x0
+[    3.939016] unrecognized swap entry 0x0
+[    3.939379] unrecognized swap entry 0x0
+[    3.939639] unrecognized swap entry 0x0
+[    3.939928] unrecognized swap entry 0x0
+[    3.940160] unrecognized swap entry 0x0
+[    3.940430] unrecognized swap entry 0x0
+[    3.940820] unrecognized swap entry 0x0
+[    3.941093] unrecognized swap entry 0x0
+[    3.941362] unrecognized swap entry 0x0
+[    3.941583] unrecognized swap entry 0x0
+[    3.941779] unrecognized swap entry 0x0
+[    3.941974] unrecognized swap entry 0x0
+[    3.942351] unrecognized swap entry 0x0
+[    3.942666] unrecognized swap entry 0x0
+[    3.942913] unrecognized swap entry 0x0
+[    3.943107] unrecognized swap entry 0x0
+[    3.943297] unrecognized swap entry 0x0
+[    3.943498] unrecognized swap entry 0x0
+[    3.943921] unrecognized swap entry 0x0
+[    3.944168] unrecognized swap entry 0x0
+[    3.944384] unrecognized swap entry 0x0
+[    3.944599] unrecognized swap entry 0x0
+[    3.944809] unrecognized swap entry 0x0
+[    3.945005] unrecognized swap entry 0x0
+[    3.945283] unrecognized swap entry 0x0
+[    3.945534] unrecognized swap entry 0x0
+[    3.945787] unrecognized swap entry 0x0
+[    3.946014] unrecognized swap entry 0x0
+[    3.946208] unrecognized swap entry 0x0
+[    3.946395] unrecognized swap entry 0x0
+[    3.946702] unrecognized swap entry 0x0
+[    3.947024] unrecognized swap entry 0x0
+[    3.947229] unrecognized swap entry 0x0
+[    3.947420] unrecognized swap entry 0x0
+[    3.947613] unrecognized swap entry 0x0
+[    3.947804] unrecognized swap entry 0x0
+[    3.948171] unrecognized swap entry 0x0
+[    3.948476] unrecognized swap entry 0x0
+[    3.948702] unrecognized swap entry 0x0
+[    3.948899] unrecognized swap entry 0x0
+[    3.949090] unrecognized swap entry 0x0
+[    3.949286] unrecognized swap entry 0x0
+[    3.949596] unrecognized swap entry 0x0
+[    3.949860] unrecognized swap entry 0x0
+[    3.950106] unrecognized swap entry 0x0
+[    3.950309] unrecognized swap entry 0x0
+[    3.950521] unrecognized swap entry 0x0
+[    3.950719] unrecognized swap entry 0x0
+[    3.951195] unrecognized swap entry 0x0
+[    3.951524] unrecognized swap entry 0x0
+[    3.951733] unrecognized swap entry 0x0
+[    3.951927] unrecognized swap entry 0x0
+[    3.952123] unrecognized swap entry 0x0
+[    3.952479] unrecognized swap entry 0x0
+[    3.952812] unrecognized swap entry 0x0
+[    3.953045] unrecognized swap entry 0x0
+[    3.953254] unrecognized swap entry 0x0
+[    3.953455] unrecognized swap entry 0x0
+[    3.953654] unrecognized swap entry 0x0
+[    3.953943] unrecognized swap entry 0x0
+[    3.954208] unrecognized swap entry 0x0
+[    3.954470] unrecognized swap entry 0x0
+[    3.954676] unrecognized swap entry 0x0
+[    3.954874] unrecognized swap entry 0x0
+[    3.955071] unrecognized swap entry 0x0
+[    3.955419] unrecognized swap entry 0x0
+[    3.955735] unrecognized swap entry 0x0
+[    3.956029] unrecognized swap entry 0x0
+[    3.956234] unrecognized swap entry 0x0
+[    3.956429] unrecognized swap entry 0x0
+[    3.956841] unrecognized swap entry 0x0
+[    3.957150] unrecognized swap entry 0x0
+[    3.957402] unrecognized swap entry 0x0
+[    3.957593] unrecognized swap entry 0x0
+[    3.957778] unrecognized swap entry 0x0
+[    3.957964] unrecognized swap entry 0x0
+[    3.958274] unrecognized swap entry 0x0
+[    3.958797] unrecognized swap entry 0x0
+[    3.958998] unrecognized swap entry 0x0
+[    3.959199] unrecognized swap entry 0x0
+[    3.959389] unrecognized swap entry 0x0
+[    3.959743] unrecognized swap entry 0x0
+[    3.960036] unrecognized swap entry 0x0
+[    3.960265] unrecognized swap entry 0x0
+[    3.960467] unrecognized swap entry 0x0
+[    3.960718] unrecognized swap entry 0x0
+[    3.960922] unrecognized swap entry 0x0
+[    3.961242] unrecognized swap entry 0x0
+[    3.961486] unrecognized swap entry 0x0
+[    3.961699] unrecognized swap entry 0x0
+[    3.961885] unrecognized swap entry 0x0
+[    3.962066] unrecognized swap entry 0x0
+[    3.962250] unrecognized swap entry 0x0
+[    3.962439] unrecognized swap entry 0x0
+[    3.962765] unrecognized swap entry 0x0
+[    3.963002] unrecognized swap entry 0x0
+[    3.963201] unrecognized swap entry 0x0
+[    3.963449] unrecognized swap entry 0x0
+[    3.963632] unrecognized swap entry 0x0
+[    3.963811] unrecognized swap entry 0x0
+[    3.964000] unrecognized swap entry 0x0
+[    3.964413] unrecognized swap entry 0x0
+[    3.964743] unrecognized swap entry 0x0
+[    3.965049] unrecognized swap entry 0x0
+[    3.965258] unrecognized swap entry 0x0
+[    3.965476] unrecognized swap entry 0x0
+[    3.965792] unrecognized swap entry 0x0
+[    3.966080] unrecognized swap entry 0x0
+[    3.966325] unrecognized swap entry 0x0
+[    3.966536] unrecognized swap entry 0x0
+[    3.966738] unrecognized swap entry 0x0
+[    3.966947] unrecognized swap entry 0x0
+[    3.967307] unrecognized swap entry 0x0
+[    3.967598] unrecognized swap entry 0x0
+[    3.967852] unrecognized swap entry 0x0
+[    3.968064] unrecognized swap entry 0x0
+[    3.968259] unrecognized swap entry 0x0
+[    3.968449] unrecognized swap entry 0x0
+[    3.968804] unrecognized swap entry 0x0
+[    3.969118] unrecognized swap entry 0x0
+[    3.969394] unrecognized swap entry 0x0
+[    3.969591] unrecognized swap entry 0x0
+[    3.969787] unrecognized swap entry 0x0
+[    3.969992] unrecognized swap entry 0x0
+[    3.970384] unrecognized swap entry 0x0
+[    3.970663] unrecognized swap entry 0x0
+[    3.970906] unrecognized swap entry 0x0
+[    3.971169] unrecognized swap entry 0x0
+[    3.971366] unrecognized swap entry 0x0
+[    3.971624] unrecognized swap entry 0x0
+[    3.971896] unrecognized swap entry 0x0
+[    3.972137] unrecognized swap entry 0x0
+[    3.972325] unrecognized swap entry 0x0
+[    3.972523] unrecognized swap entry 0x0
+[    3.972718] unrecognized swap entry 0x0
+[    3.973014] unrecognized swap entry 0x0
+[    3.973289] unrecognized swap entry 0x0
+[    3.973519] unrecognized swap entry 0x0
+[    3.973731] unrecognized swap entry 0x0
+[    3.973942] unrecognized swap entry 0x0
+[    3.974136] unrecognized swap entry 0x0
+[    3.974461] unrecognized swap entry 0x0
+[    3.974803] unrecognized swap entry 0x0
+[    3.975179] unrecognized swap entry 0x0
+[    3.975382] unrecognized swap entry 0x0
+[    3.975621] unrecognized swap entry 0x0
+[    3.975995] unrecognized swap entry 0x0
+[    3.976288] unrecognized swap entry 0x0
+[    3.976619] unrecognized swap entry 0x0
+[    3.976828] unrecognized swap entry 0x0
+[    3.977040] unrecognized swap entry 0x0
+[    3.977247] unrecognized swap entry 0x0
+[    3.977760] unrecognized swap entry 0x0
+[    3.977984] unrecognized swap entry 0x0
+[    3.978098] unrecognized swap entry 0x0
+[    3.978182] unrecognized swap entry 0x0
+[    3.978254] unrecognized swap entry 0x0
+[    3.978323] unrecognized swap entry 0x0
+[    3.978391] unrecognized swap entry 0x0
+[    3.978458] unrecognized swap entry 0x0
+[    3.978525] unrecognized swap entry 0x0
+[    3.978595] unrecognized swap entry 0x0
+[    3.978833] unrecognized swap entry 0x0
+[    3.979113] unrecognized swap entry 0x0
+[    3.979314] unrecognized swap entry 0x0
+[    3.979563] unrecognized swap entry 0x0
+[    3.979752] unrecognized swap entry 0x0
+[    3.979939] unrecognized swap entry 0x0
+[    3.980220] unrecognized swap entry 0x0
+[    3.980462] unrecognized swap entry 0x0
+[    3.980706] unrecognized swap entry 0x0
+[    3.980902] unrecognized swap entry 0x0
+[    3.981095] unrecognized swap entry 0x0
+[    3.981282] unrecognized swap entry 0x0
+[    3.981646] unrecognized swap entry 0x0
+[    3.982262] unrecognized swap entry 0x0
+[    3.982464] unrecognized swap entry 0x0
+[    3.982647] unrecognized swap entry 0x0
+[    3.982829] unrecognized swap entry 0x0
+[    3.983124] unrecognized swap entry 0x0
+[    3.983446] unrecognized swap entry 0x0
+[    3.983661] unrecognized swap entry 0x0
+[    3.983894] unrecognized swap entry 0x0
+[    3.984096] unrecognized swap entry 0x0
+[    3.984295] unrecognized swap entry 0x0
+[    3.984700] unrecognized swap entry 0x0
+[    3.984946] unrecognized swap entry 0x0
+[    3.985152] unrecognized swap entry 0x0
+[    3.985401] unrecognized swap entry 0x0
+[    3.985617] unrecognized swap entry 0x0
+[    3.985809] unrecognized swap entry 0x0
+[    3.986176] unrecognized swap entry 0x0
+[    3.986509] unrecognized swap entry 0x0
+[    3.986709] unrecognized swap entry 0x0
+[    3.986900] unrecognized swap entry 0x0
+[    3.987094] unrecognized swap entry 0x0
+[    3.987282] unrecognized swap entry 0x0
+[    3.987597] unrecognized swap entry 0x0
+[    3.987835] unrecognized swap entry 0x0
+[    3.988064] unrecognized swap entry 0x0
+[    3.988255] unrecognized swap entry 0x0
+[    3.988441] unrecognized swap entry 0x0
+[    3.988630] unrecognized swap entry 0x0
+[    3.988823] unrecognized swap entry 0x0
+[    3.989128] unrecognized swap entry 0x0
+[    3.989460] unrecognized swap entry 0x0
+[    3.989719] unrecognized swap entry 0x0
+[    3.989911] unrecognized swap entry 0x0
+[    3.990095] unrecognized swap entry 0x0
+[    3.990278] unrecognized swap entry 0x0
+[    3.990459] unrecognized swap entry 0x0
+[    3.990639] unrecognized swap entry 0x0
+[    3.990969] unrecognized swap entry 0x0
+[    3.991273] unrecognized swap entry 0x0
+[    3.991464] unrecognized swap entry 0x0
+[    3.991648] unrecognized swap entry 0x0
+[    3.991836] unrecognized swap entry 0x0
+[    3.992020] unrecognized swap entry 0x0
+[    3.992299] unrecognized swap entry 0x0
+[    3.992613] unrecognized swap entry 0x0
+[    3.992843] unrecognized swap entry 0x0
+[    3.993036] unrecognized swap entry 0x0
+[    3.993220] unrecognized swap entry 0x0
+[    3.993402] unrecognized swap entry 0x0
+[    3.993649] unrecognized swap entry 0x0
+[    3.993873] unrecognized swap entry 0x0
+[    3.994070] unrecognized swap entry 0x0
+[    3.994252] unrecognized swap entry 0x0
+[    3.994433] unrecognized swap entry 0x0
+[    3.994613] unrecognized swap entry 0x0
+[    3.994794] unrecognized swap entry 0x0
+[    3.995121] unrecognized swap entry 0x0
+[    3.995480] unrecognized swap entry 0x0
+[    3.995728] unrecognized swap entry 0x0
+[    3.995945] unrecognized swap entry 0x0
+[    3.996142] unrecognized swap entry 0x0
+[    3.996447] unrecognized swap entry 0x0
+[    3.996747] unrecognized swap entry 0x0
+[    3.996976] unrecognized swap entry 0x0
+[    3.997163] unrecognized swap entry 0x0
+[    3.997348] unrecognized swap entry 0x0
+[    3.997535] unrecognized swap entry 0x0
+[    3.997800] unrecognized swap entry 0x0
+[    3.998075] unrecognized swap entry 0x0
+[    3.998309] unrecognized swap entry 0x0
+[    3.998513] unrecognized swap entry 0x0
+[    3.998708] unrecognized swap entry 0x0
+[    3.998898] unrecognized swap entry 0x0
+[    3.999176] unrecognized swap entry 0x0
+[    3.999493] unrecognized swap entry 0x0
+[    3.999704] unrecognized swap entry 0x0
+[    3.999894] unrecognized swap entry 0x0
+[    4.000078] unrecognized swap entry 0x0
+[    4.000266] unrecognized swap entry 0x0
+[    4.000531] unrecognized swap entry 0x0
+[    4.000848] unrecognized swap entry 0x0
+[    4.001058] unrecognized swap entry 0x0
+[    4.001297] unrecognized swap entry 0x0
+[    4.001495] unrecognized swap entry 0x0
+[    4.001684] unrecognized swap entry 0x0
+[    4.001959] unrecognized swap entry 0x0
+[    4.002197] unrecognized swap entry 0x0
+[    4.002417] unrecognized swap entry 0x0
+[    4.002614] unrecognized swap entry 0x0
+[    4.002802] unrecognized swap entry 0x0
+[    4.002988] unrecognized swap entry 0x0
+[    4.003307] unrecognized swap entry 0x0
+[    4.003617] unrecognized swap entry 0x0
+[    4.003828] unrecognized swap entry 0x0
+[    4.004014] unrecognized swap entry 0x0
+[    4.004194] unrecognized swap entry 0x0
+[    4.004374] unrecognized swap entry 0x0
+[    4.004559] unrecognized swap entry 0x0
+[    4.004864] unrecognized swap entry 0x0
+[    4.005116] unrecognized swap entry 0x0
+[    4.005322] unrecognized swap entry 0x0
+[    4.005522] unrecognized swap entry 0x0
+[    4.005721] unrecognized swap entry 0x0
+[    4.005916] unrecognized swap entry 0x0
+[    4.006110] unrecognized swap entry 0x0
+[    4.006436] unrecognized swap entry 0x0
+[    4.006696] unrecognized swap entry 0x0
+[    4.006928] unrecognized swap entry 0x0
+[    4.007132] unrecognized swap entry 0x0
+[    4.007325] unrecognized swap entry 0x0
+[    4.007514] unrecognized swap entry 0x0
+[    4.007869] unrecognized swap entry 0x0
+[    4.008167] unrecognized swap entry 0x0
+[    4.008410] unrecognized swap entry 0x0
+[    4.008619] unrecognized swap entry 0x0
+[    4.008824] unrecognized swap entry 0x0
+[    4.009210] unrecognized swap entry 0x0
+[    4.009534] unrecognized swap entry 0x0
+[    4.009763] unrecognized swap entry 0x0
+[    4.009960] unrecognized swap entry 0x0
+[    4.010153] unrecognized swap entry 0x0
+[    4.010347] unrecognized swap entry 0x0
+[    4.010722] unrecognized swap entry 0x0
+[    4.010984] unrecognized swap entry 0x0
+[    4.011230] unrecognized swap entry 0x0
+[    4.011425] unrecognized swap entry 0x0
+[    4.011613] unrecognized swap entry 0x0
+[    4.011801] unrecognized swap entry 0x0
+[    4.012144] unrecognized swap entry 0x0
+[    4.012469] unrecognized swap entry 0x0
+[    4.012669] unrecognized swap entry 0x0
+[    4.012857] unrecognized swap entry 0x0
+[    4.013043] unrecognized swap entry 0x0
+[    4.013229] unrecognized swap entry 0x0
+[    4.013416] unrecognized swap entry 0x0
+[    4.013761] unrecognized swap entry 0x0
+[    4.013996] unrecognized swap entry 0x0
+[    4.014194] unrecognized swap entry 0x0
+[    4.014423] unrecognized swap entry 0x0
+[    4.014614] unrecognized swap entry 0x0
+[    4.014878] unrecognized swap entry 0x0
+[    4.015146] unrecognized swap entry 0x0
+[    4.015408] unrecognized swap entry 0x0
+[    4.015602] unrecognized swap entry 0x0
+[    4.015790] unrecognized swap entry 0x0
+[    4.015975] unrecognized swap entry 0x0
+[    4.016295] unrecognized swap entry 0x0
+[    4.016620] unrecognized swap entry 0x0
+[    4.016851] unrecognized swap entry 0x0
+[    4.017048] unrecognized swap entry 0x0
+[    4.017240] unrecognized swap entry 0x0
+[    4.017449] unrecognized swap entry 0x0
+[    4.017757] unrecognized swap entry 0x0
+[    4.018065] unrecognized swap entry 0x0
+[    4.018319] unrecognized swap entry 0x0
+[    4.018526] unrecognized swap entry 0x0
+[    4.018710] unrecognized swap entry 0x0
+[    4.018897] unrecognized swap entry 0x0
+[    4.019232] unrecognized swap entry 0x0
+[    4.019493] unrecognized swap entry 0x0
+[    4.019705] unrecognized swap entry 0x0
+[    4.019920] unrecognized swap entry 0x0
+[    4.020112] unrecognized swap entry 0x0
+[    4.020302] unrecognized swap entry 0x0
+[    4.020615] unrecognized swap entry 0x0
+[    4.020893] unrecognized swap entry 0x0
+[    4.021139] unrecognized swap entry 0x0
+[    4.021336] unrecognized swap entry 0x0
+[    4.021526] unrecognized swap entry 0x0
+[    4.021713] unrecognized swap entry 0x0
+[    4.021995] unrecognized swap entry 0x0
+[    4.022262] unrecognized swap entry 0x0
+[    4.022509] unrecognized swap entry 0x0
+[    4.022704] unrecognized swap entry 0x0
+[    4.022905] unrecognized swap entry 0x0
+[    4.023099] unrecognized swap entry 0x0
+[    4.023382] unrecognized swap entry 0x0
+[    4.023517] unrecognized swap entry 0x0
+[    4.023593] unrecognized swap entry 0x0
+[    4.023662] unrecognized swap entry 0x0
+[    4.023732] unrecognized swap entry 0x0
+[    4.023827] unrecognized swap entry 0x0
+[    4.023894] unrecognized swap entry 0x0
+[    4.023962] unrecognized swap entry 0x0
+[    4.024029] unrecognized swap entry 0x0
+[    4.024097] unrecognized swap entry 0x0
+[    4.024164] unrecognized swap entry 0x0
+[    4.024231] unrecognized swap entry 0x0
+[    4.024299] unrecognized swap entry 0x0
+[    4.024366] unrecognized swap entry 0x0
+[    4.024435] unrecognized swap entry 0x0
+[    4.024502] unrecognized swap entry 0x0
+[    4.024570] unrecognized swap entry 0x0
+[    4.024637] unrecognized swap entry 0x0
+[    4.024912] unrecognized swap entry 0x0
+[    4.025280] unrecognized swap entry 0x0
+[    4.025540] unrecognized swap entry 0x0
+[    4.025787] unrecognized swap entry 0x0
+[    4.025972] unrecognized swap entry 0x0
+[    4.026319] unrecognized swap entry 0x0
+[    4.026597] unrecognized swap entry 0x0
+[    4.026807] unrecognized swap entry 0x0
+[    4.027007] unrecognized swap entry 0x0
+[    4.027235] unrecognized swap entry 0x0
+[    4.027434] unrecognized swap entry 0x0
+[    4.027720] unrecognized swap entry 0x0
+[    4.027959] unrecognized swap entry 0x0
+[    4.028201] unrecognized swap entry 0x0
+[    4.028409] unrecognized swap entry 0x0
+[    4.028640] unrecognized swap entry 0x0
+[    4.028824] unrecognized swap entry 0x0
+[    4.029139] unrecognized swap entry 0x0
+[    4.029445] unrecognized swap entry 0x0
+[    4.029694] unrecognized swap entry 0x0
+[    4.029898] unrecognized swap entry 0x0
+[    4.030096] unrecognized swap entry 0x0
+[    4.030296] unrecognized swap entry 0x0
+[    4.030660] unrecognized swap entry 0x0
+[    4.030980] unrecognized swap entry 0x0
+[    4.031205] unrecognized swap entry 0x0
+[    4.031401] unrecognized swap entry 0x0
+[    4.031588] unrecognized swap entry 0x0
+[    4.031773] unrecognized swap entry 0x0
+[    4.032129] unrecognized swap entry 0x0
+[    4.032413] unrecognized swap entry 0x0
+[    4.032645] unrecognized swap entry 0x0
+[    4.032832] unrecognized swap entry 0x0
+[    4.033015] unrecognized swap entry 0x0
+[    4.033197] unrecognized swap entry 0x0
+[    4.033462] unrecognized swap entry 0x0
+[    4.033763] unrecognized swap entry 0x0
+[    4.033971] unrecognized swap entry 0x0
+[    4.034209] unrecognized swap entry 0x0
+[    4.034410] unrecognized swap entry 0x0
+[    4.034606] unrecognized swap entry 0x0
+[    4.034797] unrecognized swap entry 0x0
+[    4.034983] unrecognized swap entry 0x0
+[    4.035304] unrecognized swap entry 0x0
+[    4.035587] unrecognized swap entry 0x0
+[    4.035793] unrecognized swap entry 0x0
+[    4.036040] unrecognized swap entry 0x0
+[    4.036246] unrecognized swap entry 0x0
+[    4.036480] unrecognized swap entry 0x0
+[    4.036750] unrecognized swap entry 0x0
+[    4.037104] unrecognized swap entry 0x0
+[    4.037414] unrecognized swap entry 0x0
+[    4.037709] unrecognized swap entry 0x0
+[    4.037943] unrecognized swap entry 0x0
+[    4.038154] unrecognized swap entry 0x0
+[    4.038367] unrecognized swap entry 0x0
+[    4.038580] unrecognized swap entry 0x0
+[    4.038790] unrecognized swap entry 0x0
+[    4.039171] unrecognized swap entry 0x0
+[    4.039429] unrecognized swap entry 0x0
+[    4.039708] unrecognized swap entry 0x0
+[    4.039980] unrecognized swap entry 0x0
+[    4.040185] unrecognized swap entry 0x0
+[    4.040384] unrecognized swap entry 0x0
+[    4.040635] unrecognized swap entry 0x0
+[    4.040963] unrecognized swap entry 0x0
+[    4.041216] unrecognized swap entry 0x0
+[    4.041444] unrecognized swap entry 0x0
+[    4.041699] unrecognized swap entry 0x0
+[    4.042261] unrecognized swap entry 0x0
+[    4.042539] unrecognized swap entry 0x0
+[    4.042983] unrecognized swap entry 0x0
+[    4.043193] unrecognized swap entry 0x0
+[    4.043394] unrecognized swap entry 0x0
+[    4.043753] unrecognized swap entry 0x0
+[    4.044098] unrecognized swap entry 0x0
+[    4.044341] unrecognized swap entry 0x0
+[    4.044706] unrecognized swap entry 0x0
+[    4.044953] unrecognized swap entry 0x0
+[    4.045347] unrecognized swap entry 0x0
+[    4.045699] unrecognized swap entry 0x0
+[    4.045938] unrecognized swap entry 0x0
+[    4.046154] unrecognized swap entry 0x0
+[    4.046350] unrecognized swap entry 0x0
+[    4.046537] unrecognized swap entry 0x0
+[    4.046721] unrecognized swap entry 0x0
+[    4.046904] unrecognized swap entry 0x0
+[    4.047221] unrecognized swap entry 0x0
+[    4.047472] unrecognized swap entry 0x0
+[    4.047691] unrecognized swap entry 0x0
+[    4.047903] unrecognized swap entry 0x0
+[    4.048097] unrecognized swap entry 0x0
+[    4.048281] unrecognized swap entry 0x0
+[    4.048465] unrecognized swap entry 0x0
+[    4.048648] unrecognized swap entry 0x0
+[    4.048925] unrecognized swap entry 0x0
+[    4.049183] unrecognized swap entry 0x0
+[    4.049399] unrecognized swap entry 0x0
+[    4.049591] unrecognized swap entry 0x0
+[    4.049780] unrecognized swap entry 0x0
+[    4.049966] unrecognized swap entry 0x0
+[    4.050160] unrecognized swap entry 0x0
+[    4.050540] unrecognized swap entry 0x0
+[    4.050921] unrecognized swap entry 0x0
+[    4.051151] unrecognized swap entry 0x0
+[    4.051380] unrecognized swap entry 0x0
+[    4.051589] unrecognized swap entry 0x0
+[    4.051791] unrecognized swap entry 0x0
+[    4.051991] unrecognized swap entry 0x0
+[    4.052310] unrecognized swap entry 0x0
+[    4.052565] unrecognized swap entry 0x0
+[    4.052929] unrecognized swap entry 0x0
+[    4.053166] unrecognized swap entry 0x0
+[    4.053358] unrecognized swap entry 0x0
+[    4.053540] unrecognized swap entry 0x0
+[    4.053722] unrecognized swap entry 0x0
+[    4.053904] unrecognized swap entry 0x0
+[    4.054200] unrecognized swap entry 0x0
+[    4.054426] unrecognized swap entry 0x0
+[    4.054677] unrecognized swap entry 0x0
+[    4.054904] unrecognized swap entry 0x0
+[    4.055089] unrecognized swap entry 0x0
+[    4.055270] unrecognized swap entry 0x0
+[    4.055451] unrecognized swap entry 0x0
+[    4.055774] unrecognized swap entry 0x0
+[    4.056017] unrecognized swap entry 0x0
+[    4.056211] unrecognized swap entry 0x0
+[    4.056403] unrecognized swap entry 0x0
+[    4.056598] unrecognized swap entry 0x0
+[    4.056797] unrecognized swap entry 0x0
+[    4.056993] unrecognized swap entry 0x0
+[    4.057287] unrecognized swap entry 0x0
+[    4.057551] unrecognized swap entry 0x0
+[    4.057824] unrecognized swap entry 0x0
+[    4.058090] unrecognized swap entry 0x0
+[    4.058291] unrecognized swap entry 0x0
+[    4.058489] unrecognized swap entry 0x0
+[    4.058690] unrecognized swap entry 0x0
+[    4.059035] unrecognized swap entry 0x0
+[    4.059323] unrecognized swap entry 0x0
+[    4.059600] unrecognized swap entry 0x0
+[    4.059818] unrecognized swap entry 0x0
+[    4.060013] unrecognized swap entry 0x0
+[    4.060201] unrecognized swap entry 0x0
+[    4.060501] unrecognized swap entry 0x0
+[    4.060787] unrecognized swap entry 0x0
+[    4.061084] unrecognized swap entry 0x0
+[    4.061292] unrecognized swap entry 0x0
+[    4.061529] unrecognized swap entry 0x0
+[    4.061734] unrecognized swap entry 0x0
+[    4.061930] unrecognized swap entry 0x0
+[    4.062230] unrecognized swap entry 0x0
+[    4.062524] unrecognized swap entry 0x0
+[    4.062753] unrecognized swap entry 0x0
+[    4.062948] unrecognized swap entry 0x0
+[    4.063139] unrecognized swap entry 0x0
+[    4.063330] unrecognized swap entry 0x0
+[    4.063540] unrecognized swap entry 0x0
+[    4.063730] unrecognized swap entry 0x0
+[    4.064017] unrecognized swap entry 0x0
+[    4.064244] unrecognized swap entry 0x0
+[    4.064488] unrecognized swap entry 0x0
+[    4.064715] unrecognized swap entry 0x0
+[    4.064905] unrecognized swap entry 0x0
+[    4.065092] unrecognized swap entry 0x0
+[    4.065375] unrecognized swap entry 0x0
+[    4.065629] unrecognized swap entry 0x0
+[    4.065912] unrecognized swap entry 0x0
+[    4.066112] unrecognized swap entry 0x0
+[    4.066299] unrecognized swap entry 0x0
+[    4.066485] unrecognized swap entry 0x0
+[    4.066793] unrecognized swap entry 0x0
+[    4.067101] unrecognized swap entry 0x0
+[    4.067304] unrecognized swap entry 0x0
+[    4.067504] unrecognized swap entry 0x0
+[    4.067702] unrecognized swap entry 0x0
+[    4.067900] unrecognized swap entry 0x0
+[    4.068188] unrecognized swap entry 0x0
+[    4.068440] unrecognized swap entry 0x0
+[    4.068663] unrecognized swap entry 0x0
+[    4.068891] unrecognized swap entry 0x0
+[    4.069079] unrecognized swap entry 0x0
+[    4.069279] unrecognized swap entry 0x0
+[    4.069471] unrecognized swap entry 0x0
+[    4.069660] unrecognized swap entry 0x0
+[    4.069961] unrecognized swap entry 0x0
+[    4.070255] unrecognized swap entry 0x0
+[    4.070478] unrecognized swap entry 0x0
+[    4.070756] unrecognized swap entry 0x0
+[    4.071014] unrecognized swap entry 0x0
+[    4.071320] unrecognized swap entry 0x0
+[    4.071658] unrecognized swap entry 0x0
+[    4.071904] unrecognized swap entry 0x0
+[    4.072112] unrecognized swap entry 0x0
+[    4.072314] unrecognized swap entry 0x0
+[    4.072528] unrecognized swap entry 0x0
+[    4.072834] unrecognized swap entry 0x0
+[    4.073096] unrecognized swap entry 0x0
+[    4.073324] unrecognized swap entry 0x0
+[    4.073524] unrecognized swap entry 0x0
+[    4.073721] unrecognized swap entry 0x0
+[    4.073918] unrecognized swap entry 0x0
+[    4.074177] unrecognized swap entry 0x0
+[    4.074424] unrecognized swap entry 0x0
+[    4.074661] unrecognized swap entry 0x0
+[    4.074859] unrecognized swap entry 0x0
+[    4.075051] unrecognized swap entry 0x0
+[    4.075247] unrecognized swap entry 0x0
+[    4.075447] unrecognized swap entry 0x0
+[    4.075648] unrecognized swap entry 0x0
+[    4.075976] unrecognized swap entry 0x0
+[    4.076275] unrecognized swap entry 0x0
+[    4.076507] unrecognized swap entry 0x0
+[    4.076719] unrecognized swap entry 0x0
+[    4.076905] unrecognized swap entry 0x0
+[    4.077089] unrecognized swap entry 0x0
+[    4.077364] unrecognized swap entry 0x0
+[    4.077597] unrecognized swap entry 0x0
+[    4.077842] unrecognized swap entry 0x0
+[    4.078071] unrecognized swap entry 0x0
+[    4.078292] unrecognized swap entry 0x0
+[    4.078494] unrecognized swap entry 0x0
+[    4.078693] unrecognized swap entry 0x0
+[    4.078971] unrecognized swap entry 0x0
+[    4.079226] unrecognized swap entry 0x0
+[    4.079499] unrecognized swap entry 0x0
+[    4.079768] unrecognized swap entry 0x0
+[    4.079976] unrecognized swap entry 0x0
+[    4.080177] unrecognized swap entry 0x0
+[    4.080511] unrecognized swap entry 0x0
+[    4.080641] unrecognized swap entry 0x0
+[    4.080931] unrecognized swap entry 0x0
+[    4.081139] unrecognized swap entry 0x0
+[    4.081335] unrecognized swap entry 0x0
+[    4.081543] unrecognized swap entry 0x0
+[    4.081737] unrecognized swap entry 0x0
+[    4.081927] unrecognized swap entry 0x0
+[    4.082254] unrecognized swap entry 0x0
+[    4.082506] unrecognized swap entry 0x0
+[    4.082735] unrecognized swap entry 0x0
+[    4.082945] unrecognized swap entry 0x0
+[    4.083148] unrecognized swap entry 0x0
+[    4.083489] unrecognized swap entry 0x0
+[    4.083787] unrecognized swap entry 0x0
+[    4.084133] unrecognized swap entry 0x0
+[    4.084451] unrecognized swap entry 0x0
+[    4.084717] unrecognized swap entry 0x0
+[    4.084915] unrecognized swap entry 0x0
+[    4.085112] unrecognized swap entry 0x0
+[    4.085539] unrecognized swap entry 0x0
+[    4.085829] unrecognized swap entry 0x0
+[    4.086101] unrecognized swap entry 0x0
+[    4.086360] unrecognized swap entry 0x0
+[    4.086446] unrecognized swap entry 0x0
+[    4.086516] unrecognized swap entry 0x0
+[    4.086583] unrecognized swap entry 0x0
+[    4.086649] unrecognized swap entry 0x0
+[    4.086715] unrecognized swap entry 0x0
+[    4.086780] unrecognized swap entry 0x0
+[    4.086973] unrecognized swap entry 0x0
+[    4.087039] unrecognized swap entry 0x0
+[    4.087103] unrecognized swap entry 0x0
+[    4.087326] unrecognized swap entry 0x0
+[    4.087597] unrecognized swap entry 0x0
+[    4.087816] unrecognized swap entry 0x0
+[    4.088064] unrecognized swap entry 0x0
+[    4.088269] unrecognized swap entry 0x0
+[    4.088577] unrecognized swap entry 0x0
+[    4.088848] unrecognized swap entry 0x0
+[    4.089111] unrecognized swap entry 0x0
+[    4.089313] unrecognized swap entry 0x0
+[    4.089505] unrecognized swap entry 0x0
+[    4.089710] unrecognized swap entry 0x0
+[    4.089900] unrecognized swap entry 0x0
+[    4.090083] unrecognized swap entry 0x0
+[    4.090391] unrecognized swap entry 0x0
+[    4.090769] unrecognized swap entry 0x0
+[    4.091013] unrecognized swap entry 0x0
+[    4.091228] unrecognized swap entry 0x0
+[    4.091434] unrecognized swap entry 0x0
+[    4.091644] unrecognized swap entry 0x0
+[    4.091855] unrecognized swap entry 0x0
+[    4.092189] unrecognized swap entry 0x0
+[    4.092574] unrecognized swap entry 0x0
+[    4.092840] unrecognized swap entry 0x0
+[    4.093037] unrecognized swap entry 0x0
+[    4.093236] unrecognized swap entry 0x0
+[    4.093423] unrecognized swap entry 0x0
+[    4.093607] unrecognized swap entry 0x0
+[    4.093801] unrecognized swap entry 0x0
+[    4.094111] unrecognized swap entry 0x0
+[    4.094371] unrecognized swap entry 0x0
+[    4.094612] unrecognized swap entry 0x0
+[    4.094823] unrecognized swap entry 0x0
+[    4.095024] unrecognized swap entry 0x0
+[    4.095254] unrecognized swap entry 0x0
+[    4.095448] unrecognized swap entry 0x0
+[    4.095641] unrecognized swap entry 0x0
+[    4.095958] unrecognized swap entry 0x0
+[    4.096190] unrecognized swap entry 0x0
+[    4.096386] unrecognized swap entry 0x0
+[    4.096581] unrecognized swap entry 0x0
+[    4.096777] unrecognized swap entry 0x0
+[    4.096972] unrecognized swap entry 0x0
+[    4.097273] unrecognized swap entry 0x0
+[    4.100043] unrecognized swap entry 0x0
+[    4.100307] unrecognized swap entry 0x0
+[    4.100626] unrecognized swap entry 0x0
+[    4.100859] unrecognized swap entry 0x0
+[    4.101048] unrecognized swap entry 0x0
+[    4.101235] unrecognized swap entry 0x0
+[    4.101585] unrecognized swap entry 0x0
+[    4.101843] unrecognized swap entry 0x0
+[    4.102089] unrecognized swap entry 0x0
+[    4.102316] unrecognized swap entry 0x0
+[    4.102519] unrecognized swap entry 0x0
+[    4.102715] unrecognized swap entry 0x0
+[    4.102914] unrecognized swap entry 0x0
+[    4.103285] unrecognized swap entry 0x0
+[    4.103620] unrecognized swap entry 0x0
+[    4.103842] unrecognized swap entry 0x0
+[    4.104092] unrecognized swap entry 0x0
+[    4.104296] unrecognized swap entry 0x0
+[    4.104492] unrecognized swap entry 0x0
+[    4.104735] unrecognized swap entry 0x0
+[    4.105114] unrecognized swap entry 0x0
+[    4.105407] unrecognized swap entry 0x0
+[    4.105656] unrecognized swap entry 0x0
+[    4.105912] unrecognized swap entry 0x0
+[    4.106132] unrecognized swap entry 0x0
+[    4.106340] unrecognized swap entry 0x0
+[    4.106545] unrecognized swap entry 0x0
+[    4.106829] unrecognized swap entry 0x0
+[    4.107105] unrecognized swap entry 0x0
+[    4.107351] unrecognized swap entry 0x0
+[    4.107553] unrecognized swap entry 0x0
+[    4.107751] unrecognized swap entry 0x0
+[    4.107952] unrecognized swap entry 0x0
+[    4.108266] unrecognized swap entry 0x0
+[    4.108590] unrecognized swap entry 0x0
+[    4.109184] unrecognized swap entry 0x0
+[    4.109400] unrecognized swap entry 0x0
+[    4.109603] unrecognized swap entry 0x0
+[    4.109804] unrecognized swap entry 0x0
+[    4.110170] unrecognized swap entry 0x0
+[    4.110466] unrecognized swap entry 0x0
+[    4.110721] unrecognized swap entry 0x0
+[    4.110931] unrecognized swap entry 0x0
+[    4.111151] unrecognized swap entry 0x0
+[    4.111359] unrecognized swap entry 0x0
+[    4.111548] unrecognized swap entry 0x0
+[    4.111731] unrecognized swap entry 0x0
+[    4.112037] unrecognized swap entry 0x0
+[    4.112336] unrecognized swap entry 0x0
+[    4.112595] unrecognized swap entry 0x0
+[    4.112816] unrecognized swap entry 0x0
+[    4.113044] unrecognized swap entry 0x0
+[    4.113238] unrecognized swap entry 0x0
+[    4.113427] unrecognized swap entry 0x0
+[    4.113612] unrecognized swap entry 0x0
+[    4.113798] unrecognized swap entry 0x0
+[    4.114109] unrecognized swap entry 0x0
+[    4.114458] unrecognized swap entry 0x0
+[    4.114674] unrecognized swap entry 0x0
+[    4.114924] unrecognized swap entry 0x0
+[    4.115129] unrecognized swap entry 0x0
+[    4.115325] unrecognized swap entry 0x0
+[    4.115649] unrecognized swap entry 0x0
+[    4.115960] unrecognized swap entry 0x0
+[    4.116180] unrecognized swap entry 0x0
+[    4.116398] unrecognized swap entry 0x0
+[    4.116588] unrecognized swap entry 0x0
+[    4.116775] unrecognized swap entry 0x0
+[    4.116971] unrecognized swap entry 0x0
+[    4.117212] unrecognized swap entry 0x0
+[    4.117642] unrecognized swap entry 0x0
+[    4.117961] unrecognized swap entry 0x0
+[    4.119798] unrecognized swap entry 0x0
+[    4.120069] unrecognized swap entry 0x0
+[    4.120276] unrecognized swap entry 0x0
+[    4.120467] unrecognized swap entry 0x0
+[    4.120658] unrecognized swap entry 0x0
+[    4.120848] unrecognized swap entry 0x0
+[    4.121037] unrecognized swap entry 0x0
+[    4.121365] unrecognized swap entry 0x0
+[    4.121605] unrecognized swap entry 0x0
+[    4.121818] unrecognized swap entry 0x0
+[    4.122018] unrecognized swap entry 0x0
+[    4.122215] unrecognized swap entry 0x0
+[    4.122410] unrecognized swap entry 0x0
+[    4.122730] unrecognized swap entry 0x0
+[    4.122990] unrecognized swap entry 0x0
+[    4.123255] unrecognized swap entry 0x0
+[    4.123462] unrecognized swap entry 0x0
+[    4.123662] unrecognized swap entry 0x0
+[    4.123862] unrecognized swap entry 0x0
+[    4.124054] unrecognized swap entry 0x0
+[    4.128218] unrecognized swap entry 0x0
+[    4.128504] unrecognized swap entry 0x0
+[    4.128770] unrecognized swap entry 0x0
+[    4.129023] unrecognized swap entry 0x0
+[    4.129219] unrecognized swap entry 0x0
+[    4.129412] unrecognized swap entry 0x0
+[    4.129596] unrecognized swap entry 0x0
+[    4.129779] unrecognized swap entry 0x0
+[    4.130110] unrecognized swap entry 0x0
+[    4.130381] unrecognized swap entry 0x0
+[    4.130645] unrecognized swap entry 0x0
+[    4.130932] unrecognized swap entry 0x0
+[    4.131128] unrecognized swap entry 0x0
+[    4.131276] unrecognized swap entry 0x0
+[    4.131355] unrecognized swap entry 0x0
+[    4.131424] unrecognized swap entry 0x0
+[    4.131492] unrecognized swap entry 0x0
+[    4.131559] unrecognized swap entry 0x0
+[    4.131627] unrecognized swap entry 0x0
+[    4.131795] unrecognized swap entry 0x0
+[    4.131896] unrecognized swap entry 0x0
+[    4.131965] unrecognized swap entry 0x0
+[    4.132038] unrecognized swap entry 0x0
+[    4.132423] unrecognized swap entry 0x0
+[    4.132719] unrecognized swap entry 0x0
+[    4.133107] unrecognized swap entry 0x0
+[    4.133424] unrecognized swap entry 0x0
+[    4.133647] unrecognized swap entry 0x0
+[    4.133845] unrecognized swap entry 0x0
+[    4.134036] unrecognized swap entry 0x0
+[    4.134222] unrecognized swap entry 0x0
+[    4.134556] unrecognized swap entry 0x0
+[    4.134824] unrecognized swap entry 0x0
+[    4.135046] unrecognized swap entry 0x0
+[    4.135252] unrecognized swap entry 0x0
+[    4.135441] unrecognized swap entry 0x0
+[    4.135627] unrecognized swap entry 0x0
+[    4.135811] unrecognized swap entry 0x0
+[    4.135999] unrecognized swap entry 0x0
+[    4.136336] unrecognized swap entry 0x0
+[    4.136686] unrecognized swap entry 0x0
+[    4.136899] unrecognized swap entry 0x0
+[    4.137145] unrecognized swap entry 0x0
+[    4.137343] unrecognized swap entry 0x0
+[    4.137539] unrecognized swap entry 0x0
+[    4.137808] unrecognized swap entry 0x0
+[    4.138209] unrecognized swap entry 0x0
+[    4.138455] unrecognized swap entry 0x0
+[    4.138760] unrecognized swap entry 0x0
+[    4.138953] unrecognized swap entry 0x0
+[    4.139137] unrecognized swap entry 0x0
+[    4.139320] unrecognized swap entry 0x0
+[    4.139506] unrecognized swap entry 0x0
+[    4.139697] unrecognized swap entry 0x0
+[    4.139877] unrecognized swap entry 0x0
+[    4.140162] unrecognized swap entry 0x0
+[    4.140417] unrecognized swap entry 0x0
+[    4.140645] unrecognized swap entry 0x0
+[    4.140842] unrecognized swap entry 0x0
+[    4.141023] unrecognized swap entry 0x0
+[    4.141202] unrecognized swap entry 0x0
+[    4.141379] unrecognized swap entry 0x0
+[    4.141557] unrecognized swap entry 0x0
+[    4.141853] unrecognized swap entry 0x0
+[    4.142097] unrecognized swap entry 0x0
+[    4.142306] unrecognized swap entry 0x0
+[    4.142523] unrecognized swap entry 0x0
+[    4.142712] unrecognized swap entry 0x0
+[    4.142895] unrecognized swap entry 0x0
+[    4.143078] unrecognized swap entry 0x0
+[    4.143383] unrecognized swap entry 0x0
+[    4.143636] unrecognized swap entry 0x0
+[    4.143882] unrecognized swap entry 0x0
+[    4.144129] unrecognized swap entry 0x0
+[    4.144317] unrecognized swap entry 0x0
+[    4.144500] unrecognized swap entry 0x0
+[    4.144683] unrecognized swap entry 0x0
+[    4.144899] unrecognized swap entry 0x0
+[    4.145289] unrecognized swap entry 0x0
+[    4.145601] unrecognized swap entry 0x0
+[    4.145841] unrecognized swap entry 0x0
+[    4.146155] unrecognized swap entry 0x0
+[    4.146365] unrecognized swap entry 0x0
+[    4.146617] unrecognized swap entry 0x0
+[    4.146968] unrecognized swap entry 0x0
+[    4.147210] unrecognized swap entry 0x0
+[    4.147410] unrecognized swap entry 0x0
+[    4.147643] unrecognized swap entry 0x0
+[    4.147833] unrecognized swap entry 0x0
+[    4.148018] unrecognized swap entry 0x0
+[    4.148205] unrecognized swap entry 0x0
+[    4.148647] unrecognized swap entry 0x0
+[    4.148865] unrecognized swap entry 0x0
+[    4.149058] unrecognized swap entry 0x0
+[    4.149258] unrecognized swap entry 0x0
+[    4.149445] unrecognized swap entry 0x0
+[    4.149635] unrecognized swap entry 0x0
+[    4.149823] unrecognized swap entry 0x0
+[    4.150177] unrecognized swap entry 0x0
+[    4.150504] unrecognized swap entry 0x0
+[    4.150829] unrecognized swap entry 0x0
+[    4.152611] unrecognized swap entry 0x0
+[    4.152766] unrecognized swap entry 0x0
+[    4.153016] unrecognized swap entry 0x0
+[    4.153344] unrecognized swap entry 0x0
+[    4.153603] unrecognized swap entry 0x0
+[    4.153808] unrecognized swap entry 0x0
+[    4.154123] unrecognized swap entry 0x0
+[    4.154367] unrecognized swap entry 0x0
+[    4.154638] unrecognized swap entry 0x0
+[    4.154837] unrecognized swap entry 0x0
+[    4.155027] unrecognized swap entry 0x0
+[    4.155211] unrecognized swap entry 0x0
+[    4.155393] unrecognized swap entry 0x0
+[    4.155577] unrecognized swap entry 0x0
+[    4.155904] unrecognized swap entry 0x0
+[    4.156182] unrecognized swap entry 0x0
+[    4.156405] unrecognized swap entry 0x0
+[    4.156601] unrecognized swap entry 0x0
+[    4.156678] unrecognized swap entry 0x0
+[    4.156757] unrecognized swap entry 0x0
+[    4.156844] unrecognized swap entry 0x0
+[    4.156916] unrecognized swap entry 0x0
+[    4.156983] unrecognized swap entry 0x0
+[    4.157059] unrecognized swap entry 0x0
+[    4.157309] unrecognized swap entry 0x0
+[    4.157636] unrecognized swap entry 0x0
+[    4.157871] unrecognized swap entry 0x0
+[    4.158135] unrecognized swap entry 0x0
+[    4.158347] unrecognized swap entry 0x0
+[    4.158554] unrecognized swap entry 0x0
+[    4.158767] unrecognized swap entry 0x0
+[    4.159103] unrecognized swap entry 0x0
+[    4.159403] unrecognized swap entry 0x0
+[    4.159661] unrecognized swap entry 0x0
+[    4.159918] unrecognized swap entry 0x0
+[    4.160114] unrecognized swap entry 0x0
+[    4.160309] unrecognized swap entry 0x0
+[    4.160516] unrecognized swap entry 0x0
+[    4.160591] unrecognized swap entry 0x0
+[    4.160660] unrecognized swap entry 0x0
+[    4.160796] unrecognized swap entry 0x0
+[    4.161077] unrecognized swap entry 0x0
+[    4.161351] unrecognized swap entry 0x0
+[    4.161634] unrecognized swap entry 0x0
+[    4.161837] unrecognized swap entry 0x0
+[    4.162029] unrecognized swap entry 0x0
+[    4.162354] unrecognized swap entry 0x0
+[    4.162639] unrecognized swap entry 0x0
+[    4.162890] unrecognized swap entry 0x0
+[    4.163084] unrecognized swap entry 0x0
+[    4.163275] unrecognized swap entry 0x0
+[    4.163466] unrecognized swap entry 0x0
+[    4.163668] unrecognized swap entry 0x0
+[    4.163857] unrecognized swap entry 0x0
+[    4.164212] unrecognized swap entry 0x0
+[    4.164613] unrecognized swap entry 0x0
+[    4.164714] unrecognized swap entry 0x0
+[    4.164811] unrecognized swap entry 0x0
+[    4.165091] unrecognized swap entry 0x0
+[    4.165336] unrecognized swap entry 0x0
+[    4.165528] unrecognized swap entry 0x0
+[    4.165709] unrecognized swap entry 0x0
+[    4.165888] unrecognized swap entry 0x0
+[    4.166068] unrecognized swap entry 0x0
+[    4.166353] unrecognized swap entry 0x0
+[    4.166441] unrecognized swap entry 0x0
+[    4.166509] unrecognized swap entry 0x0
+[    4.166599] unrecognized swap entry 0x0
+[    4.166883] unrecognized swap entry 0x0
+[    4.167145] unrecognized swap entry 0x0
+[    4.167348] unrecognized swap entry 0x0
+[    4.167556] unrecognized swap entry 0x0
+[    4.167795] unrecognized swap entry 0x0
+[    4.168116] unrecognized swap entry 0x0
+[    4.168351] unrecognized swap entry 0x0
+[    4.168694] unrecognized swap entry 0x0
+[    4.168902] unrecognized swap entry 0x0
+[    4.169141] unrecognized swap entry 0x0
+[    4.169334] unrecognized swap entry 0x0
+[    4.169626] unrecognized swap entry 0x0
+[    4.169992] unrecognized swap entry 0x0
+[    4.170263] unrecognized swap entry 0x0
+[    4.170533] unrecognized swap entry 0x0
+[    4.170725] unrecognized swap entry 0x0
+[    4.170911] unrecognized swap entry 0x0
+[    4.171092] unrecognized swap entry 0x0
+[    4.171378] unrecognized swap entry 0x0
+[    4.171678] unrecognized swap entry 0x0
+[    4.171897] unrecognized swap entry 0x0
+[    4.172102] unrecognized swap entry 0x0
+[    4.172300] unrecognized swap entry 0x0
+[    4.172500] unrecognized swap entry 0x0
+[    4.172698] unrecognized swap entry 0x0
+[    4.172898] unrecognized swap entry 0x0
+[    4.173237] unrecognized swap entry 0x0
+[    4.173507] unrecognized swap entry 0x0
+[    4.173740] unrecognized swap entry 0x0
+[    4.173976] unrecognized swap entry 0x0
+[    4.174168] unrecognized swap entry 0x0
+[    4.174356] unrecognized swap entry 0x0
+[    4.174540] unrecognized swap entry 0x0
+[    4.174723] unrecognized swap entry 0x0
+[    4.175011] unrecognized swap entry 0x0
+[    4.175281] unrecognized swap entry 0x0
+[    4.175533] unrecognized swap entry 0x0
+[    4.175747] unrecognized swap entry 0x0
+[    4.175956] unrecognized swap entry 0x0
+[    4.176151] unrecognized swap entry 0x0
+[    4.176462] unrecognized swap entry 0x0
+[    4.176744] unrecognized swap entry 0x0
+[    4.176972] unrecognized swap entry 0x0
+[    4.177215] unrecognized swap entry 0x0
+[    4.177410] unrecognized swap entry 0x0
+[    4.177610] unrecognized swap entry 0x0
+[    4.177817] unrecognized swap entry 0x0
+[    4.178019] unrecognized swap entry 0x0
+[    4.178468] unrecognized swap entry 0x0
+[    4.178686] unrecognized swap entry 0x0
+[    4.178923] unrecognized swap entry 0x0
+[    4.179117] unrecognized swap entry 0x0
+[    4.179303] unrecognized swap entry 0x0
+[    4.179494] unrecognized swap entry 0x0
+[    4.179685] unrecognized swap entry 0x0
+[    4.179990] unrecognized swap entry 0x0
+[    4.180290] unrecognized swap entry 0x0
+[    4.180484] unrecognized swap entry 0x0
+[    4.180733] unrecognized swap entry 0x0
+[    4.180923] unrecognized swap entry 0x0
+[    4.181107] unrecognized swap entry 0x0
+[    4.181520] unrecognized swap entry 0x0
+[    4.181778] unrecognized swap entry 0x0
+[    4.181982] unrecognized swap entry 0x0
+[    4.182174] unrecognized swap entry 0x0
+[    4.182365] unrecognized swap entry 0x0
+[    4.182561] unrecognized swap entry 0x0
+[    4.182751] unrecognized swap entry 0x0
+[    4.183074] unrecognized swap entry 0x0
+[    4.183367] unrecognized swap entry 0x0
+[    4.183609] unrecognized swap entry 0x0
+[    4.183808] unrecognized swap entry 0x0
+[    4.184005] unrecognized swap entry 0x0
+[    4.184200] unrecognized swap entry 0x0
+[    4.184430] unrecognized swap entry 0x0
+[    4.184575] unrecognized swap entry 0x0
+[    4.184773] unrecognized swap entry 0x0
+[    4.185093] unrecognized swap entry 0x0
+[    4.185310] unrecognized swap entry 0x0
+[    4.185553] unrecognized swap entry 0x0
+[    4.185757] unrecognized swap entry 0x0
+[    4.185959] unrecognized swap entry 0x0
+[    4.186290] unrecognized swap entry 0x0
+[    4.186530] unrecognized swap entry 0x0
+[    4.186817] unrecognized swap entry 0x0
+[    4.187010] unrecognized swap entry 0x0
+[    4.187251] unrecognized swap entry 0x0
+[    4.187441] unrecognized swap entry 0x0
+[    4.187730] unrecognized swap entry 0x0
+[    4.187954] unrecognized swap entry 0x0
+[    4.188199] unrecognized swap entry 0x0
+[    4.188397] unrecognized swap entry 0x0
+[    4.188550] unrecognized swap entry 0x0
+[    4.188619] unrecognized swap entry 0x0
+[    4.188685] unrecognized swap entry 0x0
+[    4.188751] unrecognized swap entry 0x0
+[    4.188819] unrecognized swap entry 0x0
+[    4.188885] unrecognized swap entry 0x0
+[    4.188951] unrecognized swap entry 0x0
+[    4.189153] unrecognized swap entry 0x0
+[    4.189438] unrecognized swap entry 0x0
+[    4.189664] unrecognized swap entry 0x0
+[    4.189989] unrecognized swap entry 0x0
+[    4.190209] unrecognized swap entry 0x0
+[    4.190414] unrecognized swap entry 0x0
+[    4.190622] unrecognized swap entry 0x0
+[    4.190950] unrecognized swap entry 0x0
+[    4.191395] unrecognized swap entry 0x0
+[    4.191636] unrecognized swap entry 0x0
+[    4.191852] unrecognized swap entry 0x0
+[    4.192074] unrecognized swap entry 0x0
+[    4.192501] unrecognized swap entry 0x0
+[    4.192808] unrecognized swap entry 0x0
+[    4.193087] unrecognized swap entry 0x0
+[    4.193297] unrecognized swap entry 0x0
+[    4.193496] unrecognized swap entry 0x0
+[    4.193694] unrecognized swap entry 0x0
+[    4.193917] unrecognized swap entry 0x0
+[    4.194104] unrecognized swap entry 0x0
+[    4.194441] unrecognized swap entry 0x0
+[    4.194683] unrecognized swap entry 0x0
+[    4.194915] unrecognized swap entry 0x0
+[    4.195158] unrecognized swap entry 0x0
+[    4.195355] unrecognized swap entry 0x0
+[    4.195550] unrecognized swap entry 0x0
+[    4.195744] unrecognized swap entry 0x0
+[    4.195934] unrecognized swap entry 0x0
+[    4.196250] unrecognized swap entry 0x0
+[    4.196526] unrecognized swap entry 0x0
+[    4.196782] unrecognized swap entry 0x0
+[    4.196976] unrecognized swap entry 0x0
+[    4.197161] unrecognized swap entry 0x0
+[    4.197347] unrecognized swap entry 0x0
+[    4.197534] unrecognized swap entry 0x0
+[    4.197717] unrecognized swap entry 0x0
+[    4.198051] unrecognized swap entry 0x0
+[    4.198371] unrecognized swap entry 0x0
+[    4.198586] unrecognized swap entry 0x0
+[    4.198794] unrecognized swap entry 0x0
+[    4.198992] unrecognized swap entry 0x0
+[    4.199188] unrecognized swap entry 0x0
+[    4.199486] unrecognized swap entry 0x0
+[    4.199719] unrecognized swap entry 0x0
+[    4.199974] unrecognized swap entry 0x0
+[    4.200171] unrecognized swap entry 0x0
+[    4.200362] unrecognized swap entry 0x0
+[    4.200593] unrecognized swap entry 0x0
+[    4.200793] unrecognized swap entry 0x0
+[    4.200985] unrecognized swap entry 0x0
+[    4.201386] unrecognized swap entry 0x0
+[    4.201634] unrecognized swap entry 0x0
+[    4.201954] unrecognized swap entry 0x0
+[    4.202145] unrecognized swap entry 0x0
+[    4.202331] unrecognized swap entry 0x0
+[    4.202515] unrecognized swap entry 0x0
+[    4.202698] unrecognized swap entry 0x0
+[    4.202878] unrecognized swap entry 0x0
+[    4.203060] unrecognized swap entry 0x0
+[    4.203417] unrecognized swap entry 0x0
+[    4.203744] unrecognized swap entry 0x0
+[    4.204718] unrecognized swap entry 0x0
+[    4.204932] unrecognized swap entry 0x0
+[    4.205235] unrecognized swap entry 0x0
+[    4.205539] unrecognized swap entry 0x0
+[    4.205759] unrecognized swap entry 0x0
+[    4.205942] unrecognized swap entry 0x0
+[    4.206121] unrecognized swap entry 0x0
+[    4.206301] unrecognized swap entry 0x0
+[    4.206480] unrecognized swap entry 0x0
+[    4.206783] unrecognized swap entry 0x0
+[    4.206981] unrecognized swap entry 0x0
+[    4.207211] unrecognized swap entry 0x0
+[    4.207392] unrecognized swap entry 0x0
+[    4.207570] unrecognized swap entry 0x0
+[    4.207988] unrecognized swap entry 0x0
+[    4.208153] unrecognized swap entry 0x0
+[    4.208333] unrecognized swap entry 0x0
+[    4.208697] unrecognized swap entry 0x0
+[    4.208979] unrecognized swap entry 0x0
+[    4.210278] unrecognized swap entry 0x0
+[    4.211252] unrecognized swap entry 0x0
+[    4.211369] unrecognized swap entry 0x0
+[    4.211435] unrecognized swap entry 0x0
+[    4.211503] unrecognized swap entry 0x0
+[    4.211656] unrecognized swap entry 0x0
+[    4.212008] unrecognized swap entry 0x0
+[    4.212333] unrecognized swap entry 0x0
+[    4.212603] unrecognized swap entry 0x0
+[    4.212675] unrecognized swap entry 0x0
+[    4.212743] unrecognized swap entry 0x0
+[    4.212816] unrecognized swap entry 0x0
+[    4.212882] unrecognized swap entry 0x0
+[    4.213089] unrecognized swap entry 0x0
+[    4.213469] unrecognized swap entry 0x0
+[    4.213721] unrecognized swap entry 0x0
+[    4.213927] unrecognized swap entry 0x0
+[    4.214122] unrecognized swap entry 0x0
+[    4.214308] unrecognized swap entry 0x0
+[    4.214672] unrecognized swap entry 0x0
+[    4.214983] unrecognized swap entry 0x0
+[    4.215228] unrecognized swap entry 0x0
+[    4.215429] unrecognized swap entry 0x0
+[    4.215620] unrecognized swap entry 0x0
+[    4.215806] unrecognized swap entry 0x0
+[    4.216006] unrecognized swap entry 0x0
+[    4.216192] unrecognized swap entry 0x0
+[    4.216516] unrecognized swap entry 0x0
+[    4.216840] unrecognized swap entry 0x0
+[    4.217058] unrecognized swap entry 0x0
+[    4.217269] unrecognized swap entry 0x0
+[    4.217472] unrecognized swap entry 0x0
+[    4.219604] unrecognized swap entry 0x0
+[    4.219915] unrecognized swap entry 0x0
+[    4.220139] unrecognized swap entry 0x0
+[    4.220351] unrecognized swap entry 0x0
+[    4.220600] unrecognized swap entry 0x0
+[    4.220803] unrecognized swap entry 0x0
+[    4.220994] unrecognized swap entry 0x0
+[    4.221193] unrecognized swap entry 0x0
+[    4.221539] unrecognized swap entry 0x0
+[    4.221740] unrecognized swap entry 0x0
+[    4.221986] unrecognized swap entry 0x0
+[    4.222176] unrecognized swap entry 0x0
+[    4.222359] unrecognized swap entry 0x0
+[    4.222543] unrecognized swap entry 0x0
+[    4.222808] unrecognized swap entry 0x0
+[    4.223041] unrecognized swap entry 0x0
+[    4.223270] unrecognized swap entry 0x0
+[    4.223539] unrecognized swap entry 0x0
+[    4.223754] unrecognized swap entry 0x0
+[    4.223968] unrecognized swap entry 0x0
+[    4.224318] unrecognized swap entry 0x0
+[    4.224602] unrecognized swap entry 0x0
+[    4.224893] unrecognized swap entry 0x0
+[    4.225089] unrecognized swap entry 0x0
+[    4.225283] unrecognized swap entry 0x0
+[    4.225480] BUG: Bad page map in process feedback_step_e  pte:ca589ffb550b2dcc
+[    4.225503] pgd:034a2067 p4d:034a2067 pud:01fa4067 pmd:00000000
+[    4.226263] addr:00007fdc55433055 vm_flags:00040075 anon_vma:0000000000000000 mapping:0000000000000000 index:123d
+[    4.226809] file:(null) fault:special_mapping_fault mmap:0x0 mmap_prepare: 0x0 read_folio:0x0
+[    4.228522] BUG: unable to handle page fault for address: ffffd8f1346f1a88
+[    4.228937] #PF: supervisor read access in kernel mode
+[    4.229183] #PF: error_code(0x0000) - not-present page
+[    4.229470] PGD 0 P4D 0 
+[    4.229759] Oops: Oops: 0000 [#1] SMP NOPTI
+[    4.230000] CPU: 0 UID: 1000 PID: 126 Comm: feedback_step_e Tainted: G    B   W  O        6.19.3 #1 PREEMPT(voluntary) 
+[    4.230479] Tainted: [B]=BAD_PAGE, [W]=WARN, [O]=OOT_MODULE
+[    4.230732] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org 04/01/2014
+[    4.231301] RIP: 0010:unmap_page_range+0x960/0x1400
+[    4.231574] Code: 44 8d 6d 01 83 fa 02 0f 87 01 02 00 00 48 89 df 4c 89 44 24 10 e8 20 cb ff ff 4c 8b 44 24 10 48 c1 e0 06 48 03 05 a0 70 62 01 <48> 8b 50 08 48 89 c1 f6 c2 01 0f 85 55 06 00 00 0f 1f 44 00 00 0f
+[    4.232388] RSP: 0018:ffffa728402afbd0 EFLAGS: 00010282
+[    4.232679] RAX: ffffd8f1346f1a80 RBX: 74021d99d3d1bc6a RCX: 00000000fffffffe
+[    4.232994] RDX: 0000000000000001 RSI: f87d6c0c11efef53 RDI: 74021d99d3d1bc6a
+[    4.233304] RBP: 0000000000000000 R08: ffff918f034c72b8 R09: 00000000ffffeda0
+[    4.233614] R10: 7400000000000000 R11: ffffffffa5c5c780 R12: ffff918f034c72b8
+[    4.233927] R13: 0000000000000001 R14: ffffa728402afcf8 R15: ffffa728402afdc8
+[    4.234238] FS:  0000000001008938(0000) GS:ffff918f97ece000(0000) knlGS:0000000000000000
+[    4.234649] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    4.234906] CR2: ffffd8f1346f1a88 CR3: 00000000035f9000 CR4: 00000000003006f0
+[    4.235213] Call Trace:
+[    4.235348]  <TASK>
+[    4.235477]  unmap_vmas+0x9e/0x170
+[    4.235656]  exit_mmap+0xdf/0x3a0
+[    4.235828]  mmput+0x34/0xf0
+[    4.235973]  do_exit+0x23f/0xb10
+[    4.236122]  ? handle_mm_fault+0xd6/0x210
+[    4.236305]  do_group_exit+0x2b/0x80
+[    4.236524]  __x64_sys_exit_group+0x13/0x20
+[    4.236631]  x64_sys_call+0x1856/0x1860
+[    4.236702]  do_syscall_64+0xa4/0x320
+[    4.236767]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[    4.236849] RIP: 0033:0x1002ae9
+[    4.236905] Code: Unable to access opcode bytes at 0x1002abf.
+[    4.237034] RSP: 002b:00007ffd57020118 EFLAGS: 00000246 ORIG_RAX: 00000000000000e7
+[    4.237184] RAX: ffffffffffffffda RBX: 0000000000000000 RCX: 0000000001002ae9
+[    4.237484] RDX: 0000000000000002 RSI: 0000000000000000 RDI: 0000000000000000
+[    4.237822] RBP: 0000000000000000 R08: 00000000656e6f64 R09: 0000000000000000
+[    4.238145] R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffd57020178
+[    4.238459] R13: 0000000000000000 R14: 0000000001002190 R15: 0000000000000001
+[    4.238771]  </TASK>
+[    4.238909] Modules linked in: feedback(O)
+[    4.239321] CR2: ffffd8f1346f1a88
+[    4.239786] ---[ end trace 0000000000000000 ]---
+[    4.240066] RIP: 0010:unmap_page_range+0x960/0x1400
+[    4.240300] Code: 44 8d 6d 01 83 fa 02 0f 87 01 02 00 00 48 89 df 4c 89 44 24 10 e8 20 cb ff ff 4c 8b 44 24 10 48 c1 e0 06 48 03 05 a0 70 62 01 <48> 8b 50 08 48 89 c1 f6 c2 01 0f 85 55 06 00 00 0f 1f 44 00 00 0f
+[    4.241049] RSP: 0018:ffffa728402afbd0 EFLAGS: 00010282
+[    4.241296] RAX: ffffd8f1346f1a80 RBX: 74021d99d3d1bc6a RCX: 00000000fffffffe
+[    4.241603] RDX: 0000000000000001 RSI: f87d6c0c11efef53 RDI: 74021d99d3d1bc6a
+[    4.241911] RBP: 0000000000000000 R08: ffff918f034c72b8 R09: 00000000ffffeda0
+[    4.242208] R10: 7400000000000000 R11: ffffffffa5c5c780 R12: ffff918f034c72b8
+[    4.242506] R13: 0000000000000001 R14: ffffa728402afcf8 R15: ffffa728402afdc8
+[    4.242810] FS:  0000000001008938(0000) GS:ffff918f97ece000(0000) knlGS:0000000000000000
+[    4.243152] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    4.243411] CR2: ffffd8f1346f1a88 CR3: 00000000035f9000 CR4: 00000000003006f0
+[    4.243800] note: feedback_step_e[126] exited with irqs disabled
+[    4.244365] note: feedback_step_e[126] exited with preempt_count 1
+[    4.244924] Fixing recursive fault but reboot is needed!
+[    4.245448] BUG: scheduling while atomic: feedback_step_e/126/0x00000000
+[    4.245958] Modules linked in: feedback(O)
+[    4.246355] CPU: 0 UID: 1000 PID: 126 Comm: feedback_step_e Tainted: G    B D W  O        6.19.3 #1 PREEMPT(voluntary) 
+[    4.246388] Tainted: [B]=BAD_PAGE, [D]=DIE, [W]=WARN, [O]=OOT_MODULE
+[    4.246393] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org 04/01/2014
+[    4.246402] Call Trace:
+[    4.246418]  <TASK>
+[    4.246432]  dump_stack_lvl+0x53/0x70
+[    4.246459]  __schedule_bug+0x4d/0x60
+[    4.246478]  __schedule+0x9e7/0xe40
+[    4.246498]  do_task_dead+0x44/0xa0
+[    4.246516]  make_task_dead+0x13b/0x160
+[    4.246530]  rewind_stack_and_make_dead+0x16/0x20
+[    4.246546] RIP: 0033:0x1002ae9
+[    4.246560] Code: Unable to access opcode bytes at 0x1002abf.
+[    4.246566] RSP: 002b:00007ffd57020118 EFLAGS: 00000246 ORIG_RAX: 00000000000000e7
+[    4.246582] RAX: ffffffffffffffda RBX: 0000000000000000 RCX: 0000000001002ae9
+[    4.246589] RDX: 0000000000000002 RSI: 0000000000000000 RDI: 0000000000000000
+[    4.246595] RBP: 0000000000000000 R08: 00000000656e6f64 R09: 0000000000000000
+[    4.246601] R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffd57020178
+[    4.246607] R13: 0000000000000000 R14: 0000000001002190 R15: 0000000000000001
+[    4.246625]  </TASK>
+[    4.246905] ------------[ cut here ]------------
+[    4.252062] Voluntary context switch within RCU read-side critical section!
+[    4.252085] WARNING: kernel/rcu/tree_plugin.h:332 at rcu_note_context_switch+0x48/0x5b0, CPU#0: feedback_step_e/126
+[    4.252359] Modules linked in: feedback(O)
+[    4.252448] CPU: 0 UID: 1000 PID: 126 Comm: feedback_step_e Tainted: G    B D W  O        6.19.3 #1 PREEMPT(voluntary) 
+[    4.252614] Tainted: [B]=BAD_PAGE, [D]=DIE, [W]=WARN, [O]=OOT_MODULE
+[    4.252708] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org 04/01/2014
+[    4.252875] RIP: 0010:rcu_note_context_switch+0x48/0x5b0
+[    4.252963] Code: 02 48 8b 35 0a 75 b8 01 48 8d a8 c0 bf 75 a6 0f 1f 44 00 00 45 84 e4 75 16 8b 83 fc 03 00 00 85 c0 7e 0c 48 8d 3d 38 b5 b9 01 <67> 48 0f b9 3a 8b 83 fc 03 00 00 85 c0 7e 0d 80 bb 00 04 00 00 00
+[    4.253771] RSP: 0018:ffffa728402afe80 EFLAGS: 00010002
+[    4.254054] RAX: 0000000000000001 RBX: ffff918f01ef9d80 RCX: 0000000000000027
+[    4.254387] RDX: 0000000080000001 RSI: ffffffffa5a2cfbe RDI: ffffffffa5edd480
+[    4.254707] RBP: ffff918f3e629fc0 R08: 00000000ffffdfff R09: 0000000000000001
+[    4.255025] R10: 00000000ffffdfff R11: ffffffffa5c5c780 R12: 0000000000000000
+[    4.255343] R13: ffff918f01ef9d80 R14: 0000000000000000 R15: 0000000000000000
+[    4.255655] FS:  0000000001008938(0000) GS:ffff918f97ece000(0000) knlGS:0000000000000000
+[    4.256029] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    4.256337] CR2: ffffd8f1346f1a88 CR3: 00000000035f9000 CR4: 00000000003006f0
+[    4.256750] Call Trace:
+[    4.256913]  <TASK>
+[    4.257041]  __schedule+0xa4/0xe40
+[    4.257235]  do_task_dead+0x44/0xa0
+[    4.257422]  make_task_dead+0x13b/0x160
+[    4.257610]  rewind_stack_and_make_dead+0x16/0x20
+[    4.260954] RIP: 0033:0x1002ae9
+[    4.261016] Code: Unable to access opcode bytes at 0x1002abf.
+[    4.261100] RSP: 002b:00007ffd57020118 EFLAGS: 00000246 ORIG_RAX: 00000000000000e7
+[    4.261219] RAX: ffffffffffffffda RBX: 0000000000000000 RCX: 0000000001002ae9
+[    4.261337] RDX: 0000000000000002 RSI: 0000000000000000 RDI: 0000000000000000
+[    4.261442] RBP: 0000000000000000 R08: 00000000656e6f64 R09: 0000000000000000
+[    4.261546] R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffd57020178
+[    4.261649] R13: 0000000000000000 R14: 0000000001002190 R15: 0000000000000001
+[    4.261760]  </TASK>
+[    4.261797] ---[ end trace 0000000000000000 ]---
+[   25.266816] rcu: INFO: rcu_preempt detected stalls on CPUs/tasks:
+[   25.268028] rcu: 	Tasks blocked on level-0 rcu_node (CPUs 0-3): P126/1:b..l
+[   25.268435] rcu: 	(detected by 0, t=21002 jiffies, g=-431, q=3 ncpus=4)
+[   88.274284] rcu: INFO: rcu_preempt detected stalls on CPUs/tasks:
+[   88.275796] rcu: 	Tasks blocked on level-0 rcu_node (CPUs 0-3): P126/1:b..l
+[   88.276352] rcu: 	(detected by 1, t=84011 jiffies, g=-431, q=6 ncpus=4)
+qemu-system-x86_64: terminating on signal 2 from pid 732 (<unknown process>)

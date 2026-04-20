@@ -1,0 +1,21 @@
+Recovered key material summary for Lost_and_Found
+
+- Key bytes 0..91 came from the encrypted git config plaintext.
+- Initial commit SHA1: 8fadc480a8f31d2dac1099cfbb03a8bfb5de569f
+- Initial commit timestamp recovered from SHA1 brute-force: 1774732050
+- HEAD reflog line 1 plaintext:
+	0000000000000000000000000000000000000000 8fadc480a8f31d2dac1099cfbb03a8bfb5de569f root <root@localhost.localdomain> 1774732050 +0000	commit (initial): a bunch of nonsense
+
+- Decrypted commit 6098e011c4761ed32510191498fb273670bfd7b5:
+	commit 235
+	tree 6764da9116f608795b2a2e27695ec314b7e9e9ac
+	parent 8fadc480a8f31d2dac1099cfbb03a8bfb5de569f
+	author git stash <git@stash> 1774732415 +0000
+	committer git stash <git@stash> 1774732415 +0000
+	message: index on master: 8fadc48 a bunch of nonsense
+
+- HEAD reflog line 2 plaintext:
+	8fadc480a8f31d2dac1099cfbb03a8bfb5de569f 8fadc480a8f31d2dac1099cfbb03a8bfb5de569f git stash <git@stash> 1774732415 +0000	reset: moving to HEAD
+
+- Decrypted stash commit 55a10e0874b6d37a8b9c2d70468d91f5b8c78cf5 message:
+	On master: You found me! UMASS{h3r35_7h3_c4rg0_vr00m}

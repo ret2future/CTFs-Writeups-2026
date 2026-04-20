@@ -1,0 +1,1 @@
+try {button_up('Space')} catch (e) {app.alert(e.stack || e)}

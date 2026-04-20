@@ -1,0 +1,44 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM...
+c[?7l[2JSaving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_mixedprobe
+[+] phase1: create 0x40 targets
+[+] phase2: punch patterned holes in 0x40 set
+[+] phase3: spam 0x30 objects to perturb neighboring slab activity
+[+] phase4: refill freed 0x40 slots with aggressive overflow bytes
+[+] phase5: inspect 0x40 object health (meta/data)
+META id=8388608 rc=-1 errno=22
+DATA id=8388610 exp=0x42 got=0x5a
+META id=8388611 rc=-1 errno=22
+META id=8388614 rc=-1 errno=22
+META id=8388617 rc=-1 errno=22
+META id=8388619 rc=-1 errno=22
+META id=8388620 rc=-1 errno=22
+META id=8388623 rc=-1 errno=22
+META id=8388626 rc=-1 errno=22
+DATA id=8388628 exp=0x54 got=0x5a
+META id=8388629 rc=-1 errno=22
+META id=8388630 rc=-1 errno=22
+META id=8388632 rc=-1 errno=22
+META id=8388635 rc=-1 errno=22
+[+] summary bad_meta=71 bad_data=2
+[+] cleanup
+~ $ exit
+[    6.110176] reboot: Power down

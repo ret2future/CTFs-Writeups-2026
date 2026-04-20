@@ -1,0 +1,1 @@
+try {key_pressed(event.change)} catch (e) {app.alert(e.stack || e)}

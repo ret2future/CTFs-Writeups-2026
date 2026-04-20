@@ -1,0 +1,8 @@
+reverse_swirl_-60.png: _
+reverse_swirl_-30.png: Sap
+reverse_swirl_-60.png: _
+reverse_swirl_0.png: wLSY -
+reverse_swirl_140.png: Nee _
+reverse_swirl_260.png: Nake -
+reverse_swirl_440.png: KS -
+reverse_swirl_60.png: EY SR

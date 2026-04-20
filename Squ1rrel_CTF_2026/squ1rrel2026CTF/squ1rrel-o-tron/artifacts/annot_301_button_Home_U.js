@@ -1,0 +1,1 @@
+try {button_up('Home')} catch (e) {app.alert(e.stack || e)}

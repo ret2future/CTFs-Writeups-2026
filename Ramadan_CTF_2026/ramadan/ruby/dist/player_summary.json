@@ -1,0 +1,30 @@
+{
+  "levelName": "Computer v2 by mattbatwings",
+  "spawn": [
+    0,
+    56,
+    0
+  ],
+  "playerPos": [
+    14.152181641141402,
+    161.12839805823535,
+    -5.5430818616271855
+  ],
+  "rotation": [
+    -179.05606079101562,
+    -3.0699753761291504
+  ],
+  "dimension": "minecraft:overworld",
+  "selectedSlot": 0,
+  "inventory": [],
+  "enderItems": [],
+  "abilities": {
+    "walkSpeed": 0.10000000149011612,
+    "instabuild": 1,
+    "flying": 1,
+    "flySpeed": 0.05000000074505806,
+    "mayfly": 1,
+    "invulnerable": 1,
+    "mayBuild": 1
+  }
+}

@@ -1,0 +1,13 @@
+[HOOK] dlopen(<null>, 0x1)
+[HOOK] dlsym(0x2aaaab2e52e0, printf)
+[HOOK] dlopen(<null>, 0x1)
+[HOOK] dlsym(0x2aaaab2e52e0, fgets)
+[HOOK] dlopen(<null>, 0x1)
+[HOOK] dlsym(0x2aaaab2e52e0, strcspn)
+[HOOK] dlopen(<null>, 0x1)
+[HOOK] dlsym(0x2aaaab2e52e0, stdin)
+[HOOK] fgets(size=128) -> 'AAAA.'
+[HOOK] strcspn(s='AAAA.', reject='.') => 4
+[HOOK] dlopen(<null>, 0x1)
+[HOOK] dlsym(0x2aaaab2e52e0, strlen)
+[HOOK] strlen(ptr=0x2aaaab2abad0, len=4, text='AAAA')

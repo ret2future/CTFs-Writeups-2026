@@ -1,0 +1,41 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM...
+c[?7l[2JSaving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_meta_classify
+[+] classify broken IDs
+BROKEN id=11534336 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534339 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534342 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534345 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534347 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534348 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534351 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534354 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534357 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534358 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534360 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534363 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534366 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534369 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534372 read_errno=22 del_rc=-1 del_errno=22
+BROKEN id=11534375 read_errno=22 del_rc=-1 del_errno=22
+[+] broken=71 eno22=71 eno14=0 eno2=0 del_fail=71
+~ $ exit
+[    6.127765] reboot: Power down

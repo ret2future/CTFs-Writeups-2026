@@ -1,0 +1,14 @@
+BrOWSER BOSS FIGHT
+
+Category: Web Exploitation
+Points: 100
+Author: Ian/ianstadtlander
+
+Description:
+This familiar brick castle is hiding something... can you break in and defeat the Koopa King?
+
+Connection: http://browser-boss-fight.web.ctf.umasscybersec.org:48003
+
+Hint 1 (cost 0): present on the challenge, but no extra text was exposed through the API; the app itself leaks the intended clue in the HTTP Server header.
+
+Flag format: UMASS{...}

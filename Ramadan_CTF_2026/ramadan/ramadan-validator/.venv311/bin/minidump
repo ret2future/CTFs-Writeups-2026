@@ -1,0 +1,6 @@
+#!/Users/elenaeftimie/Desktop/CTFs/Madalina/ramadan-validator/.venv311/bin/python3.11
+import sys
+from minidump.__main__ import run
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(run())

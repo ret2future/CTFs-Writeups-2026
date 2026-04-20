@@ -1,0 +1,3 @@
+armahgerd
+
+``nc challs.squ1rrel.dev 5003``

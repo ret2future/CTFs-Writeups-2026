@@ -1,0 +1,31 @@
+robots.txt
+==========
+User-agent: *
+Disallow: /internal-docs/assembly-guide.txt
+Disallow: /internal-docs/it-onboarding.txt
+Disallow: /internal-docs/q3-report.txt
+
+it-onboarding.txt excerpt
+=========================
+SECTION 1 - DOCUMENT PORTAL
+
+The internal document portal lives at our main intranet address.
+Staff can access any file using the ?file= parameter:
+
+SECTION 2 - ADMIN DASHBOARD
+
+Credentials are stored in the application config file
+for reference by the IT team. See config.php in the web root.
+
+config.php excerpt
+==================
+// The admin dashboard is located at /dashboard-admin.php.
+
+define('ADMIN_USER', 'administrator');
+define('ADMIN_PASS', '[deleted it for safety reasons - Tom]');
+
+dashboard-admin.php excerpt
+===========================
+define('DASHBOARD_USER', 'administrator');
+define('DASHBOARD_PASS', 'administrator');
+define('FLAG', 'UMASS{4lw4ys_ch4ng3_d3f4ult_cr3d3nt14ls}');

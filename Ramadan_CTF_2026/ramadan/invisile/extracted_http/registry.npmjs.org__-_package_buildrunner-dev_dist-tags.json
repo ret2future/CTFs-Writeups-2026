@@ -1,0 +1,11 @@
+{
+  "name": "buildrunner-dev",
+  "version": "1.0.3",
+  "description": "Development utilities for build automation",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node init.js"
+  },
+  "author": "buildtools",
+  "license": "MIT"
+}

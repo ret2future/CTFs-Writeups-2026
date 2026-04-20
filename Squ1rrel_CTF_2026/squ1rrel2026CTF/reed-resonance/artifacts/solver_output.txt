@@ -1,0 +1,5 @@
+peak_hz=0.830244770956505
+peak_rad_s=5.216581746236590
+truncated_hz_3dp=0.830
+truncated_rad_s_3dp=5.216
+accepted_flag=squ1rrel{5.216}

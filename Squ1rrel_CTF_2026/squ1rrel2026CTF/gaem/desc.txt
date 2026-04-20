@@ -1,0 +1,3 @@
+It's like Dwarf Fortress but not at all like Dwarf Fortress
+
+``nc challs.squ1rrel.dev 5001``

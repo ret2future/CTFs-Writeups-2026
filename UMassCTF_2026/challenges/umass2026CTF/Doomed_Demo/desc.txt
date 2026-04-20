@@ -1,0 +1,12 @@
+Doomed Demo
+
+Category: Forensics
+ID: 18
+Description: My Doom demo is broken! Where did I end up?!
+Tags: game, corruption, easy
+
+Files:
+- doomed-demo.zip
+
+Notes:
+- Challenge has a free hint on the platform (hint id 15).

@@ -1,0 +1,48 @@
+{
+  "success": false,
+  "tom_score": 0.10451078414916992,
+  "threshold": 0.15,
+  "message": "We have determined this candidate's soulmate is not likely to be Tom Cruise....Good luck in your continued search! ",
+  "u": [
+    1.778352,
+    0.0,
+    8.0,
+    -1.0,
+    1.0,
+    9.0,
+    0.0,
+    0.0
+  ],
+  "u_clipped": [
+    1.7783520221710205,
+    0.0,
+    8.0,
+    -1.0,
+    1.0,
+    9.0,
+    0.0,
+    0.0
+  ],
+  "top_predictions": [
+    {
+      "label": "Tom Cruise",
+      "score": 0.10451078414916992
+    },
+    {
+      "label": "Christian Bale",
+      "score": 0.07582956552505493
+    },
+    {
+      "label": "Richard Harmon",
+      "score": 0.05675877258181572
+    },
+    {
+      "label": "Henry Cavil",
+      "score": 0.03062262572348118
+    },
+    {
+      "label": "Andy Samberg",
+      "score": 0.029925072565674782
+    }
+  ]
+}

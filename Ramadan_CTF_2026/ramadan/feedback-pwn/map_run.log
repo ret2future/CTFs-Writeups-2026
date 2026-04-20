@@ -1,0 +1,33 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM...
+c[?7l[2JSaving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_map
+
+=== map size=0x30 n=160 base=50000 ===
+mutations=0
+
+=== map size=0x40 n=96 base=100000 ===
+mut id=100041 idx=41 expected=0x59 got=0xaa
+mutations=1
+
+=== map size=0x80 n=64 base=200000 ===
+mutations=0
+~ $ exit
+[    6.055541] reboot: Power down

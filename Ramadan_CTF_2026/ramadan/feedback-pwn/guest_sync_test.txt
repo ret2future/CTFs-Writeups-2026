@@ -1,0 +1,11 @@
+
+
+
+echo READY1
+id
+echo READY2
+uname -a
+echo READY3
+ls -la /dev/feedback
+echo READY4
+exit

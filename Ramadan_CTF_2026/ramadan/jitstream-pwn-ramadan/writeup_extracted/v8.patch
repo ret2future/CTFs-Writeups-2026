@@ -1,0 +1,75 @@
+diff --git a/src/builtins/builtins-array.cc b/src/builtins/builtins-array.cc
+index b9288c7409a..2d2b4c55511 100644
+--- a/src/builtins/builtins-array.cc
++++ b/src/builtins/builtins-array.cc
+@@ -1895,5 +1895,52 @@ BUILTIN(ArrayFromAsync) {
+   return ReadOnlyRoots(isolate).undefined_value();
+ }
+ 
++BUILTIN(ArraySwapIt) {
++  HandleScope scope(isolate);
++  Factory* factory = isolate->factory();
++  USE(factory);
++
++  if (args.length() < 0) return ReadOnlyRoots(isolate).undefined_value();
++
++  Handle<Object> receiver = args.receiver();
++  
++  if (!receiver->IsJSArray()) {
++     return ReadOnlyRoots(isolate).undefined_value();
++  }
++
++  Handle<JSArray> array = Handle<JSArray>::cast(receiver);
++  
++  if (!array->HasFastElements(isolate)) {
++      return *array;
++  }
++
++  ElementsKind kind = array->GetElementsKind();
++  
++  if (array->length().Number() < 1) {
++    return *array;
++  }
++
++  if (kind == PACKED_ELEMENTS || kind == PACKED_DOUBLE_ELEMENTS) {
++      ElementsKind target_kind = (kind == PACKED_ELEMENTS) 
++                                ? PACKED_DOUBLE_ELEMENTS 
++                                : PACKED_ELEMENTS;
++      
++      Handle<Map> new_map = JSObject::GetElementsTransitionMap(array, target_kind);
++      
++      if (!new_map.is_null()) {
++          array->set_map(*new_map, kReleaseStore);
++      }
++  }
++
++  return *array;
++}
++
+ }
+ }
+diff --git a/src/builtins/builtins-definitions.h b/src/builtins/builtins-definitions.h
+index c3d4d7af12d..76e3a4865ca 100644
+--- a/src/builtins/builtins-definitions.h
++++ b/src/builtins/builtins-definitions.h
+@@ -400,6 +400,8 @@ namespace internal {
+   TFJ(ArrayPrototypePush, kDontAdaptArgumentsSentinel)                         \
+   /* ES6 #sec-array.prototype.shift */                                         \
+   CPP(ArrayShift)                                                              \
++  CPP(ArraySwapIt)                                                             \
+   /* ES6 #sec-array.prototype.unshift */                                       \
+   CPP(ArrayUnshift)                                                            \
+   CPP(ArrayFromAsync)                                                          \
+diff --git a/src/init/bootstrapper.cc b/src/init/bootstrapper.cc
+index 7d7f94bdbfd..4d30b635877 100644
+--- a/src/init/bootstrapper.cc
++++ b/src/init/bootstrapper.cc
+@@ -1820,6 +1820,9 @@ void Genesis::InitializeGlobal(Handle<JSGlobalObject> global_object,
+                           Builtin::kArrayPrototypeReverse, 0, false);
+     SimpleInstallFunction(isolate_, proto, "shift",
+                           Builtin::kArrayPrototypeShift, 0, false);
++    SimpleInstallFunction(isolate_, proto, "swapIt",
++                          Builtin::kArraySwapIt, 0, false);
+     SimpleInstallFunction(isolate_, proto, "unshift",
+                           Builtin::kArrayPrototypeUnshift, 1, false);
+     SimpleInstallFunction(isolate_, proto, "slice",

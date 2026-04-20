@@ -1,0 +1,6 @@
+I managed to get my hands on a design files from LEGO HQ. Apparently it is the design for the new Smart Brick v2. I want to analyze it but I don't have the hardware to do so. Can you help me figure out what it does?
+
+Hints:
+- Hint 1 (Cost: 0): I think I have seen that file format before on an popular open-source eCAD software but I can't remember which one...
+- Hint 2 (Cost: 0): Hmmm... there seem to be 7 inputs, I wonder what encoding uses only 7 bits?
+- Hint 3 (Cost: 0): I found a great python library to interact with this file programmatically: kiutils

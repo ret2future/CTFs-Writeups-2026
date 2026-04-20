@@ -1,0 +1,29 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM...
+c[?7l[2JSaving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_pairhit
+[+] pair probe: A(size=0x40, ov=b), B(size=0x40), read B then delete B
+.. b=0x00
+.. b=0x40
+.. b=0x80
+.. b=0xc0
+[+] done
+~ $ exit
+[    5.892449] reboot: Power down

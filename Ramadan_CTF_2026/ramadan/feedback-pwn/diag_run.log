@@ -1,0 +1,90 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2J[0m.Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_diag
+[+] phase1: overflow reachability checks
+[+] phase2: read-back sanity
+id=100 first16: 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+id=101 first16: 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 
+[+] phase3: cleanup
+[+] phase4: mass corruption probes
+[+] mass_check size=0x40 count=96
+[!] mismatch id=1000 expected=0x20 got=0x8b
+[!] mismatch id=1001 expected=0x21 got=0x87
+[!] mismatch id=1028 expected=0x3c got=0x9d
+[!] mismatch id=1032 expected=0x40 got=0xa5
+[!] mismatch id=1033 expected=0x41 got=0xaf
+[!] mismatch id=1084 expected=0x74 got=0x8f
+[!] mismatch id=1085 expected=0x75 got=0x90
+[!] mismatch id=1087 expected=0x77 got=0x92
+[!] mismatch id=1089 expected=0x79 got=0x97
+[!] mismatch id=1091 expected=0x21 got=0x96
+[+] mismatches=10/96
+[+] mass_check size=0x100 count=96
+[    5.983629] Oops: general protection fault, probably for non-canonical address 0x2c2c2c2c2c2c2cac: 0000 [#1] SMP NOPTI
+[    5.985236] CPU: 2 UID: 1000 PID: 128 Comm: feedback_diag Tainted: G           O        6.19.3 #1 PREEMPT(voluntary) 
+[    5.985826] Tainted: [O]=OOT_MODULE
+[    5.986011] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org 04/01/2014
+[    5.986689] RIP: 0010:__kmalloc_noprof+0x2ae/0x520
+[    5.987348] Code: 0f 84 40 01 00 00 48 85 db 0f 84 37 01 00 00 83 ff ff 0f 85 1f 01 00 00 bf ff ff ff ff 41 8b 44 24 30 49 8b 34 24 48 8d 4a 40 <49> 8b 1c 06 4c 89 f0 65 48 0f c7 0e 75 a9 41 8b 44 24 30 0f 0d 0c
+[    5.988373] RSP: 0018:ffffab6900353e60 EFLAGS: 00010246
+[    5.988685] RAX: 0000000000000080 RBX: ffffed98c00b2a00 RCX: 0000000000003d82
+[    5.989018] RDX: 0000000000003d42 RSI: ffffffff89b5eb90 RDI: 00000000ffffffff
+[    5.989362] RBP: ffffab6900353ea0 R08: 0000000000000100 R09: ffffffffc0200277
+[    5.989709] R10: ffffab6900353ec0 R11: 0000000000000030 R12: ffff8a6481042900
+[    5.990052] R13: 0000000000000100 R14: 2c2c2c2c2c2c2c2c R15: 0000000000400cc0
+[    5.990501] FS:  0000000001009578(0000) GS:ffff8a6534dce000(0000) knlGS:0000000000000000
+[    5.990889] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    5.991157] CR2: 00007fc55179b000 CR3: 0000000001ef4000 CR4: 00000000003006f0
+[    5.991427] Call Trace:
+[    5.991944]  <TASK>
+[    5.992427]  ? __this_module+0x10e092/0x10e1b0 [feedback]
+[    5.993112]  ? __this_module+0x10e092/0x10e1b0 [feedback]
+[    5.993390]  __this_module+0x10e092/0x10e1b0 [feedback]
+[    5.993740]  __x64_sys_ioctl+0x91/0xe0
+[    5.993954]  do_syscall_64+0xa4/0x320
+[    5.994141]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[    5.994498] RIP: 0033:0x1004e0a
+[    5.994745] Code: 03 44 24 10 83 c1 08 89 0c 24 eb 0e 48 8b 44 24 08 48 8d 48 08 48 89 4c 24 08 48 8b 10 48 63 ff 48 63 f6 b8 10 00 00 00 0f 05 <48> 63 f8 e8 2e e6 ff ff 48 81 c4 d8 00 00 00 c3 c3 55 41 57 41 56
+[    5.995490] RSP: 002b:00007ffc61255ff0 EFLAGS: 00000206 ORIG_RAX: 0000000000000010
+[    5.995926] RAX: ffffffffffffffda RBX: 00007fc55179b820 RCX: 0000000001004e0a
+[    5.996260] RDX: 00007ffc612560d0 RSI: ffffffffc0207300 RDI: 0000000000000003
+[    5.996656] RBP: 00007ffc61256130 R08: 00007fc55179b960 R09: 0000000000000500
+[    5.996834] R10: 00007ffc61256010 R11: 0000000000000206 R12: 00000000010095ac
+[    5.996963] R13: 0000000000000100 R14: 00007fc55179b960 R15: 000000000000006e
+[    5.997124]  </TASK>
+[    5.997215] Modules linked in: feedback(O)
+[    5.998054] ---[ end trace 0000000000000000 ]---
+[    5.998681] RIP: 0010:__kmalloc_noprof+0x2ae/0x520
+[    5.998982] Code: 0f 84 40 01 00 00 48 85 db 0f 84 37 01 00 00 83 ff ff 0f 85 1f 01 00 00 bf ff ff ff ff 41 8b 44 24 30 49 8b 34 24 48 8d 4a 40 <49> 8b 1c 06 4c 89 f0 65 48 0f c7 0e 75 a9 41 8b 44 24 30 0f 0d 0c
+[    6.000407] RSP: 0018:ffffab6900353e60 EFLAGS: 00010246
+[    6.000751] RAX: 0000000000000080 RBX: ffffed98c00b2a00 RCX: 0000000000003d82
+[    6.001280] RDX: 0000000000003d42 RSI: ffffffff89b5eb90 RDI: 00000000ffffffff
+[    6.002146] RBP: ffffab6900353ea0 R08: 0000000000000100 R09: ffffffffc0200277
+[    6.002771] R10: ffffab6900353ec0 R11: 0000000000000030 R12: ffff8a6481042900
+[    6.003232] R13: 0000000000000100 R14: 2c2c2c2c2c2c2c2c R15: 0000000000400cc0
+[    6.003605] FS:  0000000001009578(0000) GS:ffff8a6534dce000(0000) knlGS:0000000000000000
+[    6.004998] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    6.005493] CR2: 00007fc55179b000 CR3: 0000000001ef4000 CR4: 00000000003006f0
+Segmentation fault
+~ $ exit
+[    6.044253] sd 0:0:1:0: [sda] Synchronizing SCSI cache
+[    6.045717] sd 0:0:1:0: [sda] Stopping disk
+[    6.059727] ACPI: PM: Preparing to enter system sleep state S5
+[    6.061349] reboot: Power down

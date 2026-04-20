@@ -1,0 +1,71 @@
+Source: chocolate-doom
+Section: games
+Priority: optional
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Fabian Greffrath <fabian@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ bash-completion,
+ libpng-dev,
+ libsamplerate0-dev,
+ libsdl2-mixer-dev (>= 2.0.2),
+ libsdl2-net-dev (>= 2.0.0),
+ libsdl2-dev (>= 2.0.7),
+ python3,
+ python3-pil
+Standards-Version: 4.7.2
+Vcs-Git: https://salsa.debian.org/games-team/chocolate-doom.git
+Vcs-Browser: https://salsa.debian.org/games-team/chocolate-doom
+Homepage: https://www.chocolate-doom.org
+Rules-Requires-Root: no
+
+Package: chocolate-doom
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Recommends:
+ freedoom | game-data-packager
+Provides:
+ chocolate-heretic,
+ chocolate-hexen,
+ chocolate-strife,
+ doom-engine,
+ heretic-engine,
+ hexen-engine,
+ strife-engine
+Breaks:
+ freedm (<< 0.9),
+ freedoom (<< 0.12.1),
+ chocolate-heretic (<< 2.2.1-5~),
+ chocolate-hexen (<< 2.2.1-5~),
+ chocolate-strife (<< 2.2.1-5~),
+ chocolate-common (<< 2.2.1-5~)
+Replaces:
+ chocolate-heretic (<< 2.2.1-5~),
+ chocolate-hexen (<< 2.2.1-5~),
+ chocolate-strife (<< 2.2.1-5~),
+ chocolate-common (<< 2.2.1-5~)
+Description: Doom engines closely-compatible with Vanilla Doom
+ Chocolate Doom aims to accurately reproduce the original DOS version of
+ Doom and other games based on the Doom engine in a form that can be
+ run on modern computers. Unlike most modern Doom engines, Chocolate Doom
+ is not derived from the Boom source port and does not inherit its
+ features (or bugs).
+ .
+ This package contains:
+  * Chocolate Doom, a port of Id Software's "Doom" (1993)
+  * Chocolate Heretic, a port of Raven Software's "Heretic" (1994)
+  * Chocolate Hexen, a port of Raven Software's "Hexen" (1995)
+  * Chocolate Strife, a recreation of Rogue Entertainment's "Strife" (1996)
+ .
+ These games are designed to behave as similar to the original DOS version as
+ is possible.
+ .
+ Chocolate Doom supports all flavors of Doom, including The Ultimate Doom, Doom
+ 2 and Final Doom as well as Chex(R) Quest, HacX, Freedoom: Phase 1 and Phase 2
+ and FreeDM.
+ .
+ All Chocolate game engines require game data to play. For Chocolate Doom,
+ free game data is available in the freedoom package. Commercial game data for
+ all four engines can be packaged using "game-data-packager".

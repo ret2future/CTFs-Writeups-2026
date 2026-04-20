@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: hackerspotted
+      POSTGRES_PASSWORD: hackerspotted
+      POSTGRES_DB: hackerspotted
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hackerspotted -d hackerspotted"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "3001:3000"
+    environment:
+      DATABASE_URL: postgresql://hackerspotted:hackerspotted@db:5432/hackerspotted
+      PORT: 3000
+      FLAG: ${FLAG:-squ1rrel{fake_flag}}
+
+volumes:
+  pgdata:

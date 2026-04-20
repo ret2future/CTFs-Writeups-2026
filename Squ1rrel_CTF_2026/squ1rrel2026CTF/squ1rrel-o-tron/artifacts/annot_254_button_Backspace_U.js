@@ -1,0 +1,1 @@
+try {button_up('Backspace')} catch (e) {app.alert(e.stack || e)}

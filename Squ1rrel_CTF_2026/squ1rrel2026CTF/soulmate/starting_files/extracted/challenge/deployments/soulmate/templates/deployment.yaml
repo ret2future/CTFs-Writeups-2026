@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "{{ .Release.Name }}"
+  namespace: "{{ .Release.Namespace }}"
+  labels:
+    app: "{{ .Release.Name }}"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "{{ .Release.Name }}"
+  template:
+    metadata:
+      labels:
+        app: "{{ .Release.Name }}"
+    spec:
+      automountServiceAccountToken: false
+      containers:
+        - name: "{{ .Release.Name }}"
+          image: us-central1-docker.pkg.dev/squ1rrelctf2026/ctf-26/{{ .Release.Name }}:{{ .Values.image.tag }}
+          resources:
+            requests:
+              cpu: 200m
+              memory: 512Mi

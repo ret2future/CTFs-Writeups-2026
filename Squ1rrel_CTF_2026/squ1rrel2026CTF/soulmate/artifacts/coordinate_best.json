@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "tom_score": 0.15429021418094635,
+  "threshold": 0.15,
+  "message": "Your candidate has immense potential! Thank you for your service to the church\u2014Your flag is here:",
+  "flag": "squ1rrel{7h3_church_c0n6r47ul4735_mr5_cru153!!}",
+  "u": [
+    2.0,
+    2.0,
+    8.0,
+    -3.0,
+    1.0,
+    7.0,
+    -2.0,
+    0.0
+  ],
+  "u_clipped": [
+    2.0,
+    2.0,
+    8.0,
+    -3.0,
+    1.0,
+    7.0,
+    -2.0,
+    0.0
+  ],
+  "top_predictions": [
+    {
+      "label": "Tom Cruise",
+      "score": 0.15429021418094635
+    },
+    {
+      "label": "Christian Bale",
+      "score": 0.06563873589038849
+    },
+    {
+      "label": "Richard Harmon",
+      "score": 0.036281902343034744
+    },
+    {
+      "label": "Henry Cavil",
+      "score": 0.03008914552628994
+    },
+    {
+      "label": "Andy Samberg",
+      "score": 0.028891926631331444
+    }
+  ]
+}

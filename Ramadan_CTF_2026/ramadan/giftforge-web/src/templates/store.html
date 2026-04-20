@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div style="margin-bottom: 2rem;">
+    <h2>Digital Forge Store</h2>
+    <p style="color: var(--text-secondary);">Premium gift cards forged specifically for you.</p>
+</div>
+
+<div class="store-grid">
+    {% for card in gift_cards %}
+    <div class="card glass">
+        {% if card.image_url %}
+        <img src="{{ url_for('static', filename=card.image_url) }}" alt="{{ card.name }}" class="card-img">
+        {% endif %}
+        <div class="category">{{ card.category }}</div>
+        <h3>{{ card.name }}</h3>
+        <p style="color: var(--text-secondary); font-size: 0.875rem;">{{ card.description }}</p>
+        <div class="price">${{ "%.2f"|format(card.price) }}</div>
+        <form action="{{ url_for('buy', card_id=card.id) }}" method="POST">
+            <button type="submit" {% if current_user.balance < card.price %}disabled
+                style="background: #334155; cursor: not-allowed;" {% endif %}>
+                {% if current_user.balance < card.price %}Insufficient Funds{% else %}Forge Now{% endif %} </button>
+        </form>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

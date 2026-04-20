@@ -1,0 +1,67 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order 66</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Execute Order... wait which one was it?</h1>
+    <center><h3>Go to the chancellor <a href="/admin">here</a></h3></center>
+
+    <div class="share-container" style="margin: 20px auto; max-width: 800px; padding: 15px; background: #111; border: 1px solid #00ff00; font-family: monospace;">
+        <label style="color: #00ff00;">Logs for the chancellor:</label>
+        <div style="display: flex; gap: 10px; margin-top: 10px;">
+            <input type="text" id="shareUrl" readonly="" value="http://{{ host }}/view/{{ user_id }}/{{ seed }}" style="flex-grow: 1; background: #000; color: #0ff; border: 1px solid #0ff; padding: 8px;">
+            <button onclick="copyUrl()" style="background: #00ff00; color: #000; border: none; padding: 8px 20px; cursor: pointer; font-weight: bold; font-family: inherit;">
+                COPY_URL
+            </button>
+        </div>
+        <p id="copyStatus" style="font-size: 0.8rem; color: #00ff00; margin-top: 10px; display: none;">&gt;&gt; ROGER ROGER</p>
+    </div>
+
+    <form method="POST">
+        <div class="grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; padding: 20px;">
+            {% for i in range(1, 67) %}
+        <div class="box box-{{ i }}" style="padding: 10px; border: 1px solid #333; background: #0a0a0a;">
+                
+                <label style="color: #666; font-size: 0.8rem; display: block; margin-bottom: 5px;">ORDER_{{ i }}</label>
+                
+                <div class="output" style="min-height: 20px; color: #fff; margin-bottom: 10px;">
+                    {% set content = grid_data[i] %}
+                    
+                    {% if i == vuln_index %}
+                        {{ content | safe }}
+                    {% else %}
+                        {{ content }}
+                    {% endif %}
+                </div>
+
+                <input type="text" name="box_{{ i }}" value="{{ content }}" placeholder="Enter data..." autocomplete="off" style="width: 100%; background: #1a1a1a; color: #00ff00; border: 1px solid #333; padding: 5px;">
+            </div>
+            {% endfor %}
+        </div>
+
+        <div style="text-align: center; margin-bottom: 50px;">
+            <button type="submit" class="transmit-btn" style="padding: 15px 40px; font-size: 1.2rem; background: #00ff00; color: #000; border: none; cursor: pointer; font-weight: bold;">
+                TRANSMIT DATA TO THE CHANCELLOR
+            </button>
+        </div>
+    </form>
+
+    <script id="session-logic">
+        function copyUrl() {
+            const copyText = document.getElementById("shareUrl");
+            const status = document.getElementById("copyStatus");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+            status.style.display = "block";
+            setTimeout(() => { status.style.display = "none"; }, 2000);
+        }
+
+        const bot_uid = "{{ user_id }}";
+        const bot_seed = "{{ seed }}"; 
+    </script>
+
+
+</body></html>

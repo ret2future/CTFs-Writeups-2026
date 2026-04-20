@@ -1,0 +1,37 @@
+#!/bin/sh
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin
+export HOME=/root
+export TERM=linux
+
+/bin/mount -t proc     proc     /proc
+/bin/mount -t sysfs    sysfs    /sys
+/bin/mount -t devtmpfs devtmpfs /dev 2>/dev/null || /bin/mount -t tmpfs tmpfs /dev
+/bin/mount -t tmpfs    tmpfs    /tmp
+
+# Hush the kernel once userspace is up. Matches loglevel=1 (emergencies
+# only) -- suppresses the kworker / module / virtio chatter that
+# otherwise prints during a user session.
+echo 1 > /proc/sys/kernel/printk 2>/dev/null || true
+
+cd $HOME
+
+# Find a usable console tty. Pick the first character device that
+# actually exists. Fall back to plain `setsid sh` (no redirect) if
+# nothing useful turns up -- worst case you get the familiar
+# "can't access tty; job control turned off" but the shell still works.
+TTY=
+for cand in /dev/tty0 /dev/hvc0 /dev/ttyS0 /dev/console; do
+  [ -c "$cand" ] && TTY="$cand" && break
+done
+
+while /bin/true; do
+  /bin/clear 2>/dev/null
+  echo
+  echo "  hello from the squ1rrel-o-tron"
+  echo
+  if [ -n "$TTY" ]; then
+    /bin/setsid -c /bin/sh < "$TTY" > "$TTY" 2>&1
+  else
+    /bin/setsid /bin/sh
+  fi
+done

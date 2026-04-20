@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackerSpotted</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">📸 HackerSpotted</div>
+        <div class="nav-links">
+            <a href="/" class="active">Spot Someone</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="rotation-timer card">
+            ⏱️ Admin identity rotates in <span id="timer">--:--</span>
+        </div>
+
+        <section class="hero">
+            <h1>Spot a Hacker</h1>
+            <p>Upload a photo and our AI will figure out who you spotted!</p>
+        </section>
+
+        <form id="spot-form" class="card">
+            <div class="form-group">
+                <label for="spotter">Your Name</label>
+                <input type="text" id="spotter" name="spotter" placeholder="e.g. charlie" required>
+            </div>
+
+            <div class="form-group">
+                <label for="photo">Upload Photo</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+            </div>
+
+            <button type="submit" class="btn">Submit Spot 🎯</button>
+
+            <div id="result" class="result hidden"></div>
+        </form>
+
+        <section class="card users-section">
+            <h2>Known Hackers</h2>
+            <p class="subtle">These are the people you can try to spot:</p>
+            <ul id="users-list"></ul>
+        </section>
+    </main>
+
+    <script src="/app.js"></script>
+</body>
+</html>

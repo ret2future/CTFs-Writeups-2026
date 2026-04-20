@@ -1,0 +1,83 @@
+
+# ECHOES OF THE BIFROST - CTF CHALLENGE ANALYSIS
+
+## Challenge Details
+- Filename: Echoes_in_the_Aether.wav
+- Duration: 183 seconds (3 minutes exactly)
+- Sample Rate: 48 kHz
+- File Size: ~8.8 MB
+
+## Key Findings
+
+### 1. Signal Analysis
+- DOMINANT FREQUENCY: 2300.7 Hz (extremely strong)
+- Secondary frequency: 1200 Hz (typical SSTV marker)
+- This pattern is characteristic of SSTV (Slow Scan Television) encoding
+
+### 2. SSTV Characteristics Detected
+- SSTV transmits images by converting pixel brightness to frequency
+  - Black pixels: ~1500 Hz
+  - White pixels: ~2300 Hz
+- The 183-second duration matches typical SSTV transmission times
+
+### 3. Data Extraction
+- Repeated ASCII patterns found in raw audio data:
+  - Most common: 'qe}i~' (520 occurrences)
+  - Pattern: 'tl~a}', 'qd}j~', 'tm~`}', 'qg}h~'
+  - All patterns contain { } ~ characters suggesting encoding
+
+### 4. Images Generated  
+Multiple decoding attempts were made:
+- Spectrogram analysis
+- Frequency-to-image mapping
+- LSB/MSB extraction
+- Phase analysis
+- Band-limited frequency extraction
+
+### 5. OCR Results
+The decoded frequency band images showed faint patterns:
+- Detected patterns like "_ TS SN | | |"
+- Possible ASCII art or bar codes
+- Requires further enhancement
+
+## Next Steps to Try
+
+1. **Use Online SSTV Decoder**:
+   - Upload WAV to: https://www.sstv-online.com/
+   - Or similar SSTV decoding service
+
+2. **Try Real SSTV Decoder Software**:
+   - qsstv, mmsstv, or SSTV decoder libraries
+   - These use proper demodulation algorithms
+
+3. **Analyze Phase Relationships**:
+   - SSTV uses specific sync tones
+   - Look for 1200Hz sync patterns
+
+4. **Character Mapping**:
+   - The repeating strings might encode pixels directly
+   - Try mapping ASCII characters to pixel intensities
+
+5. **Frequency Shift Key (FSK) Decoding**:
+   - Might be binary data encoded in frequency shifts
+   - Different from standard SSTV
+
+6. **Watermark/Steganography**:
+   - Message might be hiding in phase or amplitude modulation
+   - Could be encoded in subtle frequency variations
+
+## Audio Properties
+- Min sample: -1.0
+- Max sample: 1.0
+- High standard deviation: 0.7052 (indicates modulated signal)
+
+## Recommendation
+Based on the evidence, this appears to be actual SSTV (Slow Scan Television) encoding.
+The flag/message is likely an image transmitted using SSTV protocol.
+To decode it properly, should use:
+1. A real SSTV decoder application
+2. Online SSTV decoding service
+3. Or implement proper SSTV demodulation algorithm
+
+The key frequencies are solidly in the SSTV band, and the timing matches
+known SSTV transmission modes.

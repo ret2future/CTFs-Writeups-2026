@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="balance-card glass">
+    <div>
+        <h2 style="color: var(--text-secondary); font-size: 1rem; margin-bottom: 0.5rem;">Current Balance</h2>
+        <div style="font-size: 3rem; font-weight: 900;">${{ "%.2f"|format(current_user.balance) }}</div>
+    </div>
+</div>
+
+<div style="margin-top: 3rem;">
+    <h3 style="margin-bottom: 1.5rem;">Your Inventory</h3>
+    {% if current_user.gift_cards %}
+    <div class="store-grid">
+        {% for uc in current_user.gift_cards %}
+        <div class="card glass">
+            {% if uc.gift_card.image_url %}
+            <img src="{{ url_for('static', filename=uc.gift_card.image_url) }}" alt="{{ uc.gift_card.name }}"
+                class="card-img">
+            {% endif %}
+            <div class="category">{{ uc.gift_card.category }}</div>
+            <h3>{{ uc.gift_card.name }}</h3>
+            <code class="card-code">{{ uc.code }}</code>
+            <p style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 1rem;">Forged at: Web Portal</p>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="glass" style="padding: 3rem; text-align: center; border-radius: 16px;">
+        <p style="color: var(--text-secondary);">Your vault is empty. Forge something in the store!</p>
+        <a href="{{ url_for('store') }}"
+            style="color: var(--primary-color); text-decoration: none; display: block; margin-top: 1rem;">Go to Store
+            &rarr;</a>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

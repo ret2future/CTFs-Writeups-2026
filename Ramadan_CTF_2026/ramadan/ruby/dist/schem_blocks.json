@@ -1,0 +1,375 @@
+{
+  "W": 110,
+  "H": 33,
+  "L": 136,
+  "counts": {
+    "minecraft:air": 474700,
+    "minecraft:purple_wool": 16187,
+    "minecraft:repeater[facing=east]": 197,
+    "minecraft:repeater[facing=south,locked=true,powered=false]": 1184,
+    "minecraft:repeater[facing=north,locked=true,powered=false]": 1170,
+    "minecraft:repeater[facing=east,locked=true,powered=false]": 120,
+    "minecraft:repeater[facing=west,locked=true,powered=false]": 122
+  },
+  "layers": [
+    {
+      "y": 0,
+      "count": 1024,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 69,
+      "maxZ": 135,
+      "types": {
+        "minecraft:purple_wool": 1002,
+        "minecraft:repeater[facing=east]": 22
+      }
+    },
+    {
+      "y": 2,
+      "count": 1024,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 69,
+      "maxZ": 135,
+      "types": {
+        "minecraft:purple_wool": 1011,
+        "minecraft:repeater[facing=east]": 13
+      }
+    },
+    {
+      "y": 4,
+      "count": 1024,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 69,
+      "maxZ": 135,
+      "types": {
+        "minecraft:purple_wool": 1022,
+        "minecraft:repeater[facing=east]": 2
+      }
+    },
+    {
+      "y": 6,
+      "count": 1024,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 69,
+      "maxZ": 135,
+      "types": {
+        "minecraft:purple_wool": 1024
+      }
+    },
+    {
+      "y": 8,
+      "count": 1024,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 69,
+      "maxZ": 135,
+      "types": {
+        "minecraft:purple_wool": 1003,
+        "minecraft:repeater[facing=east]": 21
+      }
+    },
+    {
+      "y": 10,
+      "count": 1024,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 69,
+      "maxZ": 135,
+      "types": {
+        "minecraft:purple_wool": 1010,
+        "minecraft:repeater[facing=east]": 14
+      }
+    },
+    {
+      "y": 12,
+      "count": 1024,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 69,
+      "maxZ": 135,
+      "types": {
+        "minecraft:purple_wool": 1012,
+        "minecraft:repeater[facing=east]": 12
+      }
+    },
+    {
+      "y": 14,
+      "count": 1057,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 16,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 17,
+        "minecraft:purple_wool": 989,
+        "minecraft:repeater[facing=east]": 35
+      }
+    },
+    {
+      "y": 15,
+      "count": 14,
+      "minX": 78,
+      "maxX": 80,
+      "minZ": 29,
+      "maxZ": 53,
+      "types": {
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 7,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 7
+      }
+    },
+    {
+      "y": 16,
+      "count": 177,
+      "minX": 0,
+      "maxX": 105,
+      "minZ": 0,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 80,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 79,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 10,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 8
+      }
+    },
+    {
+      "y": 17,
+      "count": 141,
+      "minX": 2,
+      "maxX": 80,
+      "minZ": 8,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 64,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 63,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 7,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 7
+      }
+    },
+    {
+      "y": 18,
+      "count": 1199,
+      "minX": 0,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 80,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 79,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 8,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 8,
+        "minecraft:purple_wool": 1006,
+        "minecraft:repeater[facing=east]": 18
+      }
+    },
+    {
+      "y": 19,
+      "count": 141,
+      "minX": 2,
+      "maxX": 80,
+      "minZ": 8,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 64,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 63,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 7,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 7
+      }
+    },
+    {
+      "y": 20,
+      "count": 1199,
+      "minX": 0,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 80,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 79,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 8,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 8,
+        "minecraft:purple_wool": 1019,
+        "minecraft:repeater[facing=east]": 5
+      }
+    },
+    {
+      "y": 21,
+      "count": 141,
+      "minX": 2,
+      "maxX": 80,
+      "minZ": 8,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 64,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 63,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 7,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 7
+      }
+    },
+    {
+      "y": 22,
+      "count": 1199,
+      "minX": 0,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 80,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 79,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 8,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 8,
+        "minecraft:purple_wool": 1015,
+        "minecraft:repeater[facing=east]": 9
+      }
+    },
+    {
+      "y": 23,
+      "count": 141,
+      "minX": 2,
+      "maxX": 80,
+      "minZ": 8,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 64,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 63,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 7,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 7
+      }
+    },
+    {
+      "y": 24,
+      "count": 1199,
+      "minX": 0,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 80,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 79,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 8,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 8,
+        "minecraft:purple_wool": 1017,
+        "minecraft:repeater[facing=east]": 7
+      }
+    },
+    {
+      "y": 25,
+      "count": 141,
+      "minX": 2,
+      "maxX": 80,
+      "minZ": 8,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 64,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 63,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 7,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 7
+      }
+    },
+    {
+      "y": 26,
+      "count": 1199,
+      "minX": 0,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 80,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 79,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 8,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 8,
+        "minecraft:purple_wool": 1016,
+        "minecraft:repeater[facing=east]": 8
+      }
+    },
+    {
+      "y": 27,
+      "count": 141,
+      "minX": 2,
+      "maxX": 80,
+      "minZ": 8,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 64,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 63,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 7,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 7
+      }
+    },
+    {
+      "y": 28,
+      "count": 1199,
+      "minX": 0,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 80,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 79,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 8,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 8,
+        "minecraft:purple_wool": 1004,
+        "minecraft:repeater[facing=east]": 20
+      }
+    },
+    {
+      "y": 29,
+      "count": 141,
+      "minX": 2,
+      "maxX": 80,
+      "minZ": 8,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 64,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 63,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 7,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 7
+      }
+    },
+    {
+      "y": 30,
+      "count": 1199,
+      "minX": 0,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 80,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 79,
+        "minecraft:repeater[facing=east,locked=true,powered=false]": 8,
+        "minecraft:repeater[facing=west,locked=true,powered=false]": 8,
+        "minecraft:purple_wool": 1015,
+        "minecraft:repeater[facing=east]": 9
+      }
+    },
+    {
+      "y": 31,
+      "count": 127,
+      "minX": 2,
+      "maxX": 64,
+      "minZ": 8,
+      "maxZ": 58,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 64,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 63
+      }
+    },
+    {
+      "y": 32,
+      "count": 1057,
+      "minX": 2,
+      "maxX": 109,
+      "minZ": 0,
+      "maxZ": 135,
+      "types": {
+        "minecraft:repeater[facing=south,locked=true,powered=false]": 16,
+        "minecraft:repeater[facing=north,locked=true,powered=false]": 17,
+        "minecraft:purple_wool": 1022,
+        "minecraft:repeater[facing=east]": 2
+      }
+    }
+  ]
+}

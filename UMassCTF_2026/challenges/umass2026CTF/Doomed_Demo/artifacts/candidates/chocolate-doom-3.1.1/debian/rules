@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@ --with bash-completion
+
+override_dh_auto_install:
+	dh_auto_install --max-parallel=1 -- \
+		SETUP_BINARIES=chocolate-setup \
+		DOC_FILES="README.md README.Music.md PHILOSOPHY.md TODO.md" \
+		execgamesdir=/usr/games \
+		appdatadir=/usr/share/metainfo
+	# superfluous docs
+	rm -f debian/chocolate-doom/usr/share/doc/chocolate-doom/CMDLINE.doom \
+	      debian/chocolate-doom/usr/share/doc/chocolate-doom/INSTALL.doom \
+	      debian/chocolate-doom/usr/share/doc/chocolate-doom/NOT-BUGS.md
+	rm -rf debian/chocolate-doom/usr/share/doc/chocolate-heretic \
+	       debian/chocolate-doom/usr/share/doc/chocolate-hexen \
+	       debian/chocolate-doom/usr/share/doc/chocolate-strife
+
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS.md

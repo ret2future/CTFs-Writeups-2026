@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scientology Soulmate Selection</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <style>body { background-color: #ffe8d6; }</style>
+</head>
+<body data-api-base="">
+  <main class="wrap">
+    <h1>SOULMATE IDENTIFICATION (INTERNAL USE ONLY)</h1>
+
+    <p class="tagline">
+       We are seeking a suitable church-committed wife for the Scientology Freedom Medal of Valor-winning actor Mr. Tom Cruise.
+    </p>
+    <p class="tagline">
+      Enter the birthday of the potential candidate you are evaluating, and our secret proprietary algorithm will divine their soulmate, and their compatibility with Mr. Cruise.
+    </p>
+    <p class="tagline">
+      The member who finds "The One" will receive a great reward!
+    </p>
+    <p class="tagline">
+      This is a top secret app meant only for use by members of the church.
+    </p>
+
+    <label class="sr-only" for="birthday">Birthday</label>
+
+    <div class="controls">
+      <input
+        type="date"
+        id="birthday"
+        class="birthday-input"
+        autocomplete="bday"
+        aria-describedby="hint loading"
+      />
+      <button id="enter-btn" class="enter-btn" type="button">Enter</button>
+    </div>
+
+    <p id="hint" class="hint">Choose a date, then press Enter.</p>
+    <p id="loading" class="loading" role="status" aria-live="polite" hidden>
+      Loading soulmate image...
+    </p>
+
+    <h1>Calculated Soulmate:</h1>
+    <section id="image-pane" class="pane" aria-label="Your soulmate">
+      <img id="soulmate-img" class="soulmate-img" alt="" />
+    </section>
+
+    <div id="result" class="result" aria-live="polite" hidden>
+      <p id="result-message" class="result-message"></p>
+      <p id="result-flag" class="result-flag" hidden></p>
+    </div>
+  </main>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

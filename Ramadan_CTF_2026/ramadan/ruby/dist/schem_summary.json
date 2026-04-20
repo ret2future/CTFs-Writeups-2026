@@ -1,0 +1,57 @@
+{
+  "keys": [
+    "Version",
+    "DataVersion",
+    "Metadata",
+    "Height",
+    "Length",
+    "Width",
+    "PaletteMax",
+    "Palette",
+    "BlockData",
+    "BlockEntities"
+  ],
+  "Metadata": {
+    "WEOffsetX": -113,
+    "WEOffsetY": -33,
+    "WEOffsetZ": -67,
+    "MCSchematicMetadata": {
+      "Generated": "Generated with love using Sloimay's MCSchematic Python Library, itself dependant on Valentin Berlier's nbtlib library."
+    }
+  },
+  "Width": 110,
+  "Height": 33,
+  "Length": 136,
+  "uniquePaletteCount": 7,
+  "blockEntities": [],
+  "paletteSample": [
+    [
+      "minecraft:air",
+      0
+    ],
+    [
+      "minecraft:purple_wool",
+      1
+    ],
+    [
+      "minecraft:repeater[facing=east]",
+      2
+    ],
+    [
+      "minecraft:repeater[facing=north,locked=true,powered=false]",
+      3
+    ],
+    [
+      "minecraft:repeater[facing=south,locked=true,powered=false]",
+      4
+    ],
+    [
+      "minecraft:repeater[facing=west,locked=true,powered=false]",
+      5
+    ],
+    [
+      "minecraft:repeater[facing=east,locked=true,powered=false]",
+      6
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <identifier>epstein_efoia_index</identifier>
+  <mediatype>texts</mediatype>
+  <collection>opensource</collection>
+  <creator>Randall T.</creator>
+  <description>Structured metadata index of all 633,842 files released by the U.S. Department of Justice under the Epstein Files Transparency Act (Public Law 118-299). Includes document type classification, date extraction, and gap analysis of 2,097,970 missing EFTA serial numbers. Metadata only — no extracted text, no victim-identifying information. GitHub: https://github.com/randallscott25-star/epstein-efoia-index</description>
+  <language>eng</language>
+  <licenseurl>https://creativecommons.org/licenses/by/4.0/</licenseurl>
+  <scanner>Internet Archive HTML5 Uploader 1.7.0</scanner>
+  <subject>epstein</subject>
+  <subject>efoia</subject>
+  <subject>doj</subject>
+  <subject>transparency</subject>
+  <subject>public records</subject>
+  <subject>metadata</subject>
+  <title>Epstein EFTA Complete File Index — 633,842 DOJ Files</title>
+  <uploader>randallscott25@gmail.com</uploader>
+  <publicdate>2026-02-13 06:34:50</publicdate>
+  <addeddate>2026-02-13 06:34:50</addeddate>
+  <curation>[curator]validator@archive.org[/curator][date]20260213063525[/date][comment]checked for malware[/comment]</curation>
+  <identifier-access>http://archive.org/details/epstein_efoia_index</identifier-access>
+  <identifier-ark>ark:/13960/s238g81622w</identifier-ark>
+</metadata>

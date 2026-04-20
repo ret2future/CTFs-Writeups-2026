@@ -1,0 +1,12 @@
+1. Authenticate to the challenge wrapper with the working UMass CTF token and obtain the per-team instance URL.
+2. Upload an HTML payload through /submit using multipart content-type text/plain but filename exploit.html.
+3. Let the editorial admin bot open the uploaded file and execute the XSS.
+4. First-stage XSS flow:
+   - POST /actuator/env with {"name":"app.active-config","value":"dev"}
+   - POST /actuator/refresh
+   - GET /admin and extract the CSRF token
+   - POST /admin/report with endpoint=/api/../files/<current uploaded filename>
+5. Report-runner logs in as admin, sets cookie FLAG=UMASS{...}, and visits the normalized /files/... path.
+6. Same uploaded HTML sees FLAG in document.cookie and writes it into document.body.
+7. First-stage XSS parses the /admin/report response for UMASS{...} and persists it with PUT /api/tags/article/1.
+8. Read the flag back from GET /api/tags/article/1.

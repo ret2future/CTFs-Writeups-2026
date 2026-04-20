@@ -1,0 +1,308 @@
+Version: 1
+Revision: 1
+
+040555 65534 65534 1 bin
+100555 65534 65534 926816 1 busybox 2
+120777 65534 65534 1 [ /bin/busybox
+120777 65534 65534 1 [[ /bin/busybox
+120777 65534 65534 1 acpid /bin/busybox
+120777 65534 65534 1 add-shell /bin/busybox
+120777 65534 65534 1 arch /bin/busybox
+120777 65534 65534 1 ascii /bin/busybox
+120777 65534 65534 1 base32 /bin/busybox
+120777 65534 65534 1 base64 /bin/busybox
+120777 65534 65534 1 basename /bin/busybox
+120777 65534 65534 1 bc /bin/busybox
+120777 65534 65534 1 beep /bin/busybox
+120777 65534 65534 1 blkdiscard /bin/busybox
+120777 65534 65534 1 bootchartd /bin/busybox
+120777 65534 65534 1 bzcat /bin/busybox
+120777 65534 65534 1 cal /bin/busybox
+120777 65534 65534 1 chat /bin/busybox
+120777 65534 65534 1 chattr /bin/busybox
+120777 65534 65534 1 chgrp /bin/busybox
+120777 65534 65534 1 chpst /bin/busybox
+120777 65534 65534 1 chroot /bin/busybox
+120777 65534 65534 1 chrt /bin/busybox
+120777 65534 65534 1 chvt /bin/busybox
+120777 65534 65534 1 cksum /bin/busybox
+120777 65534 65534 1 cmp /bin/busybox
+120777 65534 65534 1 comm /bin/busybox
+120777 65534 65534 1 conspy /bin/busybox
+120777 65534 65534 1 crc32 /bin/busybox
+120777 65534 65534 1 cryptpw /bin/busybox
+120777 65534 65534 1 cttyhack /bin/busybox
+120777 65534 65534 1 dc /bin/busybox
+120777 65534 65534 1 dd /bin/busybox
+120777 65534 65534 1 deallocvt /bin/busybox
+120777 65534 65534 1 devmem /bin/busybox
+120777 65534 65534 1 dhcprelay /bin/busybox
+120777 65534 65534 1 diff /bin/busybox
+120777 65534 65534 1 dirname /bin/busybox
+120777 65534 65534 1 dnsdomainname /bin/busybox
+120777 65534 65534 1 dos2unix /bin/busybox
+120777 65534 65534 1 dumpkmap /bin/busybox
+120777 65534 65534 1 egrep /bin/busybox
+120777 65534 65534 1 envdir /bin/busybox
+120777 65534 65534 1 envuidgid /bin/busybox
+120777 65534 65534 1 expand /bin/busybox
+120777 65534 65534 1 expr /bin/busybox
+120777 65534 65534 1 factor /bin/busybox
+120777 65534 65534 1 fallocate /bin/busybox
+120777 65534 65534 1 fatattr /bin/busybox
+120777 65534 65534 1 fbset /bin/busybox
+120777 65534 65534 1 fbsplash /bin/busybox
+120777 65534 65534 1 fdflush /bin/busybox
+120777 65534 65534 1 fdformat /bin/busybox
+120777 65534 65534 1 fgconsole /bin/busybox
+120777 65534 65534 1 fgrep /bin/busybox
+120777 65534 65534 1 findfs /bin/busybox
+120777 65534 65534 1 flock /bin/busybox
+120777 65534 65534 1 fold /bin/busybox
+120777 65534 65534 1 freeramdisk /bin/busybox
+120777 65534 65534 1 fsfreeze /bin/busybox
+120777 65534 65534 1 fstrim /bin/busybox
+120777 65534 65534 1 fsync /bin/busybox
+120777 65534 65534 1 fuser /bin/busybox
+120777 65534 65534 1 getfattr /bin/busybox
+120777 65534 65534 1 getopt /bin/busybox
+120777 65534 65534 1 groups /bin/busybox
+120777 65534 65534 1 halt /bin/busybox
+120777 65534 65534 1 hd /bin/busybox
+120777 65534 65534 1 hexdump /bin/busybox
+120777 65534 65534 1 hexedit /bin/busybox
+120777 65534 65534 1 hush /bin/busybox
+120777 65534 65534 1 i2cdetect /bin/busybox
+120777 65534 65534 1 i2cdump /bin/busybox
+120777 65534 65534 1 i2cget /bin/busybox
+120777 65534 65534 1 i2cset /bin/busybox
+120777 65534 65534 1 i2ctransfer /bin/busybox
+120777 65534 65534 1 id /bin/busybox
+120777 65534 65534 1 install /bin/busybox
+120777 65534 65534 1 ionice /bin/busybox
+120777 65534 65534 1 iostat /bin/busybox
+120777 65534 65534 1 ipcalc /bin/busybox
+120777 65534 65534 1 ipcrm /bin/busybox
+120777 65534 65534 1 ipcs /bin/busybox
+120777 65534 65534 1 kbd_mode /bin/busybox
+120777 65534 65534 1 killall /bin/busybox
+120777 65534 65534 1 killall5 /bin/busybox
+120777 65534 65534 1 less /bin/busybox
+120777 65534 65534 1 link /bin/busybox
+120777 65534 65534 1 linux32 /bin/busybox
+120777 65534 65534 1 linux64 /bin/busybox
+120777 65534 65534 1 loadfont /bin/busybox
+120777 65534 65534 1 loadkmap /bin/busybox
+120777 65534 65534 1 logname /bin/busybox
+120777 65534 65534 1 losetup /bin/busybox
+120777 65534 65534 1 lpd /bin/busybox
+120777 65534 65534 1 lsattr /bin/busybox
+120777 65534 65534 1 lsof /bin/busybox
+120777 65534 65534 1 lsscsi /bin/busybox
+120777 65534 65534 1 lzcat /bin/busybox
+120777 65534 65534 1 makedevs /bin/busybox
+120777 65534 65534 1 man /bin/busybox
+120777 65534 65534 1 md5sum /bin/busybox
+120777 65534 65534 1 mdev /bin/busybox
+120777 65534 65534 1 mesg /bin/busybox
+120777 65534 65534 1 microcom /bin/busybox
+120777 65534 65534 1 mim /bin/busybox
+120777 65534 65534 1 mkdosfs /bin/busybox
+120777 65534 65534 1 mkfifo /bin/busybox
+120777 65534 65534 1 mkpasswd /bin/busybox
+120777 65534 65534 1 mktemp /bin/busybox
+120777 65534 65534 1 more /bin/busybox
+120777 65534 65534 1 mountpoint /bin/busybox
+120777 65534 65534 1 mpstat /bin/busybox
+120777 65534 65534 1 mt /bin/busybox
+120777 65534 65534 1 nanddump /bin/busybox
+120777 65534 65534 1 nandwrite /bin/busybox
+120777 65534 65534 1 nbd-client /bin/busybox
+120777 65534 65534 1 nice /bin/busybox
+120777 65534 65534 1 nl /bin/busybox
+120777 65534 65534 1 nmeter /bin/busybox
+120777 65534 65534 1 nohup /bin/busybox
+120777 65534 65534 1 nologin /bin/busybox
+120777 65534 65534 1 nproc /bin/busybox
+120777 65534 65534 1 nsenter /bin/busybox
+120777 65534 65534 1 ntpd /bin/busybox
+120777 65534 65534 1 od /bin/busybox
+120777 65534 65534 1 openvt /bin/busybox
+120777 65534 65534 1 partprobe /bin/busybox
+120777 65534 65534 1 paste /bin/busybox
+120777 65534 65534 1 pgrep /bin/busybox
+120777 65534 65534 1 pidof /bin/busybox
+120777 65534 65534 1 pipe_progress /bin/busybox
+120777 65534 65534 1 pivot_root /bin/busybox
+120777 65534 65534 1 pkill /bin/busybox
+120777 65534 65534 1 pmap /bin/busybox
+120777 65534 65534 1 poweroff /bin/busybox
+120777 65534 65534 1 powertop /bin/busybox
+120777 65534 65534 1 printf /bin/busybox
+120777 65534 65534 1 pstree /bin/busybox
+120777 65534 65534 1 pwd /bin/busybox
+120777 65534 65534 1 pwdx /bin/busybox
+120777 65534 65534 1 rdate /bin/busybox
+120777 65534 65534 1 rdev /bin/busybox
+120777 65534 65534 1 readlink /bin/busybox
+120777 65534 65534 1 readprofile /bin/busybox
+120777 65534 65534 1 realpath /bin/busybox
+120777 65534 65534 1 reboot /bin/busybox
+120777 65534 65534 1 remove-shell /bin/busybox
+120777 65534 65534 1 renice /bin/busybox
+120777 65534 65534 1 reset /bin/busybox
+120777 65534 65534 1 resize /bin/busybox
+120777 65534 65534 1 resume /bin/busybox
+120777 65534 65534 1 rev /bin/busybox
+120777 65534 65534 1 run-init /bin/busybox
+120777 65534 65534 1 run-parts /bin/busybox
+120777 65534 65534 1 script /bin/busybox
+120777 65534 65534 1 scriptreplay /bin/busybox
+120777 65534 65534 1 seedrng /bin/busybox
+120777 65534 65534 1 seq /bin/busybox
+120777 65534 65534 1 setarch /bin/busybox
+120777 65534 65534 1 setconsole /bin/busybox
+120777 65534 65534 1 setfattr /bin/busybox
+120777 65534 65534 1 setfont /bin/busybox
+120777 65534 65534 1 setkeycodes /bin/busybox
+120777 65534 65534 1 setlogcons /bin/busybox
+120777 65534 65534 1 setpriv /bin/busybox
+120777 65534 65534 1 setuidgid /bin/busybox
+120777 65534 65534 1 sha1sum /bin/busybox
+120777 65534 65534 1 sha256sum /bin/busybox
+120777 65534 65534 1 sha3sum /bin/busybox
+120777 65534 65534 1 sha512sum /bin/busybox
+120777 65534 65534 1 showkey /bin/busybox
+120777 65534 65534 1 shred /bin/busybox
+120777 65534 65534 1 shuf /bin/busybox
+120777 65534 65534 1 smemcap /bin/busybox
+120777 65534 65534 1 softlimit /bin/busybox
+120777 65534 65534 1 split /bin/busybox
+120777 65534 65534 1 ssl_client /bin/busybox
+120777 65534 65534 1 start-stop-daemon /bin/busybox
+120777 65534 65534 1 strings /bin/busybox
+120777 65534 65534 1 stty /bin/busybox
+120777 65534 65534 1 sum /bin/busybox
+120777 65534 65534 1 svok /bin/busybox
+120777 65534 65534 1 switch_root /bin/busybox
+120777 65534 65534 1 sync /bin/busybox
+120777 65534 65534 1 sysctl /bin/busybox
+120777 65534 65534 1 tac /bin/busybox
+120777 65534 65534 1 taskset /bin/busybox
+120777 65534 65534 1 tee /bin/busybox
+120777 65534 65534 1 test /bin/busybox
+120777 65534 65534 1 time /bin/busybox
+120777 65534 65534 1 timeout /bin/busybox
+120777 65534 65534 1 top /bin/busybox
+120777 65534 65534 1 touch /bin/busybox
+120777 65534 65534 1 tree /bin/busybox
+120777 65534 65534 1 truncate /bin/busybox
+120777 65534 65534 1 ts /bin/busybox
+120777 65534 65534 1 tsort /bin/busybox
+120777 65534 65534 1 tty /bin/busybox
+120777 65534 65534 1 ttysize /bin/busybox
+120777 65534 65534 1 ubiattach /bin/busybox
+120777 65534 65534 1 ubidetach /bin/busybox
+120777 65534 65534 1 ubimkvol /bin/busybox
+120777 65534 65534 1 ubirename /bin/busybox
+120777 65534 65534 1 ubirmvol /bin/busybox
+120777 65534 65534 1 ubirsvol /bin/busybox
+120777 65534 65534 1 ubiupdatevol /bin/busybox
+120777 65534 65534 1 udhcpc6 /bin/busybox
+120777 65534 65534 1 uevent /bin/busybox
+120777 65534 65534 1 unexpand /bin/busybox
+120777 65534 65534 1 unix2dos /bin/busybox
+120777 65534 65534 1 unlink /bin/busybox
+120777 65534 65534 1 unshare /bin/busybox
+120777 65534 65534 1 uptime /bin/busybox
+120777 65534 65534 1 usleep /bin/busybox
+120777 65534 65534 1 uudecode /bin/busybox
+120777 65534 65534 1 uuencode /bin/busybox
+120777 65534 65534 1 vconfig /bin/busybox
+120777 65534 65534 1 volname /bin/busybox
+120777 65534 65534 1 watch /bin/busybox
+120777 65534 65534 1 which /bin/busybox
+120777 65534 65534 1 whoami /bin/busybox
+120777 65534 65534 1 whois /bin/busybox
+120777 65534 65534 1 xargs /bin/busybox
+120777 65534 65534 1 xxd /bin/busybox
+120777 65534 65534 1 xzcat /bin/busybox
+120777 65534 65534 1 yes /bin/busybox
+120777 65534 65534 1 zcat /bin/busybox
+120777 65534 65534 1 sh /bin/busybox
+120777 65534 65534 1 mount /bin/busybox
+120777 65534 65534 1 umount /bin/busybox
+120777 65534 65534 1 ls /bin/busybox
+120777 65534 65534 1 cat /bin/busybox
+120777 65534 65534 1 cp /bin/busybox
+120777 65534 65534 1 mv /bin/busybox
+120777 65534 65534 1 rm /bin/busybox
+120777 65534 65534 1 mkdir /bin/busybox
+120777 65534 65534 1 rmdir /bin/busybox
+120777 65534 65534 1 ln /bin/busybox
+120777 65534 65534 1 echo /bin/busybox
+120777 65534 65534 1 clear /bin/busybox
+120777 65534 65534 1 sleep /bin/busybox
+120777 65534 65534 1 setsid /bin/busybox
+120777 65534 65534 1 ps /bin/busybox
+120777 65534 65534 1 kill /bin/busybox
+120777 65534 65534 1 ash /bin/busybox
+120777 65534 65534 1 env /bin/busybox
+120777 65534 65534 1 printenv /bin/busybox
+120777 65534 65534 1 dmesg /bin/busybox
+120777 65534 65534 1 uname /bin/busybox
+120777 65534 65534 1 mknod /bin/busybox
+120777 65534 65534 1 chmod /bin/busybox
+120777 65534 65534 1 chown /bin/busybox
+120777 65534 65534 1 stat /bin/busybox
+120777 65534 65534 1 df /bin/busybox
+120777 65534 65534 1 du /bin/busybox
+120777 65534 65534 1 free /bin/busybox
+120777 65534 65534 1 date /bin/busybox
+120777 65534 65534 1 hostname /bin/busybox
+120777 65534 65534 1 login /bin/busybox
+120777 65534 65534 1 grep /bin/busybox
+120777 65534 65534 1 sed /bin/busybox
+120777 65534 65534 1 awk /bin/busybox
+120777 65534 65534 1 head /bin/busybox
+120777 65534 65534 1 tail /bin/busybox
+120777 65534 65534 1 wc /bin/busybox
+120777 65534 65534 1 find /bin/busybox
+120777 65534 65534 1 sort /bin/busybox
+120777 65534 65534 1 uniq /bin/busybox
+120777 65534 65534 1 tr /bin/busybox
+120777 65534 65534 1 cut /bin/busybox
+120777 65534 65534 1 vi /bin/busybox
+120777 65534 65534 1 true /bin/busybox
+120777 65534 65534 1 false /bin/busybox
+.
+040555 65534 65534 1 sbin
+100555 65534 65534 1123 1 init 3
+.
+040555 65534 65534 1 proc
+.
+040555 65534 65534 1 sys
+.
+040555 65534 65534 1 dev
+.
+040555 65534 65534 1 tmp
+.
+040555 65534 65534 1 root
+100555 65534 65534 8976 1 chall 4
+.
+040555 65534 65534 1 etc
+100444 65534 65534 30 1 passwd 5
+100444 65534 65534 10 1 group 6
+100444 65534 65534 16 1 hostname 7
+100444 65534 65534 152 1 fstab 8
+100444 65534 65534 94 1 inittab 9
+.
+040555 65534 65534 1 mnt
+.
+040555 65534 65534 1 usr
+040555 65534 65534 1 bin
+.
+040555 65534 65534 1 sbin
+.
+.
+.

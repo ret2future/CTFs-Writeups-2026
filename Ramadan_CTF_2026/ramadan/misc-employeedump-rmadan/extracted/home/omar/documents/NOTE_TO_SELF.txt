@@ -1,0 +1,8 @@
+[PERSONAL - DO NOT COMMIT TO REPO]
+
+If I get locked out before I can exfil this, here is what I stashed:
+
+  img_001.bak  -  Q4 deck slide  (proof they knew the vulnerability existed)
+  img_002.bak  -  CRM export     (proof of scale - 250 affected clients)
+  img_003.bak  -  The thing I found last Tuesday is encoded inside.
+                  It is the door, not the house.

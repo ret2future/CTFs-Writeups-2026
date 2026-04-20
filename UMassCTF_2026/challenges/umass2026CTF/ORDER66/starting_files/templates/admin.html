@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Empire Logs</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="admin-container" style="max-width: 800px; margin: 100px auto; padding: 20px;">
+    <h1>Galactic Empire Link Checker</h1>
+    
+    <div class="input-box" style="display: flex; flex-direction: column; gap: 20px;">
+        <label>SYSTEM : Your command needs to be checked before it goes to the chancellor</label>
+        
+        <input type="url" id="target_url" 
+               placeholder="Enter URL..." 
+               required 
+               style="width: 100%; padding: 15px;">
+        
+        <button onclick="dispatchBot()" class="transmit-btn" style="margin: 0 auto;">
+            EXECUTE
+        </button>
+    </div>
+
+    <div id="bot-terminal" style="display:none; margin-top: 40px; border-left: 3px solid #0f0; padding-left: 20px;">
+        <h3 style="font-size: 0.8rem; color: #666;">System...</h3>
+        <pre id="log-content" style="color: #0f0; white-space: pre-wrap; font-family: inherit;"></pre>
+    </div>
+
+    <div style="margin-top: 40px; text-align: center;">
+        <a href="/" style="color: #0f0; text-decoration: none; font-size: 0.8rem;">
+            << BACK
+        </a>
+    </div>
+</div>
+
+<script>
+async function dispatchBot() {
+    const urlInput = document.getElementById('target_url');
+    const logBox = document.getElementById('bot-terminal');
+    const logContent = document.getElementById('log-content');
+    const btn = document.querySelector('.transmit-btn');
+
+    if (!urlInput.value) return alert("URL Required.");
+
+    logBox.style.display = 'block';
+    btn.disabled = true;
+    logContent.innerText = "...";
+
+    try {
+        const response = await fetch('/admin/visit', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: `target_url=${encodeURIComponent(urlInput.value)}`
+        });
+
+        logContent.innerText = await response.text(); 
+    } catch (e) {
+        logContent.innerText = "CRITICAL ERROR: Bot did not return.";
+    } finally {
+        btn.disabled = false;
+    }
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+#!/bin/sh
+mdev -s
+mount -t proc none /proc
+stty -opost
+echo 0 > /proc/sys/kernel/kptr_restrict
+echo 1 > /proc/sys/kernel/dmesg_restrict
+insmod /root/feedback.ko
+
+echo -e "\n-----------------------------\n"
+echo -n "Welcome to Student Feedback"
+echo -e "\n-----------------------------\n"
+setsid cttyhack setuidgid 1000 sh
+umount /proc
+poweroff -d 0 -f

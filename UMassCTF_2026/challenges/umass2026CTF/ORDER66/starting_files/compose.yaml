@@ -1,0 +1,18 @@
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - PORT=80
+      - HOST=localhost
+      - REDIS_HOST=redis
+      - SECRET_KEY=${TEST_KEY}
+      - FLAG=UMASS{TEST_FLAG}
+      - Host=127.0.0.1
+    restart: always
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine

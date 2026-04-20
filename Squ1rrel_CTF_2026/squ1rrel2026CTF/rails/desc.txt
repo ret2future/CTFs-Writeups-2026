@@ -1,0 +1,5 @@
+[https://rails.squ1rrel.dev](https://rails.squ1rrel.dev)
+
+Provided file: gooner.zip
+
+Flag format: squ1rrel{...}

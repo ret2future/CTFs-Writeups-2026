@@ -1,0 +1,40 @@
+010 | sw_k-6p0_r330_norm.png | ri 2 ty
+010 | sw_k-2p0_r195_norm.png | Z 4 f A J -
+010 | sw_k-2p0_r210_norm.png | nN f Su
+010 | sw_k-1p0_r15_inv.png | apes a
+010 | sw_k1p0_r180_norm.png | yy iff
+008 | sw_k-2p0_r135_norm.png | --s by -
+007 | sw_k-1p0_r135_norm.png | - } - Ny
+004 | sw_k-5p0_r180_norm.png | fEXS
+004 | sw_k-2p0_r330_norm.png | ve ZF
+004 | sw_k-1p0_r165_norm.png | a aoe
+004 | sw_k0p0_r180_inv.png | ey sy
+003 | sw_k-5p0_r345_norm.png | les
+003 | sw_k-2p0_r45_norm.png | 4 cs
+003 | sw_k-1p0_r195_inv.png | a el
+003 | sw_k0p0_r120_inv.png | nw 1
+003 | sw_k2p0_r30_norm.png | Nw S
+003 | sw_k3p0_r165_norm.png | Ks x
+003 | sw_k7p0_r0_norm.png | Nsy
+003 | polar_r15_inv.png | aan
+002 | sw_k-8p0_r120_norm.png | cS
+002 | sw_k-7p0_r195_norm.png | ey
+002 | sw_k-6p0_r240_inv.png | X e }
+002 | sw_k-5p0_r135_norm.png | cy
+002 | sw_k-5p0_r300_inv.png | ey
+002 | sw_k-5p0_r315_norm.png | cy
+002 | sw_k-4p0_r240_norm.png | K2
+002 | sw_k-3p0_r30_norm.png | _ we
+002 | sw_k-3p0_r285_norm.png | aS
+002 | sw_k-2p0_r30_norm.png | y Y
+002 | sw_k-2p0_r240_inv.png | 7 e }
+002 | sw_k-1p0_r120_norm.png | - p y
+002 | sw_k0p0_r300_norm.png | Ye
+002 | sw_k3p0_r0_norm.png | NS
+002 | sw_k3p0_r120_norm.png | i 4
+002 | sw_k5p0_r210_inv.png | _ we
+002 | sw_k6p0_r45_inv.png | Pe
+002 | sw_k6p0_r315_norm.png | Sy
+002 | sw_k8p0_r45_norm.png | eS
+002 | polar_r15_norm.png | aN
+002 | polar_r45_norm.png | fe

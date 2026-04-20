@@ -1,0 +1,39 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2J/bin/feedback_adj_harness
+exit
+Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_adj_harness
+[+] stage1: create victims (size=0x40)
+[+] stage2: create attackers and map first observed victim changes
+.. a=0 edges=0
+.. a=32 edges=0
+.. a=64 edges=0
+.. a=96 edges=0
+.. a=128 edges=0
+.. a=160 edges=0
+.. a=192 edges=0
+.. a=224 edges=0
+.. a=256 edges=0
+.. a=288 edges=0
+[+] summary attackers_ok=320 edges=0 untouched_victims=96
+[+] cleanup
+[+] done
+~ $ exit
+[    3.713308] reboot: Power down

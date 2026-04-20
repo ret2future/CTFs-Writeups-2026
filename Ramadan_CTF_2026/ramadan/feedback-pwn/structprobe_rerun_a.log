@@ -1,0 +1,1761 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM...
+c[?7l[2J/bin/feedback_structprobe
+exit
+Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_structprobe
+[+] create size=0x40 objects and rescan liveness each step
+.. progress i=0
+step=5 ov=0x05 bad_meta=0 bad_data=1
+  data  id=7340035 expect=0x23 got=0x05
+step=6 ov=0x06 bad_meta=0 bad_data=1
+  data  id=7340035 expect=0x23 got=0x05
+step=7 ov=0x07 bad_meta=0 bad_data=1
+  data  id=7340035 expect=0x23 got=0x05
+step=8 ov=0x08 bad_meta=0 bad_data=2
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+step=9 ov=0x09 bad_meta=0 bad_data=3
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+step=10 ov=0x0a bad_meta=0 bad_data=3
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+step=11 ov=0x0b bad_meta=0 bad_data=3
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+step=12 ov=0x0c bad_meta=0 bad_data=3
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+step=13 ov=0x0d bad_meta=0 bad_data=3
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+step=14 ov=0x0e bad_meta=0 bad_data=3
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+step=15 ov=0x0f bad_meta=0 bad_data=3
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+step=16 ov=0x10 bad_meta=0 bad_data=3
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+step=17 ov=0x11 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=18 ov=0x12 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=19 ov=0x13 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=20 ov=0x14 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=21 ov=0x15 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=22 ov=0x16 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=23 ov=0x17 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=24 ov=0x18 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=25 ov=0x19 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=26 ov=0x1a bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=27 ov=0x1b bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=28 ov=0x1c bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=29 ov=0x1d bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=30 ov=0x1e bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=31 ov=0x1f bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=32 ov=0x20 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+.. progress i=32
+step=33 ov=0x21 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=34 ov=0x22 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=35 ov=0x23 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=36 ov=0x24 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=37 ov=0x25 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=38 ov=0x26 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=39 ov=0x27 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=40 ov=0x28 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=41 ov=0x29 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=42 ov=0x2a bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=43 ov=0x2b bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=44 ov=0x2c bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=45 ov=0x2d bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=46 ov=0x2e bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=47 ov=0x2f bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=48 ov=0x30 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=49 ov=0x31 bad_meta=0 bad_data=4
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+step=50 ov=0x32 bad_meta=0 bad_data=5
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+step=51 ov=0x33 bad_meta=0 bad_data=5
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+step=52 ov=0x34 bad_meta=0 bad_data=6
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=53 ov=0x35 bad_meta=0 bad_data=7
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=54 ov=0x36 bad_meta=0 bad_data=7
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=55 ov=0x37 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=56 ov=0x38 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=57 ov=0x39 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=58 ov=0x3a bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=59 ov=0x3b bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=60 ov=0x3c bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=61 ov=0x3d bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=62 ov=0x3e bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=63 ov=0x3f bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=64 ov=0x40 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+.. progress i=64
+step=65 ov=0x41 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=66 ov=0x42 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=67 ov=0x43 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=68 ov=0x44 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=69 ov=0x45 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=70 ov=0x46 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=71 ov=0x47 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=72 ov=0x48 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=73 ov=0x49 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=74 ov=0x4a bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=75 ov=0x4b bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=76 ov=0x4c bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=77 ov=0x4d bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=78 ov=0x4e bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=79 ov=0x4f bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=80 ov=0x50 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=81 ov=0x51 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=82 ov=0x52 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=83 ov=0x53 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=84 ov=0x54 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=85 ov=0x55 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=86 ov=0x56 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=87 ov=0x57 bad_meta=0 bad_data=8
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+  data  id=7340084 expect=0x54 got=0x35
+step=88 ov=0x58 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=89 ov=0x59 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=90 ov=0x5a bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=91 ov=0x5b bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=92 ov=0x5c bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=93 ov=0x5d bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=94 ov=0x5e bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=95 ov=0x5f bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=96 ov=0x60 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+.. progress i=96
+step=97 ov=0x61 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=98 ov=0x62 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=99 ov=0x63 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=100 ov=0x64 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=101 ov=0x65 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=102 ov=0x66 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=103 ov=0x67 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=104 ov=0x68 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=105 ov=0x69 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=106 ov=0x6a bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=107 ov=0x6b bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=108 ov=0x6c bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=109 ov=0x6d bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=110 ov=0x6e bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=111 ov=0x6f bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=112 ov=0x70 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=113 ov=0x71 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=114 ov=0x72 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=115 ov=0x73 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=116 ov=0x74 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=117 ov=0x75 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=118 ov=0x76 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=119 ov=0x77 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=120 ov=0x78 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=121 ov=0x79 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=122 ov=0x7a bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=123 ov=0x7b bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=124 ov=0x7c bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=125 ov=0x7d bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=126 ov=0x7e bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=127 ov=0x7f bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=128 ov=0x80 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+.. progress i=128
+step=129 ov=0x81 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=130 ov=0x82 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=131 ov=0x83 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=132 ov=0x84 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=133 ov=0x85 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=134 ov=0x86 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=135 ov=0x87 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=136 ov=0x88 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=137 ov=0x89 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=138 ov=0x8a bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=139 ov=0x8b bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=140 ov=0x8c bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=141 ov=0x8d bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=142 ov=0x8e bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=143 ov=0x8f bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=144 ov=0x90 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=145 ov=0x91 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=146 ov=0x92 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=147 ov=0x93 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=148 ov=0x94 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=149 ov=0x95 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=150 ov=0x96 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=151 ov=0x97 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=152 ov=0x98 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=153 ov=0x99 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=154 ov=0x9a bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=155 ov=0x9b bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=156 ov=0x9c bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=157 ov=0x9d bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=158 ov=0x9e bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=159 ov=0x9f bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=160 ov=0xa0 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+.. progress i=160
+step=161 ov=0xa1 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=162 ov=0xa2 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=163 ov=0xa3 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=164 ov=0xa4 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=165 ov=0xa5 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=166 ov=0xa6 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=167 ov=0xa7 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=168 ov=0xa8 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=169 ov=0xa9 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=170 ov=0xaa bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=171 ov=0xab bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=172 ov=0xac bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=173 ov=0xad bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=174 ov=0xae bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=175 ov=0xaf bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=176 ov=0xb0 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=177 ov=0xb1 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=178 ov=0xb2 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=179 ov=0xb3 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=180 ov=0xb4 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=181 ov=0xb5 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=182 ov=0xb6 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=183 ov=0xb7 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=184 ov=0xb8 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=185 ov=0xb9 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=186 ov=0xba bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=187 ov=0xbb bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=188 ov=0xbc bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=189 ov=0xbd bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=190 ov=0xbe bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=191 ov=0xbf bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=192 ov=0xc0 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+.. progress i=192
+step=193 ov=0xc1 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=194 ov=0xc2 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=195 ov=0xc3 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=196 ov=0xc4 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=197 ov=0xc5 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=198 ov=0xc6 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=199 ov=0xc7 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=200 ov=0xc8 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=201 ov=0xc9 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=202 ov=0xca bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=203 ov=0xcb bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=204 ov=0xcc bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=205 ov=0xcd bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=206 ov=0xce bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=207 ov=0xcf bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=208 ov=0xd0 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=209 ov=0xd1 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=210 ov=0xd2 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=211 ov=0xd3 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=212 ov=0xd4 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=213 ov=0xd5 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=214 ov=0xd6 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=215 ov=0xd7 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=216 ov=0xd8 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=217 ov=0xd9 bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=218 ov=0xda bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+step=219 ov=0xdb bad_meta=0 bad_data=9
+  data  id=7340034 expect=0x22 got=0x08
+  data  id=7340035 expect=0x23 got=0x05
+  data  id=7340036 expect=0x24 got=0x09
+  data  id=7340042 expect=0x2a got=0x37
+  data  id=7340048 expect=0x30 got=0x11
+  data  id=7340075 expect=0x4b got=0x58
+  data  id=7340080 expect=0x50 got=0x32
+  data  id=7340083 expect=0x53 got=0x34
+[+] cleanup
+[+] done
+~ $ exit
+[    4.122867] reboot: Power down

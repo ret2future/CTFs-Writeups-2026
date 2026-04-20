@@ -1,0 +1,1 @@
+try {button_toggle('CapsLock')} catch (e) {app.alert(e.stack || e)}

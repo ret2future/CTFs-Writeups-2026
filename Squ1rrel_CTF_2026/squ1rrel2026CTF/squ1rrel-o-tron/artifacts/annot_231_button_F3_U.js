@@ -1,0 +1,1 @@
+try {button_up('F3')} catch (e) {app.alert(e.stack || e)}

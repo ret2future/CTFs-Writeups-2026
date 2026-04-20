@@ -1,0 +1,102 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM...
+c[?7l[2J/bin/feedback_mixedprobe
+/bin/feedback_meta_classify
+exit
+Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_mixedprobe
+[+] phase1: create 0x40 targets
+[    3.625141] BUG: kernel NULL pointer dereference, address: 0000000000000008
+[    3.625912] #PF: supervisor read access in kernel mode
+[    3.626518] #PF: error_code(0x0000) - not-present page
+[    3.627124] PGD 0 P4D 0 
+[    3.627597] Oops: Oops: 0000 [#1] SMP NOPTI
+[    3.628664] CPU: 1 UID: 0 PID: 0 Comm: swapper/1 Tainted: G           O        6.19.3 #1 PREEMPT(voluntary) 
+[    3.630155] Tainted: [O]=OOT_MODULE
+[    3.630644] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org 04/01/2014
+[    3.632657] RIP: 0010:update_sd_lb_stats.constprop.0+0x213/0x860
+[    3.633894] Code: 77 09 48 8b 45 08 e9 35 ff ff ff 49 89 dc 4c 8b 4c 24 18 48 89 eb 48 8b 3c 24 44 0f b6 44 24 3e 48 8b 6c 24 20 49 8b 44 24 18 <48> 8b 40 08 48 89 43 10 41 8b 44 24 0c 89 43 34 49 39 fc 74 21 41
+[    3.635644] RSP: 0018:ffff9639400e8bd8 EFLAGS: 00010246
+[    3.636188] RAX: 0000000000000000 RBX: ffff9639400e8c20 RCX: 0000000000000003
+[    3.636868] RDX: fffffffffffffff8 RSI: 0000000000000002 RDI: ffff8a79c113df80
+[    3.637516] RBP: ffff9639400e8cb0 R08: 0000000000000000 R09: 000000000000060a
+[    3.638167] R10: 000000000001240b R11: 0000000000000000 R12: ffff8a79c113df5a
+[    3.638925] R13: 000000000000af50 R14: ffff9639400e8e10 R15: ffff8a79fe729240
+[    3.639792] FS:  0000000000000000(0000) GS:ffff8a7a4394e000(0000) knlGS:0000000000000000
+[    3.640607] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    3.641167] CR2: 0000000000000008 CR3: 0000000003513000 CR4: 00000000003006f0
+[    3.641939] Call Trace:
+[    3.643320]  <IRQ>
+[    3.643932]  ? update_group_capacity+0x152/0x230
+[    3.644573]  sched_balance_find_src_group+0x3c/0x4c0
+[    3.645124]  sched_balance_rq+0x2bc/0xf10
+[    3.645538]  ? wakeup_preempt+0x3b/0x70
+[    3.645956]  sched_balance_domains+0x22b/0x320
+[    3.646451]  _nohz_idle_balance.isra.0+0x2d2/0x340
+[    3.646964]  handle_softirqs+0xc5/0x2b0
+[    3.647361]  ? __flush_smp_call_function_queue+0x101/0x400
+[    3.647913]  __irq_exit_rcu+0x8c/0xb0
+[    3.648321]  sysvec_call_function_single+0x6b/0x80
+[    3.648953]  </IRQ>
+[    3.649202]  <TASK>
+[    3.649420]  asm_sysvec_call_function_single+0x1a/0x20
+[    3.650020] RIP: 0010:pv_native_safe_halt+0xf/0x20
+[    3.650447] Code: 9d 86 00 c3 cc cc cc cc 0f 1f 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 f3 0f 1e fa eb 07 0f 00 2d 05 a2 1d 00 fb f4 <c3> cc cc cc cc 66 2e 0f 1f 84 00 00 00 00 00 66 90 90 90 90 90 90
+[    3.652268] RSP: 0018:ffff9639400a3ee0 EFLAGS: 00010202
+[    3.652747] RAX: ffff8a7a4394e000 RBX: ffff8a79c1279d80 RCX: 0000000000000001
+[    3.653355] RDX: 0000000000000001 RSI: ffffffffba07ba86 RDI: 0000000000005184
+[    3.654058] RBP: 0000000000000001 R08: 0000000000005184 R09: 0000000000000007
+[    3.654644] R10: 0000004d821695c0 R11: 0000000000000001 R12: 0000000000000000
+[    3.655221] R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+[    3.655934]  default_idle+0x9/0x10
+[    3.656279]  default_idle_call+0x31/0xf0
+[    3.656617]  do_idle+0x1cb/0x240
+[    3.656976]  cpu_startup_entry+0x24/0x30
+[    3.657868]  start_secondary+0xf3/0x100
+[    3.658296]  common_startup_64+0x13e/0x148
+[    3.658763]  </TASK>
+[    3.659108] Modules linked in: feedback(O)
+[    3.660141] CR2: 0000000000000008
+[    3.660969] ---[ end trace 0000000000000000 ]---
+[    3.660993] BUG: kernel NULL pointer dereference, address: 0000000000000008
+[    3.661923] #PF: supervisor read access in kernel mode
+[    3.662367] #PF: error_code(0x0000) - not-present page
+[    3.662385] RIP: 0010:update_sd_lb_stats.constprop.0+0x213/0x860
+[    3.662751] PGD 0 
+[    3.663541] Code: 77 09 48 8b 45 08 e9 35 ff ff ff 49 89 dc 4c 8b 4c 24 18 48 89 eb 48 8b 3c 24 44 0f b6 44 24 3e 48 8b 6c 24 20 49 8b 44 24 18 <48> 8b 40 08 48 89 43 10 41 8b 44 24 0c 89 43 34 49 39 fc 74 21 41
+[    3.663767] RSP: 0018:ffff9639400e8bd8 EFLAGS: 00010246
+[    3.665591] P4D 0 
+[    3.666003] RAX: 0000000000000000 RBX: ffff9639400e8c20 RCX: 0000000000000003
+[    3.666025] RDX: fffffffffffffff8 RSI: 0000000000000002 RDI: ffff8a79c113df80
+[    3.666032] RBP: ffff9639400e8cb0 R08: 0000000000000000 R09: 000000000000060a
+[    3.666039] R10: 000000000001240b R11: 0000000000000000 R12: ffff8a79c113df5a
+[    3.666232] 
+[    3.666704] R13: 000000000000af50 R14: ffff9639400e8e10 R15: ffff8a79fe729240
+[    3.667187] Oops: Oops: 0000 [#2] SMP NOPTI
+[    3.667720] FS:  0000000000000000(0000) GS:ffff8a7a4394e000(0000) knlGS:0000000000000000
+[    3.668249] CPU: 2 UID: 0 PID: 0 Comm: swapper/2 Tainted: G      D    O        6.19.3 #1 PREEMPT(voluntary) 
+[    3.668369] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    3.668847] Tainted: [D]=DIE, [O]=OOT_MODULE
+[    3.669135] CR2: 0000000000000008 CR3: 0000000003513000 CR4: 00000000003006f0
+[    3.670437] Kernel panic - not syncing: Fatal exception in interrupt
+[   10.005773] Shutting down cpus with NMI
+[   10.007963] Kernel Offset: 0x37600000 from 0xffffffff81000000 (relocation range: 0xffffffff80000000-0xffffffffbfffffff)
+[   10.008725] ---[ end Kernel panic - not syncing: Fatal exception in interrupt ]---
+qemu-system-x86_64: terminating on signal 2 from pid 732 (<unknown process>)

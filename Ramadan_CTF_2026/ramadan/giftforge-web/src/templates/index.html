@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero">
+    <h1>Forge Your Digital Fortune</h1>
+    <p style="color: var(--text-secondary); font-size: 1.25rem;">The most trusted source for premium gaming and shopping
+        gift cards.</p>
+
+    <div class="banner">
+        ⚠️ SPECIAL OFFER EXPIRED: 500 Credits WITH CODE "GIFT500" - EXPIRED ON 2026-02-27
+    </div>
+
+    <div style="margin-top: 3rem;">
+        {% if not current_user.is_authenticated %}
+        <a href="{{ url_for('signup') }}" class="glass"
+            style="padding: 1rem 3rem; color: white; text-decoration: none; border-radius: 50px; font-weight: 700; border: 1px solid var(--primary-color);">Get
+            Started</a>
+        {% else %}
+        <a href="{{ url_for('store') }}" class="glass"
+            style="padding: 1rem 3rem; color: white; text-decoration: none; border-radius: 50px; font-weight: 700; border: 1px solid var(--primary-color);">Browse
+            Store</a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="store-grid">
+    <div class="card glass">
+        <div class="category">Gaming</div>
+        <h3>Instant Delivery</h3>
+        <p style="color: var(--text-secondary);">Get your game keys and credits delivered instantly to your profile.</p>
+    </div>
+    <div class="card glass">
+        <div class="category">Secure</div>
+        <h3>Encrypted Forge</h3>
+        <p style="color: var(--text-secondary);">Your transactions are protected by our state-of-the-art security
+            system.</p>
+    </div>
+    <div class="card glass">
+        <div class="category">Legacy</div>
+        <h3>Trusted Since 2024</h3>
+        <p style="color: var(--text-secondary);">Over 500,000 successful transactions forging digital happiness.</p>
+    </div>
+</div>
+{% endblock %}

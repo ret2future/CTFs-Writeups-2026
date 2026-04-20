@@ -1,0 +1,25 @@
+set pagination off
+set confirm off
+break main
+run
+python
+import gdb
+chars = ''.join(chr(i) for i in range(32,127))
+max_len = 80
+out = []
+for idx in range(max_len):
+    matches = []
+    for ch in chars:
+        v = int(gdb.parse_and_eval(f'((int(*)(int,int))zWqDapvkXfHB)({ord(ch)},{idx})'))
+        if v == 0:
+            matches.append(ch)
+    print(f'idx {idx}: {matches}')
+    if len(matches)==1:
+        out.append(matches[0])
+    elif len(matches)==0:
+        break
+    else:
+        out.append(matches[0])
+print('CANDIDATE=' + ''.join(out))
+end
+quit

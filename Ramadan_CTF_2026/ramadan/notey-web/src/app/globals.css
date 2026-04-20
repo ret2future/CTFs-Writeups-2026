@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #37352f;
+  --gray-light: #f7f6f3;
+  --gray-medium: #e8e7e4;
+  --gray-dark: #73726e;
+  --primary: #2383e2;
+  --border: rgba(55, 53, 47, 0.09);
+  --border-strong: rgba(55, 53, 47, 0.16);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: var(--foreground);
+  background-color: var(--background);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 0;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.note-input {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  resize: vertical;
+  color: inherit;
+  font-family: inherit;
+  margin-top: 10px;
+  background: transparent;
+  padding: 8px 0;
+}
+
+.note-title-input {
+  width: 100%;
+  border: none;
+  font-size: 40px;
+  font-weight: 700;
+  outline: none;
+  margin-bottom: 10px;
+  background: transparent;
+  letter-spacing: -0.02em;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--border-strong);
+  background: white;
+  color: var(--foreground);
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.button:hover {
+  background: var(--gray-light);
+  border-color: rgba(55, 53, 47, 0.3);
+}
+
+.button:active {
+  background: var(--gray-medium);
+  transform: translateY(1px);
+}
+
+.button-primary {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+  background: #1c73c9;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: all 150ms ease;
+  background: white;
+}
+
+.card:hover {
+  background: var(--gray-light);
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-sm);
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+  z-index: 1000;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: var(--gray-dark);
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  transition: all 100ms ease;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background: var(--gray-light);
+  color: var(--foreground);
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-dark);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+input.text-input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border-strong);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 150ms ease;
+}
+
+input.text-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(35, 131, 226, 0.1);
+}
+
+.note-content {
+  color: var(--foreground);
+  font-size: 17px;
+  margin-top: 32px;
+}
+
+.note-content p {
+  margin-bottom: 1rem;
+}
+
+.note-content img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 12px;
+  background: var(--gray-light);
+  color: var(--gray-dark);
+}

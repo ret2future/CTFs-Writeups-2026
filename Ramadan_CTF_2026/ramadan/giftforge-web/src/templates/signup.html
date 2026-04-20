@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="auth-form glass">
+    <h2>Join the Forge</h2>
+    <form method="POST">
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" name="username" required>
+        </div>
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" name="password" required>
+        </div>
+        <button type="submit">Create Account</button>
+    </form>
+    <p style="margin-top: 1rem; text-align: center; font-size: 0.875rem; color: var(--text-secondary);">
+        Already a member? <a href="{{ url_for('login') }}" style="color: var(--primary-color);">Sign In</a>
+    </p>
+</div>
+{% endblock %}

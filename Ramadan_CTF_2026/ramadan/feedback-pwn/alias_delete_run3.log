@@ -1,0 +1,46 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2J/bin/feedback_alias_delete
+exit
+Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_alias_delete
+[+] broken_n=71
+PAIR bid=15728640 qid=15728641 qmark=0x41 | r0=0/e0/b0x41 delb=-1/e22 r1=0/e0/b0x41 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728643 qid=15728642 qmark=0x42 | r0=0/e0/b0x42 delb=-1/e22 r1=0/e0/b0x42 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728646 qid=15728644 qmark=0x44 | r0=0/e0/b0x44 delb=-1/e22 r1=0/e0/b0x44 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728649 qid=15728645 qmark=0x45 | r0=0/e0/b0x45 delb=-1/e22 r1=0/e0/b0x45 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728651 qid=15728647 qmark=0x47 | r0=0/e0/b0x47 delb=-1/e22 r1=0/e0/b0x47 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728652 qid=15728648 qmark=0x48 | r0=0/e0/b0x48 delb=-1/e22 r1=0/e0/b0x48 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728655 qid=15728650 qmark=0x4a | r0=0/e0/b0x4a delb=-1/e22 r1=0/e0/b0x4a delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728658 qid=15728653 qmark=0x4d | r0=0/e0/b0x4d delb=-1/e22 r1=0/e0/b0x4d delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728661 qid=15728654 qmark=0x4e | r0=0/e0/b0x4e delb=-1/e22 r1=0/e0/b0x4e delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728662 qid=15728656 qmark=0x50 | r0=0/e0/b0x50 delb=-1/e22 r1=0/e0/b0x50 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728664 qid=15728657 qmark=0x51 | r0=0/e0/b0x51 delb=-1/e22 r1=0/e0/b0x51 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728667 qid=15728659 qmark=0x53 | r0=0/e0/b0x53 delb=-1/e22 r1=0/e0/b0x53 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728670 qid=15728660 qmark=0x54 | r0=0/e0/b0x54 delb=-1/e22 r1=0/e0/b0x54 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728673 qid=15728663 qmark=0x57 | r0=0/e0/b0x57 delb=-1/e22 r1=0/e0/b0x57 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728676 qid=15728665 qmark=0x59 | r0=0/e0/b0x59 delb=-1/e22 r1=0/e0/b0x59 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728679 qid=15728666 qmark=0x5a | r0=0/e0/b0x5a delb=-1/e22 r1=0/e0/b0x5a delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728682 qid=15728668 qmark=0x5a | r0=0/e0/b0x5a delb=-1/e22 r1=0/e0/b0x5a delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728684 qid=15728669 qmark=0x5d | r0=0/e0/b0x5d delb=-1/e22 r1=0/e0/b0x5d delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728685 qid=15728671 qmark=0x5f | r0=0/e0/b0x5f delb=-1/e22 r1=0/e0/b0x5f delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+PAIR bid=15728688 qid=15728672 qmark=0x60 | r0=0/e0/b0x60 delb=-1/e22 r1=0/e0/b0x60 delq=0/e0 rec=0/e0 r2=0/e0/b0x77 -
+[+] tested=20 impact=0
+~ $ exit
+[    4.100008] reboot: Power down

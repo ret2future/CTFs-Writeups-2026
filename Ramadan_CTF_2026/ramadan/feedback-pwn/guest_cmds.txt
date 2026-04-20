@@ -1,0 +1,8 @@
+id
+ls -la /dev
+ls -la /tmp
+xxd -l 128 /dev/sda
+cat /dev/sda | head -c 128 | xxd -g 1 -c 32
+cat /proc/partitions
+ls -la /dev/feedback
+exit

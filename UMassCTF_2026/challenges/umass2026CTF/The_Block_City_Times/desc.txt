@@ -1,0 +1,15 @@
+The Block City Times (Web Exploitation, id 24)
+
+The live service gives each team a disposable instance behind a token-gated wrapper. The app accepts story uploads and the editorial service opens uploaded files in an authenticated admin browser. A multipart content-type check is enforced only on the submitted part header, while the file is later served using Files.probeContentType on the stored filename.
+
+Exploit summary:
+- Upload an HTML file named with a .html extension but submit it as multipart content-type text/plain.
+- The editorial admin bot opens /files/<random>-exploit.html and executes JavaScript in the app origin.
+- The XSS sets app.active-config=dev through /actuator/env and POSTs /actuator/refresh.
+- It then fetches /admin to obtain a CSRF token and submits /admin/report with endpoint /api/../files/<same filename>.
+- The report controller only checks that the endpoint string starts with /api/, but the browser normalizes /api/../files/... to /files/....
+- The internal report runner logs in as admin, sets the FLAG cookie, and visits that normalized path.
+- The same HTML payload detects FLAG in document.cookie and writes it into the page body.
+- The first-stage XSS reads the /admin/report response, extracts the flag, and stores it publicly using PUT /api/tags/article/1.
+
+Public tags API then reveals the flag.

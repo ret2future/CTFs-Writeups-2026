@@ -1,0 +1,38 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2J[0m./bin/feedback_step_edge
+exit
+Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_step_edge
+[+] sequential create + edge mapping
+.. step=0
+EDGE step=22 ov=0x16 -> victim_step=20 id=19922964 old0=0x34 new0=0x16 b0chg=1 tail_same=1
+EDGE step=23 ov=0x17 -> victim_step=17 id=19922961 old0=0x31 new0=0x17 b0chg=1 tail_same=1
+.. step=32
+.. step=64
+.. step=96
+.. step=128
+.. step=160
+.. step=192
+.. step=224
+[+] summary edge_count=2
+[+] cleanup
+[+] done
+~ $ exit
+[    3.894272] reboot: Power down

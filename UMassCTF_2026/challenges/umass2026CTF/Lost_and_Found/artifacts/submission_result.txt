@@ -1,0 +1,4 @@
+Challenge: Lost and Found
+Challenge ID: 2
+Flag: UMASS{h3r35_7h3_c4rg0_vr00m}
+Submission result: {'success': True, 'data': {'status': 'correct', 'message': 'Correct'}}

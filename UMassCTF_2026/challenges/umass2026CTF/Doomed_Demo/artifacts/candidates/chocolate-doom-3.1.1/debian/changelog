@@ -1,0 +1,432 @@
+chocolate-doom (3.1.1-1) unstable; urgency=medium
+
+  * New upstream version 3.1.1
+    + Fix compilation on GCC 15 (Closes: #1096433)
+  * Bump Standards-Version to 4.7.2
+  * Bump Debian packaging copyright year
+
+ -- Fabian Greffrath <fabian@debian.org>  Thu, 21 Aug 2025 08:17:36 +0200
+
+chocolate-doom (3.1.0-1) unstable; urgency=medium
+
+  * Update Homepage link (Closes: #1043984)
+  * New upstream version 3.1.0
+  * Bump Standards-Version to 4.7.0
+  * Update my Debian packaging copyright
+
+ -- Fabian Greffrath <fabian@debian.org>  Tue, 06 Aug 2024 08:38:37 +0200
+
+chocolate-doom (3.0.1+really3.0.0+git1548-1) unstable; urgency=medium
+
+  * New upstream version 3.0.1+really3.0.0+git1548.
+  * Bump Standards-Version to 4.6.2.
+  * Bump my Debian copyright year to 2023.
+
+ -- Fabian Greffrath <fabian@debian.org>  Tue, 13 Jun 2023 13:26:46 +0200
+
+chocolate-doom (3.0.1+really3.0.0+git1471-1) unstable; urgency=medium
+
+  * update debian/watch file
+  * New upstream version 3.0.1+really3.0.0+git1471
+
+ -- Fabian Greffrath <fabian@debian.org>  Fri, 09 Dec 2022 22:24:18 +0100
+
+chocolate-doom (3.0.1+really3.0.0+git1208-1) unstable; urgency=medium
+
+  * New upstream version 3.0.1+really3.0.0+git1208.
+  * Try harder to shut up lintian.
+  * Bump Standards-Version to 4.6.1.
+  * Update my Debian packaging copyright.
+
+ -- Fabian Greffrath <fabian@debian.org>  Tue, 30 Aug 2022 22:54:43 +0200
+
+chocolate-doom (3.0.1+really3.0.0+git1017-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Use secure URI in Homepage field.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Fabian Greffrath ]
+  * Recommend freedoom instead of freedm.
+  * New upstream GIT snapshot 3.0.1+really3.0.0+git1017, which is
+    1017(!) commits ahead of the 3.0.0 release, including the 2 fixes
+    from the 3.0.1 release branch.
+  * Fix debian/watch file.
+  * Remove all patches, applied upstream.
+  * Do not remove textscreen font headers in the clean rule anymore
+    and remove *.metainfo.xml instead of *.appdata.xml.
+  * Do not install files manually anymore, let the upstream install
+    rule take care of this.
+  * Remove now unnecessary
+    package-contains-upstream-install-documentation lintian overrides.
+  * Bump Standards-Version to 4.5.1.
+  * Bump debhelper-compat to 13.
+  * Bump "Build-Depends: libsdl2-dev" to (>= 2.0.7) and
+    "Build-Depends: libsdl2-mixer-dev" to (>= 2.0.2) as required by
+    the build system.
+  * Remove preinst script that handled the transition from 2.1.0-2
+    (pre-oldstable).
+  * Update debian/copyright for some win32-specific auxiliary files.
+  * Remove explicit "--as-needed" linker flag.
+  * Add lintian overrides for uninstalled examples of the utility
+    libraries.
+
+ -- Fabian Greffrath <fabian@debian.org>  Fri, 20 Aug 2021 09:02:56 +0200
+
+chocolate-doom (3.0.1-1) unstable; urgency=medium
+
+  * New upstream version 3.0.1
+    + Fixes CVE-2020-14983.
+  * Add patch from upstream to fix a warning when the specified bound
+    passed to a strncpy() call equals the destination size.
+
+ -- Fabian Greffrath <fabian@debian.org>  Fri, 26 Jun 2020 08:53:35 +0200
+
+chocolate-doom (3.0.0-6) unstable; urgency=medium
+
+  [ Jonathan Dowland ]
+  * Remove myself from Uploaders.
+
+  [ Fabian Greffrath ]
+  * Add patch from upstream to remove redundant "demoextend" definition,
+    fixes FTBFS with gcc-10 (Closes: #957085).
+
+ -- Fabian Greffrath <fabian@debian.org>  Fri, 17 Apr 2020 21:25:27 +0200
+
+chocolate-doom (3.0.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Drop the transitional chocolate-common package; it’s been included in
+    Debian 9 and 10 and is therefore no longer needed. Closes: #939143.
+  * Use Python 3 in the build. Closes: #936301.
+  * Ensure the fonts are re-built, and clean them to allow building twice
+    in a row.
+  * Switch to debhelper compatibility level 12.
+  * Set “Rules-Requires-Root: no”.
+  * Install the upstream release notes as NEWS.gz instead of changelog.gz
+    (Policy 12.7 since version 4.2.0).
+  * Standards-Version 4.4.0, no further change required.
+
+ -- Stephen Kitt <skitt@debian.org>  Mon, 02 Sep 2019 12:13:34 +0200
+
+chocolate-doom (3.0.0-4) unstable; urgency=medium
+
+  * Backport patch from upstream GIT to build bash-completion
+    from actual shell script templates (Closes: #890421).
+  * Bump debhelper compat to 11.
+  * Bump Standards-Version to 4.1.3.
+  * Use secure debian/copyright format URI.
+
+ -- Fabian Greffrath <fabian@debian.org>  Wed, 14 Feb 2018 22:16:30 +0100
+
+chocolate-doom (3.0.0-3) unstable; urgency=medium
+
+  * Update Vcs-* to point to salsa.debian.org.
+  * Add two further patches from upstream:
+    + Fix a spelling error in Hexen.
+    + Fix spurious ACS assertion failures which were
+      mistakenly added to Hexen.
+
+ -- Fabian Greffrath <fabian@debian.org>  Mon, 22 Jan 2018 17:47:41 +0100
+
+chocolate-doom (3.0.0-2) unstable; urgency=medium
+
+  * Add patches from upstream to add bounds checking to the
+    ACS implementation in Chocolate Hexen.
+
+ -- Fabian Greffrath <fabian@debian.org>  Tue, 09 Jan 2018 20:46:05 +0100
+
+chocolate-doom (3.0.0-1) unstable; urgency=medium
+
+  * New upstream version 3.0.0
+  * Bump Build-Depends to the SDL2 versions of the libraries.
+  * Remove Recommends: zenity.
+  * Move transitional chocolate-common package from oldlibs/extra to optional.
+  * Enable all hardening flags.
+  * Remove useless Build-Depends: dh-autoreconf.
+  * Remove trailing whitespace from debian/changelog.
+  * Install AppStream metadata into /usr/share/metainfo.
+  * Bump Standards-Version to 4.1.2.
+
+ -- Fabian Greffrath <fabian@debian.org>  Wed, 03 Jan 2018 12:05:59 +0100
+
+chocolate-doom (2.3.0-3) unstable; urgency=medium
+
+  * debian/rules: remove --parallel and --with=autoreconf, which are
+    defaults for debhelper compat level >= 10
+  * Promote zenity from Suggests: to Recommends:. This ensures that error
+    messages will be displayed when trying to launch the engines from
+    a graphical menu system, such as when an IWAD is not detected.
+    Closes: #850427.
+
+ -- Jonathan Dowland <jmtd@debian.org>  Fri, 27 Jan 2017 07:37:30 +0000
+
+chocolate-doom (2.3.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Fabian Greffrath <fabian@debian.org>  Wed, 11 Jan 2017 17:02:51 +0100
+
+chocolate-doom (2.3.0-1) experimental; urgency=medium
+
+  * New upstream version 2.3.0
+  * Remove patches, applied upstream.
+  * Account for upstream renaming of some documentation files
+    (i.e. add ".md"-suffixes).
+  * Keep installing the game executables into /usr/games.
+  * Install bash-completions.
+  * Bump debhelper compat level to 10.
+  * Remove XPM icons and Debian menu files.
+  * Update Vcs-* fields to secure URIs.
+  * Add a lintian-override for a spelling error that is already
+    present in Vanilla HEXEN.EXE
+
+ -- Fabian Greffrath <fabian@debian.org>  Thu, 05 Jan 2017 15:03:34 +0100
+
+chocolate-doom (2.2.1-5) unstable; urgency=medium
+
+  [ Jonathan Dowland ]
+  * Consolidate all the binary packages into one, which lives in
+    main. This should finally work around #824169.
+
+ -- Fabian Greffrath <fabian@debian.org>  Sat, 24 Dec 2016 12:33:32 +0100
+
+chocolate-doom (2.2.1-4) unstable; urgency=medium
+
+  * Update my name in debian/control.
+  * Bump standards version (no changes needed).
+  * New Debian version upload to attempt to resolve #824169.
+
+ -- Jonathan Dowland <jmtd@debian.org>  Mon, 12 Dec 2016 15:09:28 +0000
+
+chocolate-doom (2.2.1-3) unstable; urgency=medium
+
+  * Demote Recommends on contrib packages chocolate-{heretic,hexen,strife}
+    to Suggests, thanks Mathieu Malaterre and Jakub Wilk
+    (Closes: #822845, #822847).
+
+ -- Fabian Greffrath <fabian@debian.org>  Sat, 30 Apr 2016 22:07:54 +0200
+
+chocolate-doom (2.2.1-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Change libpng12-dev build-dependency to libpng-dev, to ease libpng
+    transition. (Closes: #810177)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Thu, 21 Jan 2016 18:04:56 +0100
+
+chocolate-doom (2.2.1-2) unstable; urgency=medium
+
+  * Import patch from upstream GIT to let the MRJONES cheat in
+    Chocolate Hexen report the same version string as HEXEN.EXE.
+    As a side-effect, this enables this package to build reproducibly.
+
+ -- Fabian Greffrath <fabian@debian.org>  Mon, 30 Nov 2015 22:03:28 +0100
+
+chocolate-doom (2.2.1-1) unstable; urgency=medium
+
+  * Imported Upstream version 2.2.1
+  * Install upstream appdata files and remove them in the clean rule.
+  * Provide unique license names in debian/copyright.
+
+ -- Fabian Greffrath <fabian@debian.org>  Fri, 18 Sep 2015 09:47:59 +0200
+
+chocolate-doom (2.2.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 2.2.0
+    + The Hexen four level demo IWAD is now supported (Closes: #787116).
+    + A couple of source files that were in the previous release and
+      were GPL3 have been replaced by GPL2 equivalents. Previous
+      releases that included these files should be retroactively
+      considered GPL3 (Closes: #785122).
+      - Update debian/copyright accordingly.
+  * Update debian/watch to directly watch the github project page.
+  * Remove all patches, applied upstream.
+
+ -- Fabian Greffrath <fabian@debian.org>  Fri, 12 Jun 2015 14:58:28 +0200
+
+chocolate-doom (2.1.0-2) unstable; urgency=medium
+
+  * Split the Heretic, Hexen and Strife ports into separate packages,
+    as per upstream's request (Closes: #747256).
+    + Introduce an additional chocolate-common package that contains the
+      dedicated server for multiplayer games and the common configuration tool
+      for all four ports as well as the icons.
+    + Split the chocolate-doom.{install,links,lintian-overrides,menu} files
+      among the newly added packages.
+    + Add Breaks and Replaces accordingly.
+    + Add "Recommends: chocolate-heretic, chocolate-hexen, chocolate-strife"
+      to chocolate-doom, so these ports are not lost on upgrades.
+    + Remove the alternatives for heretic, hexen and strife upon upgrade of
+      the chocolate-doom package.
+    + Append "-Wl,--as-needed -Wl,-z,defs" to LDFLAGS to avoid needless
+      library dependencies for the chocolate-common package.
+    + Call "dh_install --list-missing". It is alright if the chocolate-*-setup.6
+      manpages are reported missing, they are installed as symlinks.
+  * Move the "chocolate-doom" source and binary packages from the
+    "contrib/games" section into the main "games" section \o/
+    (Closes: #766713, 766803).
+    + Since freedoom 0.9 the freedm package contains a fully vanilla-compatible
+      data file which satisfies the chocolate-doom package's dependency
+      on such data in order to be fully playable and operational.
+    + Add "Depends: freedm (>= 0.9)" as the preferred alternative.
+    + Mention where to find free game data in the extended package description.
+    + The Heretic, Hexen and Strife ports remain in "contrib/games", though.
+  * Apply a series of patches cherry-picked from upstream GIT to fix the
+    hyphen-used-as-minus-sign lintian warning.
+  * Trim down package dependencies.
+    + All four ports now merely have "Recommends: game-data-packager".
+    + The chocolate-doom package has "Recommends: freedm | game-data-packager"
+      and "Breaks: freedm (<< 0.9)".
+  * Add license information for src/aes_prng.c and update copyright years
+    in debian/copyright.
+  * Change the Uploaders field to my <fabian@debian.org> account. \o/
+
+ -- Fabian Greffrath <fabian@debian.org>  Mon, 18 May 2015 10:25:07 +0200
+
+chocolate-doom (2.1.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 2.1.0
+    + Fixes conflicting array sizes for the "spechit" variable
+    (Closes: #748393), thanks Michael Tautschnig.
+  * README.OPL has been renamed to README.Music and
+    the PHILOSOPHY document has been added.
+  * Add "Build-Depends: libpng12-dev" for screenshots in PNG format.
+  * Add "Suggests: zenity" for native error boxes.
+  * Bump Build-Depends to python (>= 2.5) (Closes: #747411),
+    thanks PICCORO McKAY Lenz.
+  * Update debian/copyright both in terms of years and of changes to
+    the upstream copyright headers.
+  * Bump Standards-Version to 3.9.6.
+  * Add lintian-overrides for INSTALL.*, they contain legitimate information.
+
+ -- Fabian Greffrath <fabian+debian@greffrath.com>  Thu, 23 Oct 2014 14:30:44 +0200
+
+chocolate-doom (2.0.0-2) unstable; urgency=medium
+
+  * Fix upstream GIT repository location in debian/watch.
+  * Fix race during parallel installation (Closes: #737803),
+    thanks Andreas Beckmann.
+
+ -- Fabian Greffrath <fabian+debian@greffrath.com>  Mon, 05 May 2014 10:39:59 +0200
+
+chocolate-doom (2.0.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: #731745). This new major release of
+    Chocolate Doom has been released in honor of Doom's 20th anniversary.
+    * The codebase now includes Chocolate Heretic and Chocolate
+      Hexen. These are based on the GPL source code released by
+      Raven Software.
+    * Also included is Chocolate Strife. This was developed through a
+      mammoth four year reverse engineering project conducted by
+      James "Quasar" Haley and Samuel "Kaiser" Villareal. The result
+      is the most accurate reproduction of Strife to date, including
+      full demo and savegame compatibility. See README.Strife for
+      more information.
+
+  * Add myself to Uploaders.
+  * Add menu icons in XPM format and add icon entries to menu files
+    (Closes: #727028).
+  * Disable silent build rules.
+  * Fix vcs-field-not-canonical.
+  * Turn conflicts-with-version into Breaks.
+  * Upstream moved from Sourceforge to Github, update debian/watch file
+    accordingly and mangle '-beta' suffixes in upstream version numbers.
+  * Bump debhelper compat to 9 to enable hardening flags, convert
+    debian/rules to short style, avoid redundant documentation and
+    duplicate chocolate-*-setup files
+  * Take into account that Chocolate Doom now includes Chocolate Heretic,
+    Chocolate Hexen and Chocolate Strife. Provide the corresponding engines,
+    install the alternatives and update the package description accordingly.
+  * Update debian/copyright.
+  * Run "wrap-and-sort -asb".
+  * Add Build-Depends: libsamplerate0-dev.
+
+ -- Fabian Greffrath <fabian+debian@greffrath.com>  Mon, 23 Dec 2013 16:23:14 +0100
+
+chocolate-doom (1.7.0-3) unstable; urgency=low
+
+  * Remove deprecated dm-upload-allowed field from
+    the control file.
+  * Provides: doom-engine. Closes: #692762.
+  * Remove duplicate upstream Changelog. This addresses:
+    * duplicate-changelog-files
+      usr/share/doc/chocolate-doom/ChangeLog.gz
+      usr/share/doc/chocolate-doom/changelog.gz
+  * Rework copyright file to current DEP-5 format. This addresses:
+    * obsolete-field-in-dep5-copyright maintainer upstream-contact
+    * obsolete-field-in-dep5-copyright name upstream-name
+    * obsolete-field-in-dep5-copyright format-specification format
+    * comma-separated-files-in-dep5-copyright paragraph
+    * missing-license-paragraph-in-dep5-copyright public domain
+
+ -- Jon Dowland <jmtd@debian.org>  Tue, 05 Feb 2013 22:17:17 +0000
+
+chocolate-doom (1.7.0-2) unstable; urgency=low
+
+  * Add myself back to uploaders.
+
+ -- Jon Dowland <jmtd@debian.org>  Tue, 06 Nov 2012 21:28:00 +0000
+
+chocolate-doom (1.7.0-1) unstable; urgency=low
+
+  * New upstream version.
+  * Remove debian/patches/fix_desktop-entry-uses-reserved-category.patch:
+    no longer necessary.
+  * Remove myself from uploaders.
+
+ -- Jon Dowland <jmtd@debian.org>  Sat, 30 Jun 2012 16:13:20 +0100
+
+chocolate-doom (1.6.0-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Jon Dowland <jmtd@debian.org>  Thu, 19 May 2011 22:29:28 +0100
+
+chocolate-doom (1.5.0-1) experimental; urgency=low
+
+  * New upstream version.
+
+ -- Jon Dowland <jmtd@debian.org>  Tue, 18 Jan 2011 23:40:01 +0000
+
+chocolate-doom (1.4.0-2) unstable; urgency=low
+
+  * Incorporate specific BSD license information into
+    debian/copyright, to please lintian.
+  * bump standards version.
+
+ -- Jon Dowland <jmtd@debian.org>  Fri, 03 Sep 2010 14:23:40 +0100
+
+chocolate-doom (1.4.0-1) unstable; urgency=low
+
+  * New upstream version.
+  * bump Standards-Version
+
+ -- Jon Dowland <jmtd@debian.org>  Sun, 25 Jul 2010 18:04:08 +0100
+
+chocolate-doom (1.3.0-1) unstable; urgency=low
+
+  * new upstream version. Closes: #548498
+  * update debian/copyright to correct mis-interpratations
+    of the DEP-5 proposed syntax.
+  * bump Standards-Version
+  * add chocolate-setup and chocolate-server to the menu file
+
+ -- Jon Dowland <jmtd@debian.org>  Mon, 15 Mar 2010 23:08:20 +0000
+
+chocolate-doom (1.2.1-1) unstable; urgency=low
+
+  * Initial Release. Closes: #351594.
+    * This package has been in preparation since August 2007.
+      Thanks to Cyril Brulebois, Barry deFreese, Miriam Ruiz,
+      Ansgar Burchardt and Linas Žvirblis for their work on
+      it during this time!
+  * Conflict with freedoom and freedm prior to 0.6.4-4, which
+    installed an alternative for doom2.wad. chocolate-doom
+    cannot be used in conjunction with freedoom.
+  * install alternatives for doom(6).
+  * Thanks to Chris Lamb for pointing out debian/copyright omissions.
+
+ -- Jon Dowland <jmtd@debian.org>  Sat, 12 Sep 2009 11:05:00 +0100

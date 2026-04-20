@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="auth-form glass">
+    <h2>Redeem Voucher</h2>
+    <p style="color: var(--text-secondary); margin-bottom: 1.5rem; text-align: center;">Enter your code below to add
+        funds or claim items.</p>
+    <form method="POST">
+        <div class="input-group">
+            <label>Coupon / Voucher Code</label>
+            <input type="text" name="code" placeholder="GIFT-XXXX-XXXX" required>
+        </div>
+        <button type="submit">Claim Fortune</button>
+    </form>
+
+    <div
+        style="margin-top: 2rem; padding: 1rem; border: 1px dashed rgba(255, 255, 255, 0.2); border-radius: 8px; font-size: 0.875rem; color: var(--text-secondary);">
+        <strong>Note:</strong> Promo codes from our social media can be redeemed here.
+    </div>
+</div>
+{% endblock %}

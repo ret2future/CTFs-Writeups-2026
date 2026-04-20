@@ -1,0 +1,29 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2J/bin/feedback_retry_groom
+exit
+Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_retry_groom
+[*] Waiting for /dev/feedback to become available...
+[+] Device /dev/feedback opened successfully.
+[*] Starting test run...
+[*] Phase 1: Grooming - Allocating 32 objects of size 128
+[-] ioctl(CREATE, id=0, size=128) failed after multiple retries: Not a tty
+~ $ exit
+[    4.853652] reboot: Power down

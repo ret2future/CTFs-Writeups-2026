@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>yolov7-studio &middot; squ1rrel labs</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="bg-orb orb-1"></div>
+<div class="bg-orb orb-2"></div>
+<div class="bg-orb orb-3"></div>
+
+<header class="top">
+  <div class="brand">
+    <div class="logo">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <defs>
+          <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0"   stop-color="#ff6bcb"/>
+            <stop offset="0.5" stop-color="#8b5cf6"/>
+            <stop offset="1"   stop-color="#22d3ee"/>
+          </linearGradient>
+        </defs>
+        <circle cx="32" cy="32" r="28" fill="url(#g1)"/>
+        <path d="M18 40 L26 24 L32 34 L38 22 L46 40 Z"
+              fill="#0b0b1a" opacity="0.85"/>
+        <circle cx="32" cy="32" r="3" fill="#fff"/>
+      </svg>
+    </div>
+    <div class="brand-text">
+      <div class="brand-name">yolov7&nbsp;studio</div>
+      <div class="brand-sub">real-time object detection by squ1rrel labs</div>
+    </div>
+  </div>
+  <nav>
+    <a href="#detect">Detect</a>
+    <a href="/healthz">Status</a>
+    <a href="https://github.com/WongKinYiu/yolov7" target="_blank" rel="noopener">yolov7&nbsp;&#8599;</a>
+  </nav>
+</header>
+
+<main>
+  <section id="detect" class="panel">
+    <div class="panel-header">
+      <div>
+        <h2>Run detection</h2>
+        <p class="muted">
+          Drop an image below and we&rsquo;ll run yolov7-tiny on it.
+          {{ n_classes }} classes, pretrained on COCO.
+        </p>
+      </div>
+      <div class="chip chip-ok">yolov7-tiny &middot; cpu</div>
+    </div>
+
+    <div class="drop" id="drop">
+      <input type="file" id="file" accept="image/*" hidden>
+      <div class="drop-inner">
+        <div class="drop-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M12 16V4M6 10l6-6 6 6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4 18v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="drop-title">drop an image, or click to pick</div>
+        <div class="drop-sub">jpg &middot; png &middot; webp &middot; up to 16&nbsp;MB</div>
+      </div>
+    </div>
+
+    <div class="row" id="detect-results" hidden>
+      <div class="result-card">
+        <h3>Overlay</h3>
+        <img id="overlay" alt="detection overlay">
+      </div>
+      <div class="result-card">
+        <h3>Detections <span class="count" id="det-count">0</span></h3>
+        <ul id="det-list" class="det-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="configure" class="panel">
+    <div class="panel-header">
+      <div>
+        <h2>Custom model</h2>
+        <p class="muted">
+          Upload a yolov7 architecture YAML (optionally with a
+          pretrained <code>.pt</code>) and we&rsquo;ll build the
+          model graph so you can inspect it.
+        </p>
+      </div>
+      <div class="chip chip-ok">model graph</div>
+    </div>
+
+    <div class="cfg-grid">
+      <div class="cfg-col">
+        <label class="lbl">architecture.yaml</label>
+        <textarea id="yaml-input" rows="12" spellcheck="false"
+                  placeholder="# yolov7 model cfg
+nc: 80
+depth_multiple: 1.0
+width_multiple: 1.0
+
+anchors:
+  - [10,13, 16,30, 33,23]
+  - [30,61, 62,45, 59,119]
+  - [116,90, 156,198, 373,326]
+
+backbone:
+  - [-1, 1, Conv, [32, 3, 2]]
+
+head:
+  - [-1, 1, Conv, [16, 1, 1]]
+  - [[-1], 1, IDetect, [nc, anchors]]
+"></textarea>
+
+        <label class="lbl">pretrained.pt <span class="opt">(optional)</span></label>
+        <input type="file" id="pt-file" accept=".pt">
+        <div class="hint" id="pt-hint">nothing selected</div>
+
+        <button id="train-btn" class="btn">
+          <span class="btn-spark"></span>
+          build model graph
+        </button>
+      </div>
+
+      <div class="cfg-col">
+        <label class="lbl">result</label>
+        <pre id="train-out" class="train-out">awaiting submission&hellip;</pre>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>squ1rrel labs &middot; powered by <a href="https://github.com/WongKinYiu/yolov7" target="_blank" rel="noopener">yolov7</a></div>
+    <div class="muted">build v0.1.1 &middot; cpu-only</div>
+  </footer>
+
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

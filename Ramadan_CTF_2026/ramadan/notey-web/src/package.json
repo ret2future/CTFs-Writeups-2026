@@ -1,0 +1,22 @@
+{
+  "name": "notey",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "cookie": "latest",
+    "isomorphic-dompurify": "latest",
+    "jose": "^6.1.3",
+    "next": "15.1.9",
+    "puppeteer": "latest",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "slimdown-js": "latest",
+    "uuid": "latest"
+  }
+}

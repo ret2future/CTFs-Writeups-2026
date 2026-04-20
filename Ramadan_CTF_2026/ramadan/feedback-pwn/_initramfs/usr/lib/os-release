@@ -1,0 +1,5 @@
+NAME=Buildroot
+VERSION=-g6660e99-dirty
+ID=buildroot
+VERSION_ID=2025.11
+PRETTY_NAME="Buildroot 2025.11"

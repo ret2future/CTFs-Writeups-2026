@@ -1,0 +1,1 @@
+try {button_down('a')} catch (e) {app.alert(e.stack || e)}

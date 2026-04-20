@@ -1,0 +1,7 @@
+services:
+  gitting-the-secret:
+    build: .
+    container_name: gitting-the-secret
+    ports:
+      - "8080:80"
+    restart: unless-stopped

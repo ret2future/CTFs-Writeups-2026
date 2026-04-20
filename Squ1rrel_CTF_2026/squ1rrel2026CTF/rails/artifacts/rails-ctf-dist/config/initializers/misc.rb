@@ -1,0 +1,1 @@
+class JWTModule < JWTSecret; end

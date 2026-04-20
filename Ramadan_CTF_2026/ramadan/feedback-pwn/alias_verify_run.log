@@ -1,0 +1,42 @@
+c[?7l[2J[0mSeaBIOS (version rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+3EFD1C90+3EF31C90 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from ROM..c[?7l[2J/bin/feedback_alias_verify
+exit
+Saving 256 bits of non-creditable seed for next boot
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+
+-----------------------------
+
+Welcome to Student Feedback
+-----------------------------
+
+~ $ /bin/feedback_alias_verify
+[+] broken_n=71
+CHK bid=16384000 qid=16384001 | b0=-1/e22/v0x00 q0=0/e0/v0x41 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384003 qid=16384002 | b0=-1/e22/v0x00 q0=0/e0/v0x5a -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384006 qid=16384004 | b0=-1/e22/v0x00 q0=0/e0/v0x44 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384009 qid=16384005 | b0=-1/e22/v0x00 q0=0/e0/v0x45 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384011 qid=16384007 | b0=-1/e22/v0x00 q0=0/e0/v0x47 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384012 qid=16384008 | b0=-1/e22/v0x00 q0=0/e0/v0x48 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384015 qid=16384010 | b0=-1/e22/v0x00 q0=0/e0/v0x4a -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384018 qid=16384013 | b0=-1/e22/v0x00 q0=0/e0/v0x4d -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384021 qid=16384014 | b0=-1/e22/v0x00 q0=0/e0/v0x4e -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384022 qid=16384016 | b0=-1/e22/v0x00 q0=0/e0/v0x50 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384024 qid=16384017 | b0=-1/e22/v0x00 q0=0/e0/v0x51 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384027 qid=16384019 | b0=-1/e22/v0x00 q0=0/e0/v0x53 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384030 qid=16384020 | b0=-1/e22/v0x00 q0=0/e0/v0x54 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384033 qid=16384023 | b0=-1/e22/v0x00 q0=0/e0/v0x57 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384036 qid=16384025 | b0=-1/e22/v0x00 q0=0/e0/v0x59 -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+CHK bid=16384039 qid=16384026 | b0=-1/e22/v0x00 q0=0/e0/v0x5a -> b1=-1/e22/v0x00 q1=0/e0/v0x7a -
+[+] checked=16 coupled=0
+~ $ exit
+[    3.724297] reboot: Power down

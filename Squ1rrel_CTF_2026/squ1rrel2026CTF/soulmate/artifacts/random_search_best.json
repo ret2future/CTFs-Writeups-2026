@@ -1,0 +1,48 @@
+{
+  "success": false,
+  "tom_score": 0.11366893351078033,
+  "threshold": 0.15,
+  "message": "We have determined this candidate's soulmate is not likely to be Tom Cruise....Good luck in your continued search! ",
+  "u": [
+    -6.848386186948247,
+    17.565955663596682,
+    7.894785099560039,
+    -6.55947564993817,
+    8.900103584938375,
+    5.822033639933068,
+    10.13580395571832,
+    -8.54710370847973
+  ],
+  "u_clipped": [
+    -6.848386287689209,
+    17.565956115722656,
+    7.894784927368164,
+    -6.559475421905518,
+    8.900103569030762,
+    5.822033405303955,
+    10.135804176330566,
+    -8.547103881835938
+  ],
+  "top_predictions": [
+    {
+      "label": "Tom Cruise",
+      "score": 0.11366893351078033
+    },
+    {
+      "label": "Robert De Niro",
+      "score": 0.042046692222356796
+    },
+    {
+      "label": "Henry Cavil",
+      "score": 0.04065115004777908
+    },
+    {
+      "label": "Zac Efron",
+      "score": 0.037466976791620255
+    },
+    {
+      "label": "Hugh Jackman",
+      "score": 0.031249288469552994
+    }
+  ]
+}
