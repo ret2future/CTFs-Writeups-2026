@@ -1,0 +1,53 @@
+EXPLAIN LIKE I'M 5: WHY MY MATH WAS WRONG
+==========================================
+
+Imagine you have 120 toys and you need to sort them into 3 boxes:
+- MINOR box (for small toys)
+- MEDIUM box (for medium toys) 
+- MAJOR box (for big toys)
+
+Your friend tells you which box each toy REALLY goes in (the "known" box).
+You try to guess which box each toy goes in (the "detected" box).
+
+FALSE POSITIVE = You said "this toy goes in this box" but you were WRONG
+FALSE NEGATIVE = You said "this toy does NOT go in this box" but you were WRONG
+
+MY MISTAKE:
+I was counting ALL the toys for EACH box separately. 
+
+Like this:
+For the MINOR box, I looked at ALL 120 toys and counted:
+- How many times I said "minor" when it wasn't really minor (FP)
+- How many times I said "not minor" when it was really minor (FN)
+
+But that's wrong! I should only count the toys that could actually go in that box.
+
+THE RIGHT WAY:
+For the MINOR box, I should only look at the toys that are EITHER:
+- Really minor, OR
+- I said were minor
+
+Let me show you with just 10 toys:
+
+Toy 1: Really minor, I said minor = CORRECT
+Toy 2: Really major, I said major = correct for major, but doesn't matter for minor
+Toy 5: Really major, I said medium = this matters for MAJOR box (FN) and MEDIUM box (FP)
+Toy 8: Really medium, I said minor = this matters for MINOR box (FP) and MEDIUM box (FN)
+
+See? Each toy can affect MULTIPLE boxes!
+
+So when I calculate:
+False Positive Rate for MINOR = (times I said minor but it wasn't) / (times I said minor + times it wasn't minor and I didn't say minor)
+
+But I was dividing by ALL 120 toys, not just the relevant ones!
+
+That's like asking "What percentage of ALL toys did I get wrong for the minor box?"
+instead of 
+"What percentage of toys that could be minor did I get wrong?"
+
+It's the difference between:
+- "How good am I at sorting toys overall?" (WRONG question)
+- "How good am I at telling if a toy is minor or not?" (RIGHT question)
+
+So my numbers were wrong because I was using the wrong denominator!
+I was dividing by 120 instead of the actual number of relevant toys for each classification.

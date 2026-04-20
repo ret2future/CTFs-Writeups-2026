@@ -1,0 +1,1200 @@
+Name:              <module>
+Filename:          battleship.py
+Argument count:    0
+Positional-only arguments: 0
+Kw-only arguments: 0
+Number of locals:  0
+Stack size:        5
+Flags:             NOFREE
+Constants:
+   0: 0
+   1: None
+   2: ('messagebox',)
+   3: 5
+   4: 2
+   5: ('Carrier', 'Submarine', 'Destroyer', 'Patrol Boat')
+   6: '#d0e8f2'
+   7: '#0078d7'
+   8: '#e1f5fe'
+   9: '#4caf50'
+  10: '#e81123'
+  11: '#9e9e9e'
+  12: <code object BattleshipGame at 0xffff83182710, file "battleship.py", line 17>
+  13: 'BattleshipGame'
+  14: '__main__'
+  15: '*Font'
+  16: 'SegoeUI 9'
+Names:
+   0: tkinter
+   1: tk
+   2: messagebox
+   3: random
+   4: sys
+   5: GRID_SIZE
+   6: SHIPS
+   7: AERO_BLUE
+   8: AERO_GLASS
+   9: WATER_COLOR
+  10: SHIP_COLOR
+  11: HIT_COLOR
+  12: MISS_COLOR
+  13: BattleshipGame
+  14: __name__
+  15: Tk
+  16: root
+  17: option_add
+  18: game
+  19: mainloop
+
+  1           0 LOAD_CONST               0 (0)
+              2 LOAD_CONST               1 (None)
+              4 IMPORT_NAME              0 (tkinter)
+              6 STORE_NAME               1 (tk)
+
+  2           8 LOAD_CONST               0 (0)
+             10 LOAD_CONST               2 (('messagebox',))
+             12 IMPORT_NAME              0 (tkinter)
+             14 IMPORT_FROM              2 (messagebox)
+             16 STORE_NAME               2 (messagebox)
+             18 POP_TOP
+
+  3          20 LOAD_CONST               0 (0)
+             22 LOAD_CONST               1 (None)
+             24 IMPORT_NAME              3 (random)
+             26 STORE_NAME               3 (random)
+
+  4          28 LOAD_CONST               0 (0)
+             30 LOAD_CONST               1 (None)
+             32 IMPORT_NAME              4 (sys)
+             34 STORE_NAME               4 (sys)
+
+  6          36 LOAD_CONST               3 (5)
+             38 STORE_NAME               5 (GRID_SIZE)
+
+  7          40 LOAD_CONST               4 (2)
+             42 LOAD_CONST               4 (2)
+             44 LOAD_CONST               4 (2)
+             46 LOAD_CONST               4 (2)
+             48 LOAD_CONST               5 (('Carrier', 'Submarine', 'Destroyer', 'Patrol Boat'))
+             50 BUILD_CONST_KEY_MAP      4
+             52 STORE_NAME               6 (SHIPS)
+
+ 10          54 LOAD_CONST               6 ('#d0e8f2')
+             56 STORE_NAME               7 (AERO_BLUE)
+
+ 11          58 LOAD_CONST               7 ('#0078d7')
+             60 STORE_NAME               8 (AERO_GLASS)
+
+ 12          62 LOAD_CONST               8 ('#e1f5fe')
+             64 STORE_NAME               9 (WATER_COLOR)
+
+ 13          66 LOAD_CONST               9 ('#4caf50')
+             68 STORE_NAME              10 (SHIP_COLOR)
+
+ 14          70 LOAD_CONST              10 ('#e81123')
+             72 STORE_NAME              11 (HIT_COLOR)
+
+ 15          74 LOAD_CONST              11 ('#9e9e9e')
+             76 STORE_NAME              12 (MISS_COLOR)
+
+ 17          78 LOAD_BUILD_CLASS
+             80 LOAD_CONST              12 (<code object BattleshipGame at 0xffff83182710, file "battleship.py", line 17>)
+             82 LOAD_CONST              13 ('BattleshipGame')
+             84 MAKE_FUNCTION            0
+             86 LOAD_CONST              13 ('BattleshipGame')
+             88 CALL_FUNCTION            2
+             90 STORE_NAME              13 (BattleshipGame)
+
+183          92 LOAD_NAME               14 (__name__)
+             94 LOAD_CONST              14 ('__main__')
+             96 COMPARE_OP               2 (==)
+             98 POP_JUMP_IF_FALSE      136
+
+184         100 LOAD_NAME                1 (tk)
+            102 LOAD_METHOD             15 (Tk)
+            104 CALL_METHOD              0
+            106 STORE_NAME              16 (root)
+
+186         108 LOAD_NAME               16 (root)
+            110 LOAD_METHOD             17 (option_add)
+            112 LOAD_CONST              15 ('*Font')
+            114 LOAD_CONST              16 ('SegoeUI 9')
+            116 CALL_METHOD              2
+            118 POP_TOP
+
+187         120 LOAD_NAME               13 (BattleshipGame)
+            122 LOAD_NAME               16 (root)
+            124 CALL_FUNCTION            1
+            126 STORE_NAME              18 (game)
+
+188         128 LOAD_NAME               16 (root)
+            130 LOAD_METHOD             19 (mainloop)
+            132 CALL_METHOD              0
+            134 POP_TOP
+        >>  136 LOAD_CONST               1 (None)
+            138 RETURN_VALUE
+
+Disassembly of <code object BattleshipGame at 0xffff83182710, file "battleship.py", line 17>:
+ 17           0 LOAD_NAME                0 (__name__)
+              2 STORE_NAME               1 (__module__)
+              4 LOAD_CONST               0 ('BattleshipGame')
+              6 STORE_NAME               2 (__qualname__)
+
+ 18           8 LOAD_CONST               1 (<code object __init__ at 0xffff83238660, file "battleship.py", line 18>)
+             10 LOAD_CONST               2 ('BattleshipGame.__init__')
+             12 MAKE_FUNCTION            0
+             14 STORE_NAME               3 (__init__)
+
+ 46          16 LOAD_CONST               3 (<code object setup_ui at 0xffff8318b3a0, file "battleship.py", line 46>)
+             18 LOAD_CONST               4 ('BattleshipGame.setup_ui')
+             20 MAKE_FUNCTION            0
+             22 STORE_NAME               4 (setup_ui)
+
+100          24 LOAD_CONST               5 (<code object player_click at 0xffff8318b870, file "battleship.py", line 100>)
+             26 LOAD_CONST               6 ('BattleshipGame.player_click')
+             28 MAKE_FUNCTION            0
+             30 STORE_NAME               5 (player_click)
+
+120          32 LOAD_CONST               7 (<code object ai_turn_with_delay at 0xffff8318b500, file "battleship.py", line 120>)
+             34 LOAD_CONST               8 ('BattleshipGame.ai_turn_with_delay')
+             36 MAKE_FUNCTION            0
+             38 STORE_NAME               6 (ai_turn_with_delay)
+
+125          40 LOAD_CONST               9 (<code object ai_turn at 0xffff8318b5b0, file "battleship.py", line 125>)
+             42 LOAD_CONST              10 ('BattleshipGame.ai_turn')
+             44 MAKE_FUNCTION            0
+             46 STORE_NAME               7 (ai_turn)
+
+152          48 LOAD_CONST              11 (<code object place_ships at 0xffff8318bb30, file "battleship.py", line 152>)
+             50 LOAD_CONST              12 ('BattleshipGame.place_ships')
+             52 MAKE_FUNCTION            0
+             54 STORE_NAME               8 (place_ships)
+
+164          56 LOAD_CONST              13 (<code object can_place at 0xffff831850e0, file "battleship.py", line 164>)
+             58 LOAD_CONST              14 ('BattleshipGame.can_place')
+             60 MAKE_FUNCTION            0
+             62 STORE_NAME               9 (can_place)
+
+172          64 LOAD_CONST              15 (<code object update_player_grid at 0xffff831852f0, file "battleship.py", line 172>)
+             66 LOAD_CONST              16 ('BattleshipGame.update_player_grid')
+             68 MAKE_FUNCTION            0
+             70 STORE_NAME              10 (update_player_grid)
+
+178          72 LOAD_CONST              17 (<code object end_game at 0xffff831857c0, file "battleship.py", line 178>)
+             74 LOAD_CONST              18 ('BattleshipGame.end_game')
+             76 MAKE_FUNCTION            0
+             78 STORE_NAME              11 (end_game)
+             80 LOAD_CONST              19 (None)
+             82 RETURN_VALUE
+
+Disassembly of <code object __init__ at 0xffff83238660, file "battleship.py", line 18>:
+ 19           0 LOAD_FAST                1 (root)
+              2 LOAD_FAST                0 (self)
+              4 STORE_ATTR               0 (root)
+
+ 20           6 LOAD_FAST                0 (self)
+              8 LOAD_ATTR                0 (root)
+             10 LOAD_METHOD              1 (title)
+             12 LOAD_CONST               1 ('You Captured my Battleship!')
+             14 CALL_METHOD              1
+             16 POP_TOP
+
+ 21          18 LOAD_FAST                0 (self)
+             20 LOAD_ATTR                0 (root)
+             22 LOAD_ATTR                2 (configure)
+             24 LOAD_GLOBAL              3 (AERO_BLUE)
+             26 LOAD_CONST               2 (('bg',))
+             28 CALL_FUNCTION_KW         1
+             30 POP_TOP
+
+ 24          32 BUILD_LIST               0
+             34 LOAD_CONST               3 (((2, 4), (2, 3), (2, 1), (0, 0), (1, 1), (3, 1), (3, 4), (2, 2), (0, 4), (3, 3)))
+             36 LIST_EXTEND              1
+             38 LOAD_FAST                0 (self)
+             40 STORE_ATTR               4 (move_script)
+
+ 28          42 LOAD_CONST               4 (0)
+             44 LOAD_FAST                0 (self)
+             46 STORE_ATTR               5 (script_index)
+
+ 31          48 LOAD_CONST               5 (<code object <listcomp> at 0xffff83238d40, file "battleship.py", line 31>)
+             50 LOAD_CONST               6 ('BattleshipGame.__init__.<locals>.<listcomp>')
+             52 MAKE_FUNCTION            0
+             54 LOAD_GLOBAL              6 (range)
+             56 LOAD_GLOBAL              7 (GRID_SIZE)
+             58 CALL_FUNCTION            1
+             60 GET_ITER
+             62 CALL_FUNCTION            1
+             64 LOAD_FAST                0 (self)
+             66 STORE_ATTR               8 (player_board)
+
+ 32          68 LOAD_CONST               7 (<code object <listcomp> at 0xffff832385b0, file "battleship.py", line 32>)
+             70 LOAD_CONST               6 ('BattleshipGame.__init__.<locals>.<listcomp>')
+             72 MAKE_FUNCTION            0
+             74 LOAD_GLOBAL              6 (range)
+             76 LOAD_GLOBAL              7 (GRID_SIZE)
+             78 CALL_FUNCTION            1
+             80 GET_ITER
+             82 CALL_FUNCTION            1
+             84 LOAD_FAST                0 (self)
+             86 STORE_ATTR               9 (ai_board)
+
+ 33          88 LOAD_CONST               8 ('Player')
+             90 LOAD_FAST                0 (self)
+             92 STORE_ATTR              10 (current_turn)
+
+ 34          94 LOAD_GLOBAL             11 (sum)
+             96 LOAD_GLOBAL             12 (SHIPS)
+             98 LOAD_METHOD             13 (values)
+            100 CALL_METHOD              0
+            102 CALL_FUNCTION            1
+            104 LOAD_FAST                0 (self)
+            106 STORE_ATTR              14 (player_health)
+
+ 35         108 LOAD_GLOBAL             11 (sum)
+            110 LOAD_GLOBAL             12 (SHIPS)
+            112 LOAD_METHOD             13 (values)
+            114 CALL_METHOD              0
+            116 CALL_FUNCTION            1
+            118 LOAD_FAST                0 (self)
+            120 STORE_ATTR              15 (ai_health)
+
+ 36         122 LOAD_CONST               9 (False)
+            124 LOAD_FAST                0 (self)
+            126 STORE_ATTR              16 (game_over)
+
+ 39         128 LOAD_FAST                0 (self)
+            130 LOAD_METHOD             17 (setup_ui)
+            132 CALL_METHOD              0
+            134 POP_TOP
+
+ 42         136 LOAD_FAST                0 (self)
+            138 LOAD_METHOD             18 (place_ships)
+            140 LOAD_FAST                0 (self)
+            142 LOAD_ATTR                8 (player_board)
+            144 CALL_METHOD              1
+            146 POP_TOP
+
+ 43         148 LOAD_FAST                0 (self)
+            150 LOAD_METHOD             18 (place_ships)
+            152 LOAD_FAST                0 (self)
+            154 LOAD_ATTR                9 (ai_board)
+            156 CALL_METHOD              1
+            158 POP_TOP
+
+ 44         160 LOAD_FAST                0 (self)
+            162 LOAD_METHOD             19 (update_player_grid)
+            164 CALL_METHOD              0
+            166 POP_TOP
+            168 LOAD_CONST               0 (None)
+            170 RETURN_VALUE
+
+Disassembly of <code object <listcomp> at 0xffff83238d40, file "battleship.py", line 31>:
+ 31           0 BUILD_LIST               0
+              2 LOAD_FAST                0 (.0)
+        >>    4 FOR_ITER                14 (to 20)
+              6 STORE_FAST               1 (_)
+              8 LOAD_CONST               0 (0)
+             10 BUILD_LIST               1
+             12 LOAD_GLOBAL              0 (GRID_SIZE)
+             14 BINARY_MULTIPLY
+             16 LIST_APPEND              2
+             18 JUMP_ABSOLUTE            4
+        >>   20 RETURN_VALUE
+
+Disassembly of <code object <listcomp> at 0xffff832385b0, file "battleship.py", line 32>:
+ 32           0 BUILD_LIST               0
+              2 LOAD_FAST                0 (.0)
+        >>    4 FOR_ITER                14 (to 20)
+              6 STORE_FAST               1 (_)
+              8 LOAD_CONST               0 (0)
+             10 BUILD_LIST               1
+             12 LOAD_GLOBAL              0 (GRID_SIZE)
+             14 BINARY_MULTIPLY
+             16 LIST_APPEND              2
+             18 JUMP_ABSOLUTE            4
+        >>   20 RETURN_VALUE
+
+Disassembly of <code object setup_ui at 0xffff8318b3a0, file "battleship.py", line 46>:
+ 48           0 LOAD_GLOBAL              0 (tk)
+              2 LOAD_ATTR                1 (Frame)
+              4 LOAD_DEREF               0 (self)
+              6 LOAD_ATTR                2 (root)
+              8 LOAD_GLOBAL              3 (AERO_BLUE)
+             10 LOAD_CONST               1 (('bg',))
+             12 CALL_FUNCTION_KW         2
+             14 LOAD_DEREF               0 (self)
+             16 STORE_ATTR               4 (info_frame)
+
+ 49          18 LOAD_DEREF               0 (self)
+             20 LOAD_ATTR                4 (info_frame)
+             22 LOAD_ATTR                5 (pack)
+             24 LOAD_CONST               2 (10)
+             26 LOAD_CONST               3 (('pady',))
+             28 CALL_FUNCTION_KW         1
+             30 POP_TOP
+
+ 51          32 LOAD_GLOBAL              0 (tk)
+             34 LOAD_ATTR                6 (Label)
+             36 LOAD_DEREF               0 (self)
+             38 LOAD_ATTR                4 (info_frame)
+             40 LOAD_CONST               4 ('Your Turn')
+
+ 52          42 LOAD_CONST               5 (('Segoe UI', 14, 'bold'))
+             44 LOAD_GLOBAL              3 (AERO_BLUE)
+             46 LOAD_GLOBAL              7 (AERO_GLASS)
+
+ 51          48 LOAD_CONST               6 (('text', 'font', 'bg', 'fg'))
+             50 CALL_FUNCTION_KW         5
+             52 LOAD_DEREF               0 (self)
+             54 STORE_ATTR               8 (turn_label)
+
+ 53          56 LOAD_DEREF               0 (self)
+             58 LOAD_ATTR                8 (turn_label)
+             60 LOAD_METHOD              5 (pack)
+             62 CALL_METHOD              0
+             64 POP_TOP
+
+ 56          66 LOAD_GLOBAL              0 (tk)
+             68 LOAD_ATTR                6 (Label)
+             70 LOAD_DEREF               0 (self)
+             72 LOAD_ATTR                4 (info_frame)
+             74 LOAD_CONST               7 ('Your Health: ')
+             76 LOAD_DEREF               0 (self)
+             78 LOAD_ATTR                9 (player_health)
+             80 FORMAT_VALUE             0
+             82 BUILD_STRING             2
+
+ 57          84 LOAD_CONST               8 (('Segoe UI', 10))
+             86 LOAD_GLOBAL              3 (AERO_BLUE)
+
+ 56          88 LOAD_CONST               9 (('text', 'font', 'bg'))
+             90 CALL_FUNCTION_KW         4
+             92 LOAD_DEREF               0 (self)
+             94 STORE_ATTR              10 (player_score_label)
+
+ 58          96 LOAD_DEREF               0 (self)
+             98 LOAD_ATTR               10 (player_score_label)
+            100 LOAD_ATTR                5 (pack)
+            102 LOAD_GLOBAL              0 (tk)
+            104 LOAD_ATTR               11 (LEFT)
+            106 LOAD_CONST              10 (20)
+            108 LOAD_CONST              11 (('side', 'padx'))
+            110 CALL_FUNCTION_KW         2
+            112 POP_TOP
+
+ 60         114 LOAD_GLOBAL              0 (tk)
+            116 LOAD_ATTR                6 (Label)
+            118 LOAD_DEREF               0 (self)
+            120 LOAD_ATTR                4 (info_frame)
+            122 LOAD_CONST              12 ('AI Health: ')
+            124 LOAD_DEREF               0 (self)
+            126 LOAD_ATTR               12 (ai_health)
+            128 FORMAT_VALUE             0
+            130 BUILD_STRING             2
+
+ 61         132 LOAD_CONST               8 (('Segoe UI', 10))
+            134 LOAD_GLOBAL              3 (AERO_BLUE)
+
+ 60         136 LOAD_CONST               9 (('text', 'font', 'bg'))
+            138 CALL_FUNCTION_KW         4
+            140 LOAD_DEREF               0 (self)
+            142 STORE_ATTR              13 (ai_score_label)
+
+ 62         144 LOAD_DEREF               0 (self)
+            146 LOAD_ATTR               13 (ai_score_label)
+            148 LOAD_ATTR                5 (pack)
+            150 LOAD_GLOBAL              0 (tk)
+            152 LOAD_ATTR               14 (RIGHT)
+            154 LOAD_CONST              10 (20)
+            156 LOAD_CONST              11 (('side', 'padx'))
+            158 CALL_FUNCTION_KW         2
+            160 POP_TOP
+
+ 65         162 LOAD_GLOBAL              0 (tk)
+            164 LOAD_ATTR                1 (Frame)
+            166 LOAD_DEREF               0 (self)
+            168 LOAD_ATTR                2 (root)
+            170 LOAD_GLOBAL              3 (AERO_BLUE)
+            172 LOAD_CONST               1 (('bg',))
+            174 CALL_FUNCTION_KW         2
+            176 LOAD_DEREF               0 (self)
+            178 STORE_ATTR              15 (grid_frame)
+
+ 66         180 LOAD_DEREF               0 (self)
+            182 LOAD_ATTR               15 (grid_frame)
+            184 LOAD_ATTR                5 (pack)
+            186 LOAD_CONST              10 (20)
+            188 LOAD_CONST               2 (10)
+            190 LOAD_CONST              13 (('padx', 'pady'))
+            192 CALL_FUNCTION_KW         2
+            194 POP_TOP
+
+ 69         196 LOAD_GLOBAL              0 (tk)
+            198 LOAD_ATTR                6 (Label)
+            200 LOAD_DEREF               0 (self)
+            202 LOAD_ATTR               15 (grid_frame)
+            204 LOAD_CONST              14 ('PLAYER SECTOR')
+            206 LOAD_CONST              15 (('Segoe UI', 8, 'bold'))
+
+ 70         208 LOAD_GLOBAL              3 (AERO_BLUE)
+            210 LOAD_CONST              16 ('#555555')
+
+ 69         212 LOAD_CONST               6 (('text', 'font', 'bg', 'fg'))
+            214 CALL_FUNCTION_KW         5
+            216 LOAD_ATTR               16 (grid)
+
+ 70         218 LOAD_CONST              17 (0)
+            220 LOAD_CONST              17 (0)
+
+ 69         222 LOAD_CONST              18 (('row', 'column'))
+            224 CALL_FUNCTION_KW         2
+            226 POP_TOP
+
+ 71         228 LOAD_GLOBAL              0 (tk)
+            230 LOAD_ATTR                6 (Label)
+            232 LOAD_DEREF               0 (self)
+            234 LOAD_ATTR               15 (grid_frame)
+            236 LOAD_CONST              19 ('ENEMY SECTOR')
+            238 LOAD_CONST              15 (('Segoe UI', 8, 'bold'))
+
+ 72         240 LOAD_GLOBAL              3 (AERO_BLUE)
+            242 LOAD_CONST              16 ('#555555')
+
+ 71         244 LOAD_CONST               6 (('text', 'font', 'bg', 'fg'))
+            246 CALL_FUNCTION_KW         5
+            248 LOAD_ATTR               16 (grid)
+
+ 72         250 LOAD_CONST              17 (0)
+            252 LOAD_CONST              20 (1)
+
+ 71         254 LOAD_CONST              18 (('row', 'column'))
+            256 CALL_FUNCTION_KW         2
+            258 POP_TOP
+
+ 74         260 LOAD_GLOBAL              0 (tk)
+            262 LOAD_ATTR                1 (Frame)
+            264 LOAD_DEREF               0 (self)
+            266 LOAD_ATTR               15 (grid_frame)
+            268 LOAD_GLOBAL              3 (AERO_BLUE)
+            270 LOAD_CONST               1 (('bg',))
+            272 CALL_FUNCTION_KW         2
+            274 LOAD_DEREF               0 (self)
+            276 STORE_ATTR              17 (p_canvas)
+
+ 75         278 LOAD_DEREF               0 (self)
+            280 LOAD_ATTR               17 (p_canvas)
+            282 LOAD_ATTR               16 (grid)
+            284 LOAD_CONST              20 (1)
+            286 LOAD_CONST              17 (0)
+            288 LOAD_CONST               2 (10)
+            290 LOAD_CONST              21 (('row', 'column', 'padx'))
+            292 CALL_FUNCTION_KW         3
+            294 POP_TOP
+
+ 77         296 LOAD_GLOBAL              0 (tk)
+            298 LOAD_ATTR                1 (Frame)
+            300 LOAD_DEREF               0 (self)
+            302 LOAD_ATTR               15 (grid_frame)
+            304 LOAD_GLOBAL              3 (AERO_BLUE)
+            306 LOAD_CONST               1 (('bg',))
+            308 CALL_FUNCTION_KW         2
+            310 LOAD_DEREF               0 (self)
+            312 STORE_ATTR              18 (a_canvas)
+
+ 78         314 LOAD_DEREF               0 (self)
+            316 LOAD_ATTR               18 (a_canvas)
+            318 LOAD_ATTR               16 (grid)
+            320 LOAD_CONST              20 (1)
+            322 LOAD_CONST              20 (1)
+            324 LOAD_CONST               2 (10)
+            326 LOAD_CONST              21 (('row', 'column', 'padx'))
+            328 CALL_FUNCTION_KW         3
+            330 POP_TOP
+
+ 80         332 BUILD_LIST               0
+            334 LOAD_DEREF               0 (self)
+            336 STORE_ATTR              19 (player_buttons)
+
+ 81         338 BUILD_LIST               0
+            340 LOAD_DEREF               0 (self)
+            342 STORE_ATTR              20 (ai_buttons)
+
+ 84         344 LOAD_GLOBAL             21 (range)
+            346 LOAD_GLOBAL             22 (GRID_SIZE)
+            348 CALL_FUNCTION            1
+            350 GET_ITER
+        >>  352 FOR_ITER               182 (to 536)
+            354 STORE_FAST               1 (r)
+
+ 85         356 BUILD_LIST               0
+            358 BUILD_LIST               0
+            360 ROT_TWO
+            362 STORE_FAST               2 (p_row)
+            364 STORE_FAST               3 (a_row)
+
+ 86         366 LOAD_GLOBAL             21 (range)
+            368 LOAD_GLOBAL             22 (GRID_SIZE)
+            370 CALL_FUNCTION            1
+            372 GET_ITER
+        >>  374 FOR_ITER               132 (to 508)
+            376 STORE_FAST               4 (c)
+
+ 87         378 LOAD_GLOBAL              0 (tk)
+            380 LOAD_ATTR               23 (Button)
+            382 LOAD_DEREF               0 (self)
+            384 LOAD_ATTR               17 (p_canvas)
+            386 LOAD_CONST              22 ('')
+            388 LOAD_CONST              23 (4)
+            390 LOAD_CONST              24 (2)
+
+ 88         392 LOAD_GLOBAL             24 (WATER_COLOR)
+            394 LOAD_CONST              25 ('flat')
+            396 LOAD_CONST              20 (1)
+            398 LOAD_CONST              26 ('disabled')
+
+ 87         400 LOAD_CONST              27 (('text', 'width', 'height', 'bg', 'relief', 'highlightthickness', 'state'))
+            402 CALL_FUNCTION_KW         8
+            404 STORE_FAST               5 (pb)
+
+ 89         406 LOAD_FAST                5 (pb)
+            408 LOAD_ATTR               16 (grid)
+            410 LOAD_FAST                1 (r)
+            412 LOAD_FAST                4 (c)
+            414 LOAD_CONST              20 (1)
+            416 LOAD_CONST              20 (1)
+            418 LOAD_CONST              28 (('row', 'column', 'padx', 'pady'))
+            420 CALL_FUNCTION_KW         4
+            422 POP_TOP
+
+ 90         424 LOAD_FAST                2 (p_row)
+            426 LOAD_METHOD             25 (append)
+            428 LOAD_FAST                5 (pb)
+            430 CALL_METHOD              1
+            432 POP_TOP
+
+ 92         434 LOAD_GLOBAL              0 (tk)
+            436 LOAD_ATTR               23 (Button)
+            438 LOAD_DEREF               0 (self)
+            440 LOAD_ATTR               18 (a_canvas)
+            442 LOAD_CONST              22 ('')
+            444 LOAD_CONST              23 (4)
+            446 LOAD_CONST              24 (2)
+
+ 93         448 LOAD_GLOBAL             24 (WATER_COLOR)
+            450 LOAD_CONST              25 ('flat')
+            452 LOAD_CONST              20 (1)
+
+ 94         454 LOAD_FAST                1 (r)
+            456 LOAD_FAST                4 (c)
+            458 BUILD_TUPLE              2
+            460 LOAD_CLOSURE             0 (self)
+            462 BUILD_TUPLE              1
+            464 LOAD_CONST              29 (<code object <lambda> at 0xffff8318b240, file "battleship.py", line 94>)
+            466 LOAD_CONST              30 ('BattleshipGame.setup_ui.<locals>.<lambda>')
+            468 MAKE_FUNCTION            9 (defaults, closure)
+
+ 92         470 LOAD_CONST              31 (('text', 'width', 'height', 'bg', 'relief', 'highlightthickness', 'command'))
+            472 CALL_FUNCTION_KW         8
+            474 STORE_FAST               6 (ab)
+
+ 95         476 LOAD_FAST                6 (ab)
+            478 LOAD_ATTR               16 (grid)
+            480 LOAD_FAST                1 (r)
+            482 LOAD_FAST                4 (c)
+            484 LOAD_CONST              20 (1)
+            486 LOAD_CONST              20 (1)
+            488 LOAD_CONST              28 (('row', 'column', 'padx', 'pady'))
+            490 CALL_FUNCTION_KW         4
+            492 POP_TOP
+
+ 96         494 LOAD_FAST                3 (a_row)
+            496 LOAD_METHOD             25 (append)
+            498 LOAD_FAST                6 (ab)
+            500 CALL_METHOD              1
+            502 POP_TOP
+            504 EXTENDED_ARG             1
+            506 JUMP_ABSOLUTE          374
+
+ 97     >>  508 LOAD_DEREF               0 (self)
+            510 LOAD_ATTR               19 (player_buttons)
+            512 LOAD_METHOD             25 (append)
+            514 LOAD_FAST                2 (p_row)
+            516 CALL_METHOD              1
+            518 POP_TOP
+
+ 98         520 LOAD_DEREF               0 (self)
+            522 LOAD_ATTR               20 (ai_buttons)
+            524 LOAD_METHOD             25 (append)
+            526 LOAD_FAST                3 (a_row)
+            528 CALL_METHOD              1
+            530 POP_TOP
+            532 EXTENDED_ARG             1
+            534 JUMP_ABSOLUTE          352
+        >>  536 LOAD_CONST               0 (None)
+            538 RETURN_VALUE
+
+Disassembly of <code object <lambda> at 0xffff8318b240, file "battleship.py", line 94>:
+ 94           0 LOAD_DEREF               0 (self)
+              2 LOAD_METHOD              0 (player_click)
+              4 LOAD_FAST                0 (row)
+              6 LOAD_FAST                1 (col)
+              8 CALL_METHOD              2
+             10 RETURN_VALUE
+
+Disassembly of <code object player_click at 0xffff8318b870, file "battleship.py", line 100>:
+101           0 LOAD_FAST                0 (self)
+              2 LOAD_ATTR                0 (current_turn)
+              4 LOAD_CONST               1 ('Player')
+              6 COMPARE_OP               3 (!=)
+              8 POP_JUMP_IF_TRUE        16
+             10 LOAD_FAST                0 (self)
+             12 LOAD_ATTR                1 (game_over)
+             14 POP_JUMP_IF_FALSE       20
+
+102     >>   16 LOAD_CONST               0 (None)
+             18 RETURN_VALUE
+
+104     >>   20 LOAD_FAST                0 (self)
+             22 LOAD_ATTR                2 (ai_buttons)
+             24 LOAD_FAST                1 (r)
+             26 BINARY_SUBSCR
+             28 LOAD_FAST                2 (c)
+             30 BINARY_SUBSCR
+             32 STORE_FAST               3 (btn)
+
+105          34 LOAD_FAST                3 (btn)
+             36 LOAD_METHOD              3 (cget)
+             38 LOAD_CONST               2 ('state')
+             40 CALL_METHOD              1
+             42 LOAD_GLOBAL              4 (tk)
+             44 LOAD_ATTR                5 (DISABLED)
+             46 COMPARE_OP               2 (==)
+             48 POP_JUMP_IF_FALSE       54
+
+106          50 LOAD_CONST               0 (None)
+             52 RETURN_VALUE
+
+108     >>   54 LOAD_FAST                0 (self)
+             56 LOAD_ATTR                6 (ai_board)
+             58 LOAD_FAST                1 (r)
+             60 BINARY_SUBSCR
+             62 LOAD_FAST                2 (c)
+             64 BINARY_SUBSCR
+             66 LOAD_CONST               3 (1)
+             68 COMPARE_OP               2 (==)
+             70 POP_JUMP_IF_FALSE      160
+
+109          72 LOAD_CONST               4 (2)
+             74 LOAD_FAST                0 (self)
+             76 LOAD_ATTR                6 (ai_board)
+             78 LOAD_FAST                1 (r)
+             80 BINARY_SUBSCR
+             82 LOAD_FAST                2 (c)
+             84 STORE_SUBSCR
+
+110          86 LOAD_FAST                0 (self)
+             88 DUP_TOP
+             90 LOAD_ATTR                7 (ai_health)
+             92 LOAD_CONST               3 (1)
+             94 INPLACE_SUBTRACT
+             96 ROT_TWO
+             98 STORE_ATTR               7 (ai_health)
+
+111         100 LOAD_FAST                3 (btn)
+            102 LOAD_ATTR                8 (config)
+            104 LOAD_GLOBAL              9 (HIT_COLOR)
+            106 LOAD_GLOBAL              4 (tk)
+            108 LOAD_ATTR                5 (DISABLED)
+            110 LOAD_CONST               5 (('bg', 'state'))
+            112 CALL_FUNCTION_KW         2
+            114 POP_TOP
+
+112         116 LOAD_FAST                0 (self)
+            118 LOAD_ATTR               10 (ai_score_label)
+            120 LOAD_ATTR                8 (config)
+            122 LOAD_CONST               6 ('AI Health: ')
+            124 LOAD_FAST                0 (self)
+            126 LOAD_ATTR                7 (ai_health)
+            128 FORMAT_VALUE             0
+            130 BUILD_STRING             2
+            132 LOAD_CONST               7 (('text',))
+            134 CALL_FUNCTION_KW         1
+            136 POP_TOP
+
+113         138 LOAD_FAST                0 (self)
+            140 LOAD_ATTR                7 (ai_health)
+            142 LOAD_CONST               8 (0)
+            144 COMPARE_OP               2 (==)
+            146 POP_JUMP_IF_FALSE      198
+
+114         148 LOAD_FAST                0 (self)
+            150 LOAD_METHOD             11 (end_game)
+            152 LOAD_CONST               9 ('VICTORY')
+            154 CALL_METHOD              1
+            156 POP_TOP
+            158 JUMP_FORWARD            38 (to 198)
+
+116     >>  160 LOAD_CONST              10 (3)
+            162 LOAD_FAST                0 (self)
+            164 LOAD_ATTR                6 (ai_board)
+            166 LOAD_FAST                1 (r)
+            168 BINARY_SUBSCR
+            170 LOAD_FAST                2 (c)
+            172 STORE_SUBSCR
+
+117         174 LOAD_FAST                3 (btn)
+            176 LOAD_ATTR                8 (config)
+            178 LOAD_GLOBAL             12 (MISS_COLOR)
+            180 LOAD_GLOBAL              4 (tk)
+            182 LOAD_ATTR                5 (DISABLED)
+            184 LOAD_CONST               5 (('bg', 'state'))
+            186 CALL_FUNCTION_KW         2
+            188 POP_TOP
+
+118         190 LOAD_FAST                0 (self)
+            192 LOAD_METHOD             13 (ai_turn_with_delay)
+            194 CALL_METHOD              0
+            196 POP_TOP
+        >>  198 LOAD_CONST               0 (None)
+            200 RETURN_VALUE
+
+Disassembly of <code object ai_turn_with_delay at 0xffff8318b500, file "battleship.py", line 120>:
+121           0 LOAD_CONST               1 ('AI')
+              2 LOAD_FAST                0 (self)
+              4 STORE_ATTR               0 (current_turn)
+
+122           6 LOAD_FAST                0 (self)
+              8 LOAD_ATTR                1 (turn_label)
+             10 LOAD_ATTR                2 (config)
+             12 LOAD_CONST               2 ('AI Thinking...')
+             14 LOAD_CONST               3 ('#555555')
+             16 LOAD_CONST               4 (('text', 'fg'))
+             18 CALL_FUNCTION_KW         2
+             20 POP_TOP
+
+123          22 LOAD_FAST                0 (self)
+             24 LOAD_ATTR                3 (root)
+             26 LOAD_METHOD              4 (after)
+             28 LOAD_CONST               5 (800)
+             30 LOAD_FAST                0 (self)
+             32 LOAD_ATTR                5 (ai_turn)
+             34 CALL_METHOD              2
+             36 POP_TOP
+             38 LOAD_CONST               0 (None)
+             40 RETURN_VALUE
+
+Disassembly of <code object ai_turn at 0xffff8318b5b0, file "battleship.py", line 125>:
+126           0 LOAD_FAST                0 (self)
+              2 LOAD_ATTR                0 (game_over)
+              4 POP_JUMP_IF_FALSE       10
+              6 LOAD_CONST               0 (None)
+              8 RETURN_VALUE
+
+129     >>   10 LOAD_FAST                0 (self)
+             12 LOAD_ATTR                1 (script_index)
+             14 LOAD_GLOBAL              2 (len)
+             16 LOAD_FAST                0 (self)
+             18 LOAD_ATTR                3 (move_script)
+             20 CALL_FUNCTION            1
+             22 COMPARE_OP               0 (<)
+             24 POP_JUMP_IF_FALSE       58
+
+130          26 LOAD_FAST                0 (self)
+             28 LOAD_ATTR                3 (move_script)
+             30 LOAD_FAST                0 (self)
+             32 LOAD_ATTR                1 (script_index)
+             34 BINARY_SUBSCR
+             36 UNPACK_SEQUENCE          2
+             38 STORE_FAST               1 (r)
+             40 STORE_FAST               2 (c)
+
+131          42 LOAD_FAST                0 (self)
+             44 DUP_TOP
+             46 LOAD_ATTR                1 (script_index)
+             48 LOAD_CONST               1 (1)
+             50 INPLACE_ADD
+             52 ROT_TWO
+             54 STORE_ATTR               1 (script_index)
+             56 JUMP_FORWARD            22 (to 80)
+
+133     >>   58 LOAD_GLOBAL              4 (messagebox)
+             60 LOAD_METHOD              5 (showinfo)
+             62 LOAD_CONST               2 ('Tactical Update')
+             64 LOAD_CONST               3 ('The AI is out of moves. You win!')
+             66 CALL_METHOD              2
+             68 POP_TOP
+
+134          70 LOAD_GLOBAL              6 (sys)
+             72 LOAD_METHOD              7 (exit)
+             74 LOAD_CONST               4 (0)
+             76 CALL_METHOD              1
+             78 POP_TOP
+
+136     >>   80 LOAD_FAST                0 (self)
+             82 LOAD_ATTR                8 (player_board)
+             84 LOAD_FAST                1 (r)
+             86 BINARY_SUBSCR
+             88 LOAD_FAST                2 (c)
+             90 BINARY_SUBSCR
+             92 LOAD_CONST               1 (1)
+             94 COMPARE_OP               2 (==)
+             96 STORE_FAST               3 (hit)
+
+137          98 LOAD_FAST                3 (hit)
+            100 POP_JUMP_IF_FALSE      216
+
+138         102 LOAD_CONST               5 (2)
+            104 LOAD_FAST                0 (self)
+            106 LOAD_ATTR                8 (player_board)
+            108 LOAD_FAST                1 (r)
+            110 BINARY_SUBSCR
+            112 LOAD_FAST                2 (c)
+            114 STORE_SUBSCR
+
+139         116 LOAD_FAST                0 (self)
+            118 DUP_TOP
+            120 LOAD_ATTR                9 (player_health)
+            122 LOAD_CONST               1 (1)
+            124 INPLACE_SUBTRACT
+            126 ROT_TWO
+            128 STORE_ATTR               9 (player_health)
+
+140         130 LOAD_FAST                0 (self)
+            132 LOAD_ATTR               10 (player_buttons)
+            134 LOAD_FAST                1 (r)
+            136 BINARY_SUBSCR
+            138 LOAD_FAST                2 (c)
+            140 BINARY_SUBSCR
+            142 LOAD_ATTR               11 (config)
+            144 LOAD_GLOBAL             12 (HIT_COLOR)
+            146 LOAD_CONST               6 (('bg',))
+            148 CALL_FUNCTION_KW         1
+            150 POP_TOP
+
+141         152 LOAD_FAST                0 (self)
+            154 LOAD_ATTR               13 (player_score_label)
+            156 LOAD_ATTR               11 (config)
+            158 LOAD_CONST               7 ('Your Health: ')
+            160 LOAD_FAST                0 (self)
+            162 LOAD_ATTR                9 (player_health)
+            164 FORMAT_VALUE             0
+            166 BUILD_STRING             2
+            168 LOAD_CONST               8 (('text',))
+            170 CALL_FUNCTION_KW         1
+            172 POP_TOP
+
+142         174 LOAD_FAST                0 (self)
+            176 LOAD_ATTR                9 (player_health)
+            178 LOAD_CONST               4 (0)
+            180 COMPARE_OP               2 (==)
+            182 POP_JUMP_IF_FALSE      198
+
+143         184 LOAD_FAST                0 (self)
+            186 LOAD_METHOD             14 (end_game)
+            188 LOAD_CONST               9 ('DEFEAT')
+            190 CALL_METHOD              1
+            192 POP_TOP
+
+144         194 LOAD_CONST               0 (None)
+            196 RETURN_VALUE
+
+145     >>  198 LOAD_FAST                0 (self)
+            200 LOAD_ATTR               15 (root)
+            202 LOAD_METHOD             16 (after)
+            204 LOAD_CONST              10 (800)
+            206 LOAD_FAST                0 (self)
+            208 LOAD_ATTR               17 (ai_turn)
+            210 CALL_METHOD              2
+            212 POP_TOP
+            214 JUMP_FORWARD            58 (to 274)
+
+147     >>  216 LOAD_CONST              11 (3)
+            218 LOAD_FAST                0 (self)
+            220 LOAD_ATTR                8 (player_board)
+            222 LOAD_FAST                1 (r)
+            224 BINARY_SUBSCR
+            226 LOAD_FAST                2 (c)
+            228 STORE_SUBSCR
+
+148         230 LOAD_FAST                0 (self)
+            232 LOAD_ATTR               10 (player_buttons)
+            234 LOAD_FAST                1 (r)
+            236 BINARY_SUBSCR
+            238 LOAD_FAST                2 (c)
+            240 BINARY_SUBSCR
+            242 LOAD_ATTR               11 (config)
+            244 LOAD_GLOBAL             18 (MISS_COLOR)
+            246 LOAD_CONST               6 (('bg',))
+            248 CALL_FUNCTION_KW         1
+            250 POP_TOP
+
+149         252 LOAD_CONST              12 ('Player')
+            254 LOAD_FAST                0 (self)
+            256 STORE_ATTR              19 (current_turn)
+
+150         258 LOAD_FAST                0 (self)
+            260 LOAD_ATTR               20 (turn_label)
+            262 LOAD_ATTR               11 (config)
+            264 LOAD_CONST              13 ('Your Turn')
+            266 LOAD_GLOBAL             21 (AERO_GLASS)
+            268 LOAD_CONST              14 (('text', 'fg'))
+            270 CALL_FUNCTION_KW         2
+            272 POP_TOP
+        >>  274 LOAD_CONST               0 (None)
+            276 RETURN_VALUE
+
+Disassembly of <code object place_ships at 0xffff8318bb30, file "battleship.py", line 152>:
+153           0 LOAD_GLOBAL              0 (SHIPS)
+              2 LOAD_METHOD              1 (items)
+              4 CALL_METHOD              0
+              6 GET_ITER
+        >>    8 FOR_ITER               144 (to 154)
+             10 UNPACK_SEQUENCE          2
+             12 STORE_FAST               2 (ship_name)
+             14 STORE_FAST               3 (length)
+
+154          16 LOAD_CONST               1 (False)
+             18 STORE_FAST               4 (placed)
+
+155     >>   20 LOAD_FAST                4 (placed)
+             22 POP_JUMP_IF_TRUE         8
+
+156          24 LOAD_GLOBAL              2 (random)
+             26 LOAD_METHOD              3 (randint)
+             28 LOAD_CONST               2 (0)
+             30 LOAD_GLOBAL              4 (GRID_SIZE)
+             32 LOAD_CONST               3 (1)
+             34 BINARY_SUBTRACT
+             36 CALL_METHOD              2
+             38 LOAD_GLOBAL              2 (random)
+             40 LOAD_METHOD              3 (randint)
+             42 LOAD_CONST               2 (0)
+             44 LOAD_GLOBAL              4 (GRID_SIZE)
+             46 LOAD_CONST               3 (1)
+             48 BINARY_SUBTRACT
+             50 CALL_METHOD              2
+             52 ROT_TWO
+             54 STORE_FAST               5 (r)
+             56 STORE_FAST               6 (c)
+
+157          58 LOAD_GLOBAL              2 (random)
+             60 LOAD_METHOD              5 (choice)
+             62 LOAD_CONST               4 ('H')
+             64 LOAD_CONST               5 ('V')
+             66 BUILD_LIST               2
+             68 CALL_METHOD              1
+             70 STORE_FAST               7 (direction)
+
+158          72 LOAD_FAST                0 (self)
+             74 LOAD_METHOD              6 (can_place)
+             76 LOAD_FAST                1 (board)
+             78 LOAD_FAST                5 (r)
+             80 LOAD_FAST                6 (c)
+             82 LOAD_FAST                3 (length)
+             84 LOAD_FAST                7 (direction)
+             86 CALL_METHOD              5
+             88 POP_JUMP_IF_FALSE       20
+
+159          90 LOAD_GLOBAL              7 (range)
+             92 LOAD_FAST                3 (length)
+             94 CALL_FUNCTION            1
+             96 GET_ITER
+        >>   98 FOR_ITER                46 (to 146)
+            100 STORE_FAST               8 (i)
+
+160         102 LOAD_FAST                7 (direction)
+            104 LOAD_CONST               4 ('H')
+            106 COMPARE_OP               2 (==)
+            108 POP_JUMP_IF_FALSE      128
+            110 LOAD_CONST               3 (1)
+            112 LOAD_FAST                1 (board)
+            114 LOAD_FAST                5 (r)
+            116 BINARY_SUBSCR
+            118 LOAD_FAST                6 (c)
+            120 LOAD_FAST                8 (i)
+            122 BINARY_ADD
+            124 STORE_SUBSCR
+            126 JUMP_ABSOLUTE           98
+
+161     >>  128 LOAD_CONST               3 (1)
+            130 LOAD_FAST                1 (board)
+            132 LOAD_FAST                5 (r)
+            134 LOAD_FAST                8 (i)
+            136 BINARY_ADD
+            138 BINARY_SUBSCR
+            140 LOAD_FAST                6 (c)
+            142 STORE_SUBSCR
+            144 JUMP_ABSOLUTE           98
+
+162     >>  146 LOAD_CONST               6 (True)
+            148 STORE_FAST               4 (placed)
+            150 JUMP_ABSOLUTE           20
+            152 JUMP_ABSOLUTE            8
+        >>  154 LOAD_CONST               0 (None)
+            156 RETURN_VALUE
+
+Disassembly of <code object can_place at 0xffff831850e0, file "battleship.py", line 164>:
+165           0 LOAD_FAST                5 (direction)
+              2 LOAD_CONST               1 ('H')
+              4 COMPARE_OP               2 (==)
+              6 POP_JUMP_IF_FALSE       54
+
+166           8 LOAD_DEREF               1 (c)
+             10 LOAD_FAST                4 (length)
+             12 BINARY_ADD
+             14 LOAD_GLOBAL              0 (GRID_SIZE)
+             16 COMPARE_OP               4 (>)
+             18 POP_JUMP_IF_FALSE       24
+             20 LOAD_CONST               2 (False)
+             22 RETURN_VALUE
+
+167     >>   24 LOAD_GLOBAL              1 (all)
+             26 LOAD_CLOSURE             0 (board)
+             28 LOAD_CLOSURE             1 (c)
+             30 LOAD_CLOSURE             2 (r)
+             32 BUILD_TUPLE              3
+             34 LOAD_CONST               3 (<code object <genexpr> at 0xffff8318bc90, file "battleship.py", line 167>)
+             36 LOAD_CONST               4 ('BattleshipGame.can_place.<locals>.<genexpr>')
+             38 MAKE_FUNCTION            8 (closure)
+             40 LOAD_GLOBAL              2 (range)
+             42 LOAD_FAST                4 (length)
+             44 CALL_FUNCTION            1
+             46 GET_ITER
+             48 CALL_FUNCTION            1
+             50 CALL_FUNCTION            1
+             52 RETURN_VALUE
+
+169     >>   54 LOAD_DEREF               2 (r)
+             56 LOAD_FAST                4 (length)
+             58 BINARY_ADD
+             60 LOAD_GLOBAL              0 (GRID_SIZE)
+             62 COMPARE_OP               4 (>)
+             64 POP_JUMP_IF_FALSE       70
+             66 LOAD_CONST               2 (False)
+             68 RETURN_VALUE
+
+170     >>   70 LOAD_GLOBAL              1 (all)
+             72 LOAD_CLOSURE             0 (board)
+             74 LOAD_CLOSURE             1 (c)
+             76 LOAD_CLOSURE             2 (r)
+             78 BUILD_TUPLE              3
+             80 LOAD_CONST               5 (<code object <genexpr> at 0xffff8318bea0, file "battleship.py", line 170>)
+             82 LOAD_CONST               4 ('BattleshipGame.can_place.<locals>.<genexpr>')
+             84 MAKE_FUNCTION            8 (closure)
+             86 LOAD_GLOBAL              2 (range)
+             88 LOAD_FAST                4 (length)
+             90 CALL_FUNCTION            1
+             92 GET_ITER
+             94 CALL_FUNCTION            1
+             96 CALL_FUNCTION            1
+             98 RETURN_VALUE
+            100 LOAD_CONST               0 (None)
+            102 RETURN_VALUE
+
+Disassembly of <code object <genexpr> at 0xffff8318bc90, file "battleship.py", line 167>:
+167           0 LOAD_FAST                0 (.0)
+        >>    2 FOR_ITER                26 (to 30)
+              4 STORE_FAST               1 (i)
+              6 LOAD_DEREF               0 (board)
+              8 LOAD_DEREF               2 (r)
+             10 BINARY_SUBSCR
+             12 LOAD_DEREF               1 (c)
+             14 LOAD_FAST                1 (i)
+             16 BINARY_ADD
+             18 BINARY_SUBSCR
+             20 LOAD_CONST               0 (0)
+             22 COMPARE_OP               2 (==)
+             24 YIELD_VALUE
+             26 POP_TOP
+             28 JUMP_ABSOLUTE            2
+        >>   30 LOAD_CONST               1 (None)
+             32 RETURN_VALUE
+
+Disassembly of <code object <genexpr> at 0xffff8318bea0, file "battleship.py", line 170>:
+170           0 LOAD_FAST                0 (.0)
+        >>    2 FOR_ITER                26 (to 30)
+              4 STORE_FAST               1 (i)
+              6 LOAD_DEREF               0 (board)
+              8 LOAD_DEREF               2 (r)
+             10 LOAD_FAST                1 (i)
+             12 BINARY_ADD
+             14 BINARY_SUBSCR
+             16 LOAD_DEREF               1 (c)
+             18 BINARY_SUBSCR
+             20 LOAD_CONST               0 (0)
+             22 COMPARE_OP               2 (==)
+             24 YIELD_VALUE
+             26 POP_TOP
+             28 JUMP_ABSOLUTE            2
+        >>   30 LOAD_CONST               1 (None)
+             32 RETURN_VALUE
+
+Disassembly of <code object update_player_grid at 0xffff831852f0, file "battleship.py", line 172>:
+173           0 LOAD_GLOBAL              0 (range)
+              2 LOAD_GLOBAL              1 (GRID_SIZE)
+              4 CALL_FUNCTION            1
+              6 GET_ITER
+        >>    8 FOR_ITER                58 (to 68)
+             10 STORE_FAST               1 (r)
+
+174          12 LOAD_GLOBAL              0 (range)
+             14 LOAD_GLOBAL              1 (GRID_SIZE)
+             16 CALL_FUNCTION            1
+             18 GET_ITER
+        >>   20 FOR_ITER                44 (to 66)
+             22 STORE_FAST               2 (c)
+
+175          24 LOAD_FAST                0 (self)
+             26 LOAD_ATTR                2 (player_board)
+             28 LOAD_FAST                1 (r)
+             30 BINARY_SUBSCR
+             32 LOAD_FAST                2 (c)
+             34 BINARY_SUBSCR
+             36 LOAD_CONST               1 (1)
+             38 COMPARE_OP               2 (==)
+             40 POP_JUMP_IF_FALSE       20
+
+176          42 LOAD_FAST                0 (self)
+             44 LOAD_ATTR                3 (player_buttons)
+             46 LOAD_FAST                1 (r)
+             48 BINARY_SUBSCR
+             50 LOAD_FAST                2 (c)
+             52 BINARY_SUBSCR
+             54 LOAD_ATTR                4 (config)
+             56 LOAD_GLOBAL              5 (SHIP_COLOR)
+             58 LOAD_CONST               2 (('bg',))
+             60 CALL_FUNCTION_KW         1
+             62 POP_TOP
+             64 JUMP_ABSOLUTE           20
+        >>   66 JUMP_ABSOLUTE            8
+        >>   68 LOAD_CONST               0 (None)
+             70 RETURN_VALUE
+
+Disassembly of <code object end_game at 0xffff831857c0, file "battleship.py", line 178>:
+179           0 LOAD_CONST               1 (True)
+              2 LOAD_FAST                0 (self)
+              4 STORE_ATTR               0 (game_over)
+
+180           6 LOAD_FAST                0 (self)
+              8 LOAD_ATTR                1 (turn_label)
+             10 LOAD_ATTR                2 (config)
+             12 LOAD_CONST               2 ('GAME OVER: ')
+             14 LOAD_FAST                1 (result)
+             16 FORMAT_VALUE             0
+             18 BUILD_STRING             2
+             20 LOAD_CONST               3 (('text',))
+             22 CALL_FUNCTION_KW         1
+             24 POP_TOP
+
+181          26 LOAD_GLOBAL              3 (messagebox)
+             28 LOAD_METHOD              4 (showinfo)
+             30 LOAD_CONST               4 ('Result')
+             32 LOAD_CONST               5 ('Game Finished: ')
+             34 LOAD_FAST                1 (result)
+             36 FORMAT_VALUE             0
+             38 BUILD_STRING             2
+             40 CALL_METHOD              2
+             42 POP_TOP
+             44 LOAD_CONST               0 (None)
+             46 RETURN_VALUE

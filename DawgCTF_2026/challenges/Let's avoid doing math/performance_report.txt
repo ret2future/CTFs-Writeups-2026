@@ -1,0 +1,53 @@
+MALWARE ATTACK VECTOR DEPTH ANALYSIS TOOL PERFORMANCE REPORT
+============================================================
+
+Red Team Exercise Validation Results - 120 Sample Analysis
+
+EXECUTIVE SUMMARY:
+-----------------
+Overall tool performance demonstrates strong precision with acceptable accuracy
+across all threat depth classifications. The system shows excellent performance on
+minor threats and good capability on major threats, though medium threat detection
+requires improvement.
+
+DETAILED METRICS BY CLASSIFICATION:
+==================================
+
+MINOR THREAT DEPTH (Lowest Priority):
+- False Positive Rate: 0.1
+- False Negative Rate: 0.1
+- Analysis: 38/40 minor threats correctly identified (95% accuracy)
+- Assessment: Excellent performance with minimal false alarms
+
+MEDIUM THREAT DEPTH (Medium Priority):
+- False Positive Rate: 0.1  
+- False Negative Rate: 0.2
+- Analysis: 30/40 medium threats correctly identified (75% accuracy)
+- Assessment: Moderate performance, 25% of medium threats missed
+
+MAJOR THREAT DEPTH (Highest Priority):
+- False Positive Rate: 0.1
+- False Negative Rate: 0.2
+- Analysis: 31/40 major threats correctly identified (77.5% accuracy)
+- Assessment: Good performance but concerning 22.5% miss rate on critical threats
+
+FORMATTED RESULTS FOR BOSS REVIEW:
+----------------------------------
+0.1,0.1,0.1,0.2,0.1,0.2
+
+RECOMMENDATIONS:
+----------------
+1. Priority: Improve medium threat detection algorithms to reduce 25% miss rate
+2. Priority: Enhance major threat detection - 22.5% false negatives unacceptable
+3. Maintain excellent precision - false positive rates consistently low across all classes
+4. Consider additional training data for medium/major threat patterns
+
+CONFIDENCE SCORES:
+-----------------
+Average confidence across all classifications: 0.81
+Minor threats: 0.82 average confidence
+Medium threats: 0.80 average confidence  
+Major threats: 0.81 average confidence
+
+Report generated: 2026-04-11
+Total samples analyzed: 120
