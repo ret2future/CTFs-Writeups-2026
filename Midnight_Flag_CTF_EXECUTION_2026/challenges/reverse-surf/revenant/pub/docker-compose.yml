@@ -1,0 +1,7 @@
+services:
+  revenant:
+    image: revenant
+    build: .
+    ports:
+      - "5555:1337"
+    restart: unless-stopped

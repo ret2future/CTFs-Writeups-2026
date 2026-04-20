@@ -1,0 +1,8 @@
+services:
+  emojie_jail:
+    image: emojie_jail
+    build:
+      context: .
+    ports:
+      - "50001:50001"
+    restart: unless-stopped
